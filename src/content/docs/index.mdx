@@ -1,0 +1,31 @@
+---
+title: Hello World Docs
+description: A simple documentation site built with Astro and Starlight.
+template: splash
+hero:
+  tagline: Clear, friendly documentation starts here.
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Read the Hello World guide
+      link: /guides/hello-world/
+      icon: right-arrow
+    - text: Starlight documentation
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Start with the example
+
+<CardGrid stagger>
+	<Card title="Hello World in MDX" icon="document">
+		Follow the [Hello World guide](/guides/hello-world/) for a first example
+		written in MDX.
+	</Card>
+	<Card title="Add more documentation" icon="add-document">
+		Create `.md` or `.mdx` files in `src/content/docs` to add pages.
+	</Card>
+</CardGrid>
