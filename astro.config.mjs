@@ -17,6 +17,7 @@ export default defineConfig({
 				items: [
 					{ label: 'Where', slug: 'grammar/where' },
 					{ label: 'When', slug: 'grammar/when' },
+					{ label: 'Plural', slug: 'grammar/plural' },
 				],
 			},
 		],
