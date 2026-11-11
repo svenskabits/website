@@ -29,6 +29,7 @@ export default defineConfig({
 							items: [
 								{ label: 'Indefinite Article', slug: 'grammar/articles-and-determiners/indefinite-article' },
 								{ label: 'No Article', slug: 'grammar/articles-and-determiners/no-article' },
+								{ label: 'Definite Article', slug: 'grammar/articles-and-determiners/definite-article' },
 							],
 						},
 						{
