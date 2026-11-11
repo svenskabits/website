@@ -42,6 +42,7 @@ export default defineConfig({
 								{ label: 'Object Pronouns', slug: 'grammar/pronouns/object-pronouns' },
 								{ label: 'Possessives', slug: 'grammar/pronouns/possessives' },
 								{ label: 'Reflexive Pronouns', slug: 'grammar/pronouns/reflexive-pronouns' },
+								{ label: 'Reflexive Possessives', slug: 'grammar/pronouns/reflexive-possessives' },
 							],
 						},
 						{
