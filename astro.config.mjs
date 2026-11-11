@@ -86,6 +86,7 @@ export default defineConfig({
 								{ label: 'Future', slug: 'grammar/verbs-perfect-and-beyond/future' },
 								{ label: 'Conditional', slug: 'grammar/verbs-perfect-and-beyond/conditional' },
 								{ label: 'S-Verbs', slug: 'grammar/verbs-perfect-and-beyond/s-verbs' },
+								{ label: 'Passive Voice', slug: 'grammar/verbs-perfect-and-beyond/passive-voice' },
 							],
 						},
 						{
