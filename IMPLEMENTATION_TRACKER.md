@@ -15,6 +15,6 @@ selected for implementation.
 | Indefinite article (en/ett) | `src/content/docs/grammar/articles-and-determiners/indefinite-article.mdx` | Implemented (verified; commit `eaa5217`) |
 | No article: when to omit it | `src/content/docs/grammar/articles-and-determiners/no-article.mdx` | Implemented (verified; commit `4fe380e`) |
 | Definite article: suffix vs. den/det/de | `src/content/docs/grammar/articles-and-determiners/definite-article.mdx` | Implemented (verified; commit `f109a22`) |
-| Double definiteness (den stora bilen) | `src/content/docs/grammar/articles-and-determiners/double-definiteness.mdx` | In progress |
-| Quantifiers: många, mycket, lite, få | `src/content/docs/grammar/articles-and-determiners/quantifiers.mdx` | Not started |
+| Double definiteness (den stora bilen) | `src/content/docs/grammar/articles-and-determiners/double-definiteness.mdx` | Implemented (verified; commit `7577ff2`) |
+| Quantifiers: många, mycket, lite, få | `src/content/docs/grammar/articles-and-determiners/quantifiers.mdx` | In progress |
 | Alla, varje, all, hela | `src/content/docs/grammar/articles-and-determiners/alla-varje-all-hela.mdx` | Not started |
