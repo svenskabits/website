@@ -40,6 +40,7 @@ export default defineConfig({
 							items: [
 								{ label: 'Subject Pronouns', slug: 'grammar/pronouns/subject-pronouns' },
 								{ label: 'Object Pronouns', slug: 'grammar/pronouns/object-pronouns' },
+								{ label: 'Possessives', slug: 'grammar/pronouns/possessives' },
 							],
 						},
 						{
