@@ -37,8 +37,8 @@ selected for implementation.
 | Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Implemented (verified; commit `93c835b`) |
 | Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | Implemented (verified; commit `33d4823`) |
 | Infinitive and "att" | `src/content/docs/grammar/verbs-present-and-past/infinitive-and-att.mdx` | Implemented (verified; commit `a884ca1`) |
-| Present tense | `src/content/docs/grammar/verbs-present-and-past/present-tense.mdx` | In progress |
-| Verb groups 1–4 | `src/content/docs/grammar/verbs-present-and-past/verb-groups.mdx` | Not started |
+| Present tense | `src/content/docs/grammar/verbs-present-and-past/present-tense.mdx` | Implemented (verified; commit `74f868b`) |
+| Verb groups 1–4 | `src/content/docs/grammar/verbs-present-and-past/verb-groups.mdx` | In progress |
 | Imperative | `src/content/docs/grammar/verbs-present-and-past/imperative.mdx` | Not started |
 | Past tense (preteritum) | `src/content/docs/grammar/verbs-present-and-past/past-tense.mdx` | Not started |
 | Strong and irregular verbs | `src/content/docs/grammar/verbs-present-and-past/strong-and-irregular-verbs.mdx` | Not started |
