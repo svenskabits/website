@@ -69,6 +69,7 @@ export default defineConfig({
 								{ label: 'Infinitive and Att', slug: 'grammar/verbs-present-and-past/infinitive-and-att' },
 								{ label: 'Present Tense', slug: 'grammar/verbs-present-and-past/present-tense' },
 								{ label: 'Verb Groups', slug: 'grammar/verbs-present-and-past/verb-groups' },
+								{ label: 'Imperative', slug: 'grammar/verbs-present-and-past/imperative' },
 							],
 						},
 						{
