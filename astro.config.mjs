@@ -53,7 +53,10 @@ export default defineConfig({
 						},
 						{
 							label: 'Adjectives',
-							items: [{ label: 'Adjective Agreement', slug: 'grammar/adjectives/adjective-agreement' }],
+							items: [
+								{ label: 'Adjective Agreement', slug: 'grammar/adjectives/adjective-agreement' },
+								{ label: 'Definite Adjectives', slug: 'grammar/adjectives/definite-adjectives' },
+							],
 						},
 						{
 							label: 'Questions',
