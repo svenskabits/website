@@ -44,6 +44,7 @@ export default defineConfig({
 								{ label: 'Reflexive Pronouns', slug: 'grammar/pronouns/reflexive-pronouns' },
 								{ label: 'Reflexive Possessives', slug: 'grammar/pronouns/reflexive-possessives' },
 								{ label: 'Demonstratives', slug: 'grammar/pronouns/demonstratives' },
+								{ label: 'Impersonal Pronoun', slug: 'grammar/pronouns/impersonal-pronoun' },
 							],
 						},
 						{
