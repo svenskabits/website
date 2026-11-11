@@ -1,7 +1,7 @@
-# Hello World Docs
+# Svenska Bits
 
 A documentation site powered by [Astro](https://astro.build/) and
-[Starlight](https://starlight.astro.build/). The Hello World guide is written
+[Starlight](https://starlight.astro.build/). The Svenska Bits guide is written
 in MDX at `src/content/docs/guides/hello-world.mdx`.
 
 ## Commands

@@ -1,0 +1,158 @@
+---
+import MobileMenuFooter from '@astrojs/starlight/components/MobileMenuFooter.astro';
+import SidebarPersister from '@astrojs/starlight/components/SidebarPersister.astro';
+import SidebarSublist from '@astrojs/starlight/components/SidebarSublist.astro';
+import type { StarlightRouteData } from '@astrojs/starlight/route-data';
+
+type SidebarEntry = StarlightRouteData['sidebar'][number];
+type SidebarGroup = Extract<SidebarEntry, { type: 'group' }>;
+
+const { id, sidebar } = Astro.locals.starlightRoute;
+const sections = sidebar.filter((entry): entry is SidebarGroup => entry.type === 'group');
+
+function containsCurrent(entries: SidebarEntry[]): boolean {
+	return entries.some((entry) =>
+		entry.type === 'link' ? entry.isCurrent : containsCurrent(entry.entries),
+	);
+}
+
+const routeSection = id.split('/')[0];
+const activeIndex = sections.findIndex((section) => {
+	if (['grammar', 'vocabulary', 'pronunciation'].includes(routeSection)) {
+		return section.label.toLowerCase() === routeSection;
+	}
+	return containsCurrent(section.entries);
+});
+const selectedIndex = activeIndex === -1 ? 0 : activeIndex;
+const tabId = (label: string) => `section-${label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+---
+
+<SidebarPersister>
+	<section-sidebar class="section-sidebar">
+		<ul class="section-tabs" role="tablist" aria-label="Learning sections">
+			{sections.map((section, index) => {
+				const selected = index === selectedIndex;
+				const id = tabId(section.label);
+				return (
+					<li role="presentation">
+						<button
+							id={id}
+							class="section-tab"
+							type="button"
+							role="tab"
+							aria-controls={`${id}-panel`}
+							aria-selected={selected ? 'true' : 'false'}
+							tabindex={selected ? 0 : -1}
+							data-section-tab
+						>
+							{section.label}
+						</button>
+					</li>
+				);
+			})}
+		</ul>
+
+		{sections.map((section, index) => {
+			const id = tabId(section.label);
+			const selected = index === selectedIndex;
+			return (
+				<div
+					id={`${id}-panel`}
+					class="section-panel"
+					role="tabpanel"
+					aria-labelledby={id}
+					tabindex="0"
+					hidden={!selected}
+				>
+					<SidebarSublist sublist={section.entries} />
+				</div>
+			);
+		})}
+	</section-sidebar>
+</SidebarPersister>
+
+<div class="md:sl-hidden">
+	<MobileMenuFooter />
+</div>
+
+<script>
+	class SectionSidebar extends HTMLElement {
+		connectedCallback() {
+			const tabs = Array.from(this.querySelectorAll<HTMLButtonElement>('[data-section-tab]'));
+			const panels = tabs.map((tab) =>
+				document.getElementById(tab.getAttribute('aria-controls') ?? ''),
+			);
+
+			const activate = (index: number, focus = false) => {
+				tabs.forEach((tab, tabIndex) => {
+					const selected = tabIndex === index;
+					tab.setAttribute('aria-selected', String(selected));
+					tab.tabIndex = selected ? 0 : -1;
+					if (panels[tabIndex]) panels[tabIndex].hidden = !selected;
+				});
+				if (focus) tabs[index]?.focus();
+			};
+
+			tabs.forEach((tab, index) => {
+				tab.addEventListener('click', () => activate(index));
+				tab.addEventListener('keydown', (event) => {
+					const key = (event as KeyboardEvent).key;
+					let nextIndex: number | undefined;
+					if (key === 'ArrowRight') nextIndex = (index + 1) % tabs.length;
+					if (key === 'ArrowLeft') nextIndex = (index - 1 + tabs.length) % tabs.length;
+					if (key === 'Home') nextIndex = 0;
+					if (key === 'End') nextIndex = tabs.length - 1;
+					if (nextIndex !== undefined) {
+						event.preventDefault();
+						activate(nextIndex, true);
+					}
+				});
+			});
+		}
+	}
+
+	if (!customElements.get('section-sidebar')) {
+		customElements.define('section-sidebar', SectionSidebar);
+	}
+</script>
+
+<style>
+	@layer starlight.core {
+		.section-tabs {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 0.25rem;
+			list-style: none;
+			margin: 0 0 1.25rem;
+			padding: 0.25rem;
+			border: 1px solid var(--sl-color-gray-5);
+			border-radius: 0.75rem;
+			background: var(--sl-color-gray-6);
+		}
+
+		.section-tab {
+			width: 100%;
+			min-height: 2.5rem;
+			padding: 0.4rem;
+			border: 1px solid transparent;
+			border-radius: 0.5rem;
+			background: transparent;
+			color: var(--sl-color-gray-2);
+			font: inherit;
+			font-size: var(--sl-text-sm);
+			font-weight: 600;
+			cursor: pointer;
+		}
+
+		.section-tab:hover,
+		.section-tab:focus-visible {
+			color: var(--sl-color-text);
+		}
+
+		.section-tab[aria-selected='true'] {
+			border-color: var(--sl-color-gray-5);
+			background: var(--sl-color-black);
+			color: var(--sl-color-white);
+		}
+	}
+</style>
