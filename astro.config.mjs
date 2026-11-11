@@ -58,6 +58,7 @@ export default defineConfig({
 								{ label: 'Definite Adjectives', slug: 'grammar/adjectives/definite-adjectives' },
 								{ label: 'Irregular Adjectives', slug: 'grammar/adjectives/irregular-adjectives' },
 								{ label: 'Comparative and Superlative', slug: 'grammar/adjectives/comparatives-and-superlatives' },
+								{ label: 'Irregular Comparison', slug: 'grammar/adjectives/irregular-comparisons' },
 							],
 						},
 						{
