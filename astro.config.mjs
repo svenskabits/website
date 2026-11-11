@@ -70,6 +70,7 @@ export default defineConfig({
 								{ label: 'Present Tense', slug: 'grammar/verbs-present-and-past/present-tense' },
 								{ label: 'Verb Groups', slug: 'grammar/verbs-present-and-past/verb-groups' },
 								{ label: 'Imperative', slug: 'grammar/verbs-present-and-past/imperative' },
+								{ label: 'Past Tense', slug: 'grammar/verbs-present-and-past/past-tense' },
 							],
 						},
 						{
