@@ -35,4 +35,13 @@ selected for implementation.
 | Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | Implemented (verified; commit `e66542c`) |
 | Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Implemented (verified; commit `57ed69b`) |
 | Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Implemented (verified; commit `93c835b`) |
-| Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | In progress |
+| Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | Implemented (verified; commit `33d4823`) |
+| Infinitive and "att" | `src/content/docs/grammar/verbs-present-and-past/infinitive-and-att.mdx` | In progress |
+| Present tense | `src/content/docs/grammar/verbs-present-and-past/present-tense.mdx` | Not started |
+| Verb groups 1–4 | `src/content/docs/grammar/verbs-present-and-past/verb-groups.mdx` | Not started |
+| Imperative | `src/content/docs/grammar/verbs-present-and-past/imperative.mdx` | Not started |
+| Past tense (preteritum) | `src/content/docs/grammar/verbs-present-and-past/past-tense.mdx` | Not started |
+| Strong and irregular verbs | `src/content/docs/grammar/verbs-present-and-past/strong-and-irregular-verbs.mdx` | Not started |
+| Common verbs: vara, ha, göra, bli | `src/content/docs/grammar/verbs-present-and-past/common-verbs.mdx` | Not started |
+| Reflexive verbs | `src/content/docs/grammar/verbs-present-and-past/reflexive-verbs.mdx` | Not started |
+| Particle verbs | `src/content/docs/grammar/verbs-present-and-past/particle-verbs.mdx` | Not started |
