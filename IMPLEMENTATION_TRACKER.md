@@ -20,8 +20,8 @@ selected for implementation.
 | Alla, varje, all, hela | `src/content/docs/grammar/articles-and-determiners/alla-varje-all-hela.mdx` | Implemented (verified; commit `1a98c97`) |
 | Subject pronouns | `src/content/docs/grammar/pronouns/subject-pronouns.mdx` | Implemented (verified; commit `98f6ca4`) |
 | Object pronouns | `src/content/docs/grammar/pronouns/object-pronouns.mdx` | Implemented (verified; commit `bcc083c`) |
-| Possessives: min, mitt, mina | `src/content/docs/grammar/pronouns/possessives.mdx` | In progress |
-| Reflexive pronouns: mig, dig, sig | `src/content/docs/grammar/pronouns/reflexive-pronouns.mdx` | Not started |
+| Possessives: min, mitt, mina | `src/content/docs/grammar/pronouns/possessives.mdx` | Implemented (verified; commit `194ba2c`) |
+| Reflexive pronouns: mig, dig, sig | `src/content/docs/grammar/pronouns/reflexive-pronouns.mdx` | In progress |
 | Reflexive possessives: sin, sitt, sina | `src/content/docs/grammar/pronouns/reflexive-possessives.mdx` | Not started |
 | Demonstratives: den här, den där | `src/content/docs/grammar/pronouns/demonstratives.mdx` | Not started |
 | Man | `src/content/docs/grammar/pronouns/impersonal-pronoun.mdx` | Not started |
