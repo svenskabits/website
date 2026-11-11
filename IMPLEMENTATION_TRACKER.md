@@ -29,8 +29,8 @@ selected for implementation.
 | Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | Implemented (verified; commit `563bd84`) |
 | Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | Implemented (verified; commit `cbbcb05`) |
 | Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | Implemented (verified; commit `6dd8c36`) |
-| Adjective agreement | `src/content/docs/grammar/adjectives/adjective-agreement.mdx` | In progress |
-| Adjectives in the definite form | `src/content/docs/grammar/adjectives/definite-adjectives.mdx` | Not started |
+| Adjective agreement | `src/content/docs/grammar/adjectives/adjective-agreement.mdx` | Implemented (verified; commit `3910c27`) |
+| Adjectives in the definite form | `src/content/docs/grammar/adjectives/definite-adjectives.mdx` | In progress |
 | Irregular adjectives (liten, egen, gammal…) | `src/content/docs/grammar/adjectives/irregular-adjectives.mdx` | Not started |
 | Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | Not started |
 | Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Not started |
