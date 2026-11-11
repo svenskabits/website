@@ -26,6 +26,6 @@ selected for implementation.
 | Demonstratives: den här, den där | `src/content/docs/grammar/pronouns/demonstratives.mdx` | Implemented (verified; commit `a1a49ad`) |
 | Man | `src/content/docs/grammar/pronouns/impersonal-pronoun.mdx` | Implemented (verified; commit `50ce05e`) |
 | Någon, något, några | `src/content/docs/grammar/pronouns/some-and-someone.mdx` | Implemented (verified; commit `ebe8b4b`) |
-| Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | In progress |
-| Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | Not started |
+| Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | Implemented (verified; commit `563bd84`) |
+| Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | In progress |
 | Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | Not started |
