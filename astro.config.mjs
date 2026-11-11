@@ -36,6 +36,10 @@ export default defineConfig({
 							],
 						},
 						{
+							label: 'Pronouns',
+							items: [{ label: 'Subject Pronouns', slug: 'grammar/pronouns/subject-pronouns' }],
+						},
+						{
 							label: 'Questions',
 							items: [
 								{ label: 'Where', slug: 'grammar/questions/where' },
