@@ -46,8 +46,8 @@ selected for implementation.
 | Reflexive verbs | `src/content/docs/grammar/verbs-present-and-past/reflexive-verbs.mdx` | Implemented (verified; commit `faa7a8d`) |
 | Particle verbs | `src/content/docs/grammar/verbs-present-and-past/particle-verbs.mdx` | Implemented (verified; commit `915a011`) |
 | Perfect tense (har + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/perfect-tense.mdx` | Implemented (verified; commit `96a6373`) |
-| Preteritum vs. perfect | `src/content/docs/grammar/verbs-perfect-and-beyond/past-vs-perfect.mdx` | In progress |
-| Pluperfect (hade + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/pluperfect.mdx` | Not started |
+| Preteritum vs. perfect | `src/content/docs/grammar/verbs-perfect-and-beyond/past-vs-perfect.mdx` | Implemented (verified; commit `168bc6e`) |
+| Pluperfect (hade + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/pluperfect.mdx` | In progress |
 | Future: ska, kommer att, present tense | `src/content/docs/grammar/verbs-perfect-and-beyond/future.mdx` | Not started |
 | Conditional: skulle | `src/content/docs/grammar/verbs-perfect-and-beyond/conditional.mdx` | Not started |
 | S-verbs | `src/content/docs/grammar/verbs-perfect-and-beyond/s-verbs.mdx` | Not started |
