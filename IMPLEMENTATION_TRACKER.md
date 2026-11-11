@@ -39,8 +39,8 @@ selected for implementation.
 | Infinitive and "att" | `src/content/docs/grammar/verbs-present-and-past/infinitive-and-att.mdx` | Implemented (verified; commit `a884ca1`) |
 | Present tense | `src/content/docs/grammar/verbs-present-and-past/present-tense.mdx` | Implemented (verified; commit `74f868b`) |
 | Verb groups 1–4 | `src/content/docs/grammar/verbs-present-and-past/verb-groups.mdx` | Implemented (verified; commit `38883de`) |
-| Imperative | `src/content/docs/grammar/verbs-present-and-past/imperative.mdx` | In progress |
-| Past tense (preteritum) | `src/content/docs/grammar/verbs-present-and-past/past-tense.mdx` | Not started |
+| Imperative | `src/content/docs/grammar/verbs-present-and-past/imperative.mdx` | Implemented (verified; commit `a0b1275`) |
+| Past tense (preteritum) | `src/content/docs/grammar/verbs-present-and-past/past-tense.mdx` | In progress |
 | Strong and irregular verbs | `src/content/docs/grammar/verbs-present-and-past/strong-and-irregular-verbs.mdx` | Not started |
 | Common verbs: vara, ha, göra, bli | `src/content/docs/grammar/verbs-present-and-past/common-verbs.mdx` | Not started |
 | Reflexive verbs | `src/content/docs/grammar/verbs-present-and-past/reflexive-verbs.mdx` | Not started |
