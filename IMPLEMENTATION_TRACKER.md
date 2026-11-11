@@ -41,7 +41,7 @@ selected for implementation.
 | Verb groups 1–4 | `src/content/docs/grammar/verbs-present-and-past/verb-groups.mdx` | Implemented (verified; commit `38883de`) |
 | Imperative | `src/content/docs/grammar/verbs-present-and-past/imperative.mdx` | Implemented (verified; commit `a0b1275`) |
 | Past tense (preteritum) | `src/content/docs/grammar/verbs-present-and-past/past-tense.mdx` | Implemented (verified; commit `a580172`) |
-| Strong and irregular verbs | `src/content/docs/grammar/verbs-present-and-past/strong-and-irregular-verbs.mdx` | In progress |
-| Common verbs: vara, ha, göra, bli | `src/content/docs/grammar/verbs-present-and-past/common-verbs.mdx` | Not started |
+| Strong and irregular verbs | `src/content/docs/grammar/verbs-present-and-past/strong-and-irregular-verbs.mdx` | Implemented (verified; commit `d688a11`) |
+| Common verbs: vara, ha, göra, bli | `src/content/docs/grammar/verbs-present-and-past/common-verbs.mdx` | In progress |
 | Reflexive verbs | `src/content/docs/grammar/verbs-present-and-past/reflexive-verbs.mdx` | Not started |
 | Particle verbs | `src/content/docs/grammar/verbs-present-and-past/particle-verbs.mdx` | Not started |
