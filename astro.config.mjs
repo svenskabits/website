@@ -56,6 +56,7 @@ export default defineConfig({
 							items: [
 								{ label: 'Adjective Agreement', slug: 'grammar/adjectives/adjective-agreement' },
 								{ label: 'Definite Adjectives', slug: 'grammar/adjectives/definite-adjectives' },
+								{ label: 'Irregular Adjectives', slug: 'grammar/adjectives/irregular-adjectives' },
 							],
 						},
 						{
