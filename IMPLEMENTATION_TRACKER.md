@@ -34,5 +34,5 @@ selected for implementation.
 | Irregular adjectives (liten, egen, gammal…) | `src/content/docs/grammar/adjectives/irregular-adjectives.mdx` | Implemented (verified; commit `7157513`) |
 | Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | Implemented (verified; commit `e66542c`) |
 | Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Implemented (verified; commit `57ed69b`) |
-| Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | In progress |
-| Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | Not started |
+| Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Implemented (verified; commit `93c835b`) |
+| Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | In progress |
