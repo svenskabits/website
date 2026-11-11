@@ -28,4 +28,11 @@ selected for implementation.
 | Någon, något, några | `src/content/docs/grammar/pronouns/some-and-someone.mdx` | Implemented (verified; commit `ebe8b4b`) |
 | Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | Implemented (verified; commit `563bd84`) |
 | Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | Implemented (verified; commit `cbbcb05`) |
-| Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | In progress |
+| Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | Implemented (verified; commit `6dd8c36`) |
+| Adjective agreement | `src/content/docs/grammar/adjectives/adjective-agreement.mdx` | In progress |
+| Adjectives in the definite form | `src/content/docs/grammar/adjectives/definite-adjectives.mdx` | Not started |
+| Irregular adjectives (liten, egen, gammal…) | `src/content/docs/grammar/adjectives/irregular-adjectives.mdx` | Not started |
+| Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | Not started |
+| Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Not started |
+| Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Not started |
+| Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | Not started |
