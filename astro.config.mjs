@@ -64,6 +64,12 @@ export default defineConfig({
 							],
 						},
 						{
+							label: 'Verbs: Present & Past',
+							items: [
+								{ label: 'Infinitive and Att', slug: 'grammar/verbs-present-and-past/infinitive-and-att' },
+							],
+						},
+						{
 							label: 'Questions',
 							items: [
 								{ label: 'Where', slug: 'grammar/questions/where' },
