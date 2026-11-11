@@ -1,7 +1,7 @@
 # Page implementation tracker
 
-Source: `topics.md`. This tracker currently covers the first Grammar subsection,
-**Nouns**; other sections will be added when work expands beyond Nouns.
+Source: `topics.md`. This tracker covers the Grammar subsections currently
+selected for implementation.
 
 | Topic | Page | Status |
 | --- | --- | --- |
@@ -12,3 +12,9 @@ Source: `topics.md`. This tracker currently covers the first Grammar subsection,
 | Definite plural | `src/content/docs/grammar/nouns/definite-plural.mdx` | Implemented (verified; commit `bac4cb7`) |
 | Compound words | `src/content/docs/grammar/nouns/compound-words.mdx` | Implemented (verified; commit `e81d510`) |
 | The genitive -s | `src/content/docs/grammar/nouns/genitive-s.mdx` | Implemented (verified; commit `c0a95c5`) |
+| Indefinite article (en/ett) | `src/content/docs/grammar/articles-and-determiners/indefinite-article.mdx` | Implemented (verified; commit `eaa5217`) |
+| No article: when to omit it | `src/content/docs/grammar/articles-and-determiners/no-article.mdx` | In progress |
+| Definite article: suffix vs. den/det/de | `src/content/docs/grammar/articles-and-determiners/definite-article.mdx` | Not started |
+| Double definiteness (den stora bilen) | `src/content/docs/grammar/articles-and-determiners/double-definiteness.mdx` | Not started |
+| Quantifiers: många, mycket, lite, få | `src/content/docs/grammar/articles-and-determiners/quantifiers.mdx` | Not started |
+| Alla, varje, all, hela | `src/content/docs/grammar/articles-and-determiners/alla-varje-all-hela.mdx` | Not started |
