@@ -60,6 +60,7 @@ export default defineConfig({
 								{ label: 'Comparative and Superlative', slug: 'grammar/adjectives/comparatives-and-superlatives' },
 								{ label: 'Irregular Comparison', slug: 'grammar/adjectives/irregular-comparisons' },
 								{ label: 'Participles as Adjectives', slug: 'grammar/adjectives/participles-as-adjectives' },
+								{ label: 'Adjectives as Nouns', slug: 'grammar/adjectives/adjectives-as-nouns' },
 							],
 						},
 						{
