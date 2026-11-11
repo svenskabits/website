@@ -46,6 +46,7 @@ export default defineConfig({
 								{ label: 'Demonstratives', slug: 'grammar/pronouns/demonstratives' },
 								{ label: 'Impersonal Pronoun', slug: 'grammar/pronouns/impersonal-pronoun' },
 								{ label: 'Some and Someone', slug: 'grammar/pronouns/some-and-someone' },
+								{ label: 'No One and None', slug: 'grammar/pronouns/no-one-and-none' },
 							],
 						},
 						{
