@@ -30,8 +30,8 @@ selected for implementation.
 | Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | Implemented (verified; commit `cbbcb05`) |
 | Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | Implemented (verified; commit `6dd8c36`) |
 | Adjective agreement | `src/content/docs/grammar/adjectives/adjective-agreement.mdx` | Implemented (verified; commit `3910c27`) |
-| Adjectives in the definite form | `src/content/docs/grammar/adjectives/definite-adjectives.mdx` | In progress |
-| Irregular adjectives (liten, egen, gammal…) | `src/content/docs/grammar/adjectives/irregular-adjectives.mdx` | Not started |
+| Adjectives in the definite form | `src/content/docs/grammar/adjectives/definite-adjectives.mdx` | Implemented (verified; commit `23fcf42`) |
+| Irregular adjectives (liten, egen, gammal…) | `src/content/docs/grammar/adjectives/irregular-adjectives.mdx` | In progress |
 | Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | Not started |
 | Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Not started |
 | Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Not started |
