@@ -27,5 +27,5 @@ selected for implementation.
 | Man | `src/content/docs/grammar/pronouns/impersonal-pronoun.mdx` | Implemented (verified; commit `50ce05e`) |
 | Någon, något, några | `src/content/docs/grammar/pronouns/some-and-someone.mdx` | Implemented (verified; commit `ebe8b4b`) |
 | Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | Implemented (verified; commit `563bd84`) |
-| Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | In progress |
-| Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | Not started |
+| Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | Implemented (verified; commit `cbbcb05`) |
+| Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | In progress |
