@@ -83,6 +83,7 @@ export default defineConfig({
 								{ label: 'Perfect Tense', slug: 'grammar/verbs-perfect-and-beyond/perfect-tense' },
 								{ label: 'Past vs. Perfect', slug: 'grammar/verbs-perfect-and-beyond/past-vs-perfect' },
 								{ label: 'Pluperfect', slug: 'grammar/verbs-perfect-and-beyond/pluperfect' },
+								{ label: 'Future', slug: 'grammar/verbs-perfect-and-beyond/future' },
 							],
 						},
 						{
