@@ -36,8 +36,8 @@ selected for implementation.
 | Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Implemented (verified; commit `57ed69b`) |
 | Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Implemented (verified; commit `93c835b`) |
 | Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | Implemented (verified; commit `33d4823`) |
-| Infinitive and "att" | `src/content/docs/grammar/verbs-present-and-past/infinitive-and-att.mdx` | In progress |
-| Present tense | `src/content/docs/grammar/verbs-present-and-past/present-tense.mdx` | Not started |
+| Infinitive and "att" | `src/content/docs/grammar/verbs-present-and-past/infinitive-and-att.mdx` | Implemented (verified; commit `a884ca1`) |
+| Present tense | `src/content/docs/grammar/verbs-present-and-past/present-tense.mdx` | In progress |
 | Verb groups 1–4 | `src/content/docs/grammar/verbs-present-and-past/verb-groups.mdx` | Not started |
 | Imperative | `src/content/docs/grammar/verbs-present-and-past/imperative.mdx` | Not started |
 | Past tense (preteritum) | `src/content/docs/grammar/verbs-present-and-past/past-tense.mdx` | Not started |
