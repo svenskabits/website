@@ -32,7 +32,7 @@ selected for implementation.
 | Adjective agreement | `src/content/docs/grammar/adjectives/adjective-agreement.mdx` | Implemented (verified; commit `3910c27`) |
 | Adjectives in the definite form | `src/content/docs/grammar/adjectives/definite-adjectives.mdx` | Implemented (verified; commit `23fcf42`) |
 | Irregular adjectives (liten, egen, gammal…) | `src/content/docs/grammar/adjectives/irregular-adjectives.mdx` | Implemented (verified; commit `7157513`) |
-| Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | In progress |
-| Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | Not started |
+| Comparative and superlative | `src/content/docs/grammar/adjectives/comparatives-and-superlatives.mdx` | Implemented (verified; commit `e66542c`) |
+| Irregular comparison (bra, bättre, bäst) | `src/content/docs/grammar/adjectives/irregular-comparisons.mdx` | In progress |
 | Participles as adjectives | `src/content/docs/grammar/adjectives/participles-as-adjectives.mdx` | Not started |
 | Adjectives used as nouns | `src/content/docs/grammar/adjectives/adjectives-as-nouns.mdx` | Not started |
