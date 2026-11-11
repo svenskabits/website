@@ -12,7 +12,25 @@ export default defineConfig({
 					label: 'Grammar',
 					items: [
 						{ label: 'Overview', slug: 'grammar' },
-						{ autogenerate: { directory: 'grammar' } },
+						{
+							label: 'Nouns',
+							items: [
+								{ label: 'En- and Ett-Words', slug: 'grammar/nouns/en-and-ett-words' },
+								{ label: 'Plural', slug: 'grammar/nouns/plural' },
+								{ label: 'Irregular Plurals', slug: 'grammar/nouns/irregular-plurals' },
+								{ label: 'Definite Singular', slug: 'grammar/nouns/definite-singular' },
+								{ label: 'Definite Plural', slug: 'grammar/nouns/definite-plural' },
+								{ label: 'Compound Words', slug: 'grammar/nouns/compound-words' },
+								{ label: 'The Genitive -s', slug: 'grammar/nouns/genitive-s' },
+							],
+						},
+						{
+							label: 'Questions',
+							items: [
+								{ label: 'Where', slug: 'grammar/questions/where' },
+								{ label: 'When', slug: 'grammar/questions/when' },
+							],
+						},
 					],
 				},
 				{
@@ -20,13 +38,13 @@ export default defineConfig({
 					items: [
 						{
 							label: 'Numbers',
-							items: [{ autogenerate: { directory: 'vocabulary/numbers' } }],
+							items: [{ label: 'One to Hundred', slug: 'vocabulary/numbers/one-to-hundred' }],
 						},
 					],
 				},
 				{
 					label: 'Pronunciation',
-					items: [{ autogenerate: { directory: 'pronunciation' } }],
+					items: [{ label: 'Overview', slug: 'pronunciation' }],
 				},
 			],
 			components: {
