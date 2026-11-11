@@ -44,4 +44,14 @@ selected for implementation.
 | Strong and irregular verbs | `src/content/docs/grammar/verbs-present-and-past/strong-and-irregular-verbs.mdx` | Implemented (verified; commit `d688a11`) |
 | Common verbs: vara, ha, göra, bli | `src/content/docs/grammar/verbs-present-and-past/common-verbs.mdx` | Implemented (verified; commit `e4158ae`) |
 | Reflexive verbs | `src/content/docs/grammar/verbs-present-and-past/reflexive-verbs.mdx` | Implemented (verified; commit `faa7a8d`) |
-| Particle verbs | `src/content/docs/grammar/verbs-present-and-past/particle-verbs.mdx` | In progress |
+| Particle verbs | `src/content/docs/grammar/verbs-present-and-past/particle-verbs.mdx` | Implemented (verified; commit `915a011`) |
+| Perfect tense (har + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/perfect-tense.mdx` | In progress |
+| Preteritum vs. perfect | `src/content/docs/grammar/verbs-perfect-and-beyond/past-vs-perfect.mdx` | Not started |
+| Pluperfect (hade + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/pluperfect.mdx` | Not started |
+| Future: ska, kommer att, present tense | `src/content/docs/grammar/verbs-perfect-and-beyond/future.mdx` | Not started |
+| Conditional: skulle | `src/content/docs/grammar/verbs-perfect-and-beyond/conditional.mdx` | Not started |
+| S-verbs | `src/content/docs/grammar/verbs-perfect-and-beyond/s-verbs.mdx` | Not started |
+| Passive voice (-s and bli) | `src/content/docs/grammar/verbs-perfect-and-beyond/passive-voice.mdx` | Not started |
+| Present and past participles | `src/content/docs/grammar/verbs-perfect-and-beyond/present-and-past-participles.mdx` | Not started |
+| Fixed subjunctive expressions | `src/content/docs/grammar/verbs-perfect-and-beyond/subjunctive-expressions.mdx` | Not started |
+| Pseudo-coordination (sitter och läser) | `src/content/docs/grammar/verbs-perfect-and-beyond/pseudo-coordination.mdx` | Not started |
