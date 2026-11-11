@@ -18,3 +18,14 @@ selected for implementation.
 | Double definiteness (den stora bilen) | `src/content/docs/grammar/articles-and-determiners/double-definiteness.mdx` | Implemented (verified; commit `7577ff2`) |
 | Quantifiers: många, mycket, lite, få | `src/content/docs/grammar/articles-and-determiners/quantifiers.mdx` | Implemented (verified; commit `a20764d`) |
 | Alla, varje, all, hela | `src/content/docs/grammar/articles-and-determiners/alla-varje-all-hela.mdx` | Implemented (verified; commit `1a98c97`) |
+| Subject pronouns | `src/content/docs/grammar/pronouns/subject-pronouns.mdx` | Implemented (verified; commit `98f6ca4`) |
+| Object pronouns | `src/content/docs/grammar/pronouns/object-pronouns.mdx` | In progress |
+| Possessives: min, mitt, mina | `src/content/docs/grammar/pronouns/possessives.mdx` | Not started |
+| Reflexive pronouns: mig, dig, sig | `src/content/docs/grammar/pronouns/reflexive-pronouns.mdx` | Not started |
+| Reflexive possessives: sin, sitt, sina | `src/content/docs/grammar/pronouns/reflexive-possessives.mdx` | Not started |
+| Demonstratives: den här, den där | `src/content/docs/grammar/pronouns/demonstratives.mdx` | Not started |
+| Man | `src/content/docs/grammar/pronouns/impersonal-pronoun.mdx` | Not started |
+| Någon, något, några | `src/content/docs/grammar/pronouns/some-and-someone.mdx` | Not started |
+| Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | Not started |
+| Det as a dummy subject | `src/content/docs/grammar/pronouns/dummy-it.mdx` | Not started |
+| Relative pronouns: som, vad, vars | `src/content/docs/grammar/pronouns/relative-pronouns.mdx` | Not started |
