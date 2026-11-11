@@ -45,6 +45,7 @@ export default defineConfig({
 								{ label: 'Reflexive Possessives', slug: 'grammar/pronouns/reflexive-possessives' },
 								{ label: 'Demonstratives', slug: 'grammar/pronouns/demonstratives' },
 								{ label: 'Impersonal Pronoun', slug: 'grammar/pronouns/impersonal-pronoun' },
+								{ label: 'Some and Someone', slug: 'grammar/pronouns/some-and-someone' },
 							],
 						},
 						{
