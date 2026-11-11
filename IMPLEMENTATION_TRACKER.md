@@ -51,7 +51,7 @@ selected for implementation.
 | Future: ska, kommer att, present tense | `src/content/docs/grammar/verbs-perfect-and-beyond/future.mdx` | Implemented (verified; commit `96a607d`) |
 | Conditional: skulle | `src/content/docs/grammar/verbs-perfect-and-beyond/conditional.mdx` | Implemented (verified; commit `8948e6f`) |
 | S-verbs | `src/content/docs/grammar/verbs-perfect-and-beyond/s-verbs.mdx` | Implemented (verified; commit `7b84d9f`) |
-| Passive voice (-s and bli) | `src/content/docs/grammar/verbs-perfect-and-beyond/passive-voice.mdx` | In progress |
-| Present and past participles | `src/content/docs/grammar/verbs-perfect-and-beyond/present-and-past-participles.mdx` | Not started |
+| Passive voice (-s and bli) | `src/content/docs/grammar/verbs-perfect-and-beyond/passive-voice.mdx` | Implemented (verified; commit `28e4712`) |
+| Present and past participles | `src/content/docs/grammar/verbs-perfect-and-beyond/present-and-past-participles.mdx` | In progress |
 | Fixed subjunctive expressions | `src/content/docs/grammar/verbs-perfect-and-beyond/subjunctive-expressions.mdx` | Not started |
 | Pseudo-coordination (sitter och läser) | `src/content/docs/grammar/verbs-perfect-and-beyond/pseudo-coordination.mdx` | Not started |
