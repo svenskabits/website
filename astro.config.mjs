@@ -84,6 +84,7 @@ export default defineConfig({
 								{ label: 'Past vs. Perfect', slug: 'grammar/verbs-perfect-and-beyond/past-vs-perfect' },
 								{ label: 'Pluperfect', slug: 'grammar/verbs-perfect-and-beyond/pluperfect' },
 								{ label: 'Future', slug: 'grammar/verbs-perfect-and-beyond/future' },
+								{ label: 'Conditional', slug: 'grammar/verbs-perfect-and-beyond/conditional' },
 							],
 						},
 						{
