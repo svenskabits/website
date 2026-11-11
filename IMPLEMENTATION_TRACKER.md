@@ -22,8 +22,8 @@ selected for implementation.
 | Object pronouns | `src/content/docs/grammar/pronouns/object-pronouns.mdx` | Implemented (verified; commit `bcc083c`) |
 | Possessives: min, mitt, mina | `src/content/docs/grammar/pronouns/possessives.mdx` | Implemented (verified; commit `194ba2c`) |
 | Reflexive pronouns: mig, dig, sig | `src/content/docs/grammar/pronouns/reflexive-pronouns.mdx` | Implemented (verified; commit `26835b2`) |
-| Reflexive possessives: sin, sitt, sina | `src/content/docs/grammar/pronouns/reflexive-possessives.mdx` | In progress |
-| Demonstratives: den här, den där | `src/content/docs/grammar/pronouns/demonstratives.mdx` | Not started |
+| Reflexive possessives: sin, sitt, sina | `src/content/docs/grammar/pronouns/reflexive-possessives.mdx` | Implemented (verified; commit `8da41d0`) |
+| Demonstratives: den här, den där | `src/content/docs/grammar/pronouns/demonstratives.mdx` | In progress |
 | Man | `src/content/docs/grammar/pronouns/impersonal-pronoun.mdx` | Not started |
 | Någon, något, några | `src/content/docs/grammar/pronouns/some-and-someone.mdx` | Not started |
 | Ingen, inget, inga | `src/content/docs/grammar/pronouns/no-one-and-none.mdx` | Not started |
