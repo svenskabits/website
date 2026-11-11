@@ -14,7 +14,7 @@ selected for implementation.
 | The genitive -s | `src/content/docs/grammar/nouns/genitive-s.mdx` | Implemented (verified; commit `c0a95c5`) |
 | Indefinite article (en/ett) | `src/content/docs/grammar/articles-and-determiners/indefinite-article.mdx` | Implemented (verified; commit `eaa5217`) |
 | No article: when to omit it | `src/content/docs/grammar/articles-and-determiners/no-article.mdx` | Implemented (verified; commit `4fe380e`) |
-| Definite article: suffix vs. den/det/de | `src/content/docs/grammar/articles-and-determiners/definite-article.mdx` | In progress |
-| Double definiteness (den stora bilen) | `src/content/docs/grammar/articles-and-determiners/double-definiteness.mdx` | Not started |
+| Definite article: suffix vs. den/det/de | `src/content/docs/grammar/articles-and-determiners/definite-article.mdx` | Implemented (verified; commit `f109a22`) |
+| Double definiteness (den stora bilen) | `src/content/docs/grammar/articles-and-determiners/double-definiteness.mdx` | In progress |
 | Quantifiers: många, mycket, lite, få | `src/content/docs/grammar/articles-and-determiners/quantifiers.mdx` | Not started |
 | Alla, varje, all, hela | `src/content/docs/grammar/articles-and-determiners/alla-varje-all-hela.mdx` | Not started |
