@@ -71,6 +71,7 @@ export default defineConfig({
 								{ label: 'Verb Groups', slug: 'grammar/verbs-present-and-past/verb-groups' },
 								{ label: 'Imperative', slug: 'grammar/verbs-present-and-past/imperative' },
 								{ label: 'Past Tense', slug: 'grammar/verbs-present-and-past/past-tense' },
+								{ label: 'Strong and Irregular Verbs', slug: 'grammar/verbs-present-and-past/strong-and-irregular-verbs' },
 							],
 						},
 						{
