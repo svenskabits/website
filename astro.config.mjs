@@ -52,6 +52,10 @@ export default defineConfig({
 							],
 						},
 						{
+							label: 'Adjectives',
+							items: [{ label: 'Adjective Agreement', slug: 'grammar/adjectives/adjective-agreement' }],
+						},
+						{
 							label: 'Questions',
 							items: [
 								{ label: 'Where', slug: 'grammar/questions/where' },
