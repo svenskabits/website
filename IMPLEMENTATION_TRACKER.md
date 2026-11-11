@@ -48,8 +48,8 @@ selected for implementation.
 | Perfect tense (har + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/perfect-tense.mdx` | Implemented (verified; commit `96a6373`) |
 | Preteritum vs. perfect | `src/content/docs/grammar/verbs-perfect-and-beyond/past-vs-perfect.mdx` | Implemented (verified; commit `168bc6e`) |
 | Pluperfect (hade + supinum) | `src/content/docs/grammar/verbs-perfect-and-beyond/pluperfect.mdx` | Implemented (verified; commit `3942255`) |
-| Future: ska, kommer att, present tense | `src/content/docs/grammar/verbs-perfect-and-beyond/future.mdx` | In progress |
-| Conditional: skulle | `src/content/docs/grammar/verbs-perfect-and-beyond/conditional.mdx` | Not started |
+| Future: ska, kommer att, present tense | `src/content/docs/grammar/verbs-perfect-and-beyond/future.mdx` | Implemented (verified; commit `96a607d`) |
+| Conditional: skulle | `src/content/docs/grammar/verbs-perfect-and-beyond/conditional.mdx` | In progress |
 | S-verbs | `src/content/docs/grammar/verbs-perfect-and-beyond/s-verbs.mdx` | Not started |
 | Passive voice (-s and bli) | `src/content/docs/grammar/verbs-perfect-and-beyond/passive-voice.mdx` | Not started |
 | Present and past participles | `src/content/docs/grammar/verbs-perfect-and-beyond/present-and-past-participles.mdx` | Not started |
