@@ -74,6 +74,7 @@ export default defineConfig({
 								{ label: 'Strong and Irregular Verbs', slug: 'grammar/verbs-present-and-past/strong-and-irregular-verbs' },
 								{ label: 'Common Verbs', slug: 'grammar/verbs-present-and-past/common-verbs' },
 								{ label: 'Reflexive Verbs', slug: 'grammar/verbs-present-and-past/reflexive-verbs' },
+								{ label: 'Particle Verbs', slug: 'grammar/verbs-present-and-past/particle-verbs' },
 							],
 						},
 						{
