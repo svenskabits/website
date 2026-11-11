@@ -48,6 +48,7 @@ export default defineConfig({
 								{ label: 'Some and Someone', slug: 'grammar/pronouns/some-and-someone' },
 								{ label: 'No One and None', slug: 'grammar/pronouns/no-one-and-none' },
 								{ label: 'Dummy It', slug: 'grammar/pronouns/dummy-it' },
+								{ label: 'Relative Pronouns', slug: 'grammar/pronouns/relative-pronouns' },
 							],
 						},
 						{
