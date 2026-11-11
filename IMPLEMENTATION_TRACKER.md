@@ -19,8 +19,8 @@ selected for implementation.
 | Quantifiers: många, mycket, lite, få | `src/content/docs/grammar/articles-and-determiners/quantifiers.mdx` | Implemented (verified; commit `a20764d`) |
 | Alla, varje, all, hela | `src/content/docs/grammar/articles-and-determiners/alla-varje-all-hela.mdx` | Implemented (verified; commit `1a98c97`) |
 | Subject pronouns | `src/content/docs/grammar/pronouns/subject-pronouns.mdx` | Implemented (verified; commit `98f6ca4`) |
-| Object pronouns | `src/content/docs/grammar/pronouns/object-pronouns.mdx` | In progress |
-| Possessives: min, mitt, mina | `src/content/docs/grammar/pronouns/possessives.mdx` | Not started |
+| Object pronouns | `src/content/docs/grammar/pronouns/object-pronouns.mdx` | Implemented (verified; commit `bcc083c`) |
+| Possessives: min, mitt, mina | `src/content/docs/grammar/pronouns/possessives.mdx` | In progress |
 | Reflexive pronouns: mig, dig, sig | `src/content/docs/grammar/pronouns/reflexive-pronouns.mdx` | Not started |
 | Reflexive possessives: sin, sitt, sina | `src/content/docs/grammar/pronouns/reflexive-possessives.mdx` | Not started |
 | Demonstratives: den här, den där | `src/content/docs/grammar/pronouns/demonstratives.mdx` | Not started |
