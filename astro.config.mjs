@@ -356,6 +356,11 @@ export default defineConfig({
 							slug: 'chapter-5/rooms',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '5.11 Furniture',
+							slug: 'chapter-5/furniture',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
