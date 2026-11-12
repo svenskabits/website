@@ -570,6 +570,11 @@ export default defineConfig({
 							slug: 'chapter-8/asking-for-directions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.4 Imperative',
+							slug: 'chapter-8/imperative',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
