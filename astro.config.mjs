@@ -1254,6 +1254,11 @@ export default defineConfig({
 							slug: 'chapter-18/plants-and-trees',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '18.4 Environment',
+							slug: 'chapter-18/environment',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
