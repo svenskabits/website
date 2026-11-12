@@ -980,6 +980,11 @@ export default defineConfig({
 							slug: 'chapter-13/insurance',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.5 Formal and informal language',
+							slug: 'chapter-13/formal-and-informal-language',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
