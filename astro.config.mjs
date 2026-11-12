@@ -1203,6 +1203,11 @@ export default defineConfig({
 							slug: 'chapter-16/media-and-news',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.8 Reported speech',
+							slug: 'chapter-16/reported-speech',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
