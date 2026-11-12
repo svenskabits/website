@@ -1299,6 +1299,11 @@ export default defineConfig({
 							slug: 'chapter-17/fixed-subjunctive-expressions',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '17.13 Regional accents',
+							slug: 'chapter-17/regional-accents',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
