@@ -302,6 +302,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 5: Min familj är stor, men mitt hem är litet',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '5.1 Immediate family',
+							slug: 'chapter-5/immediate-family',
+							badge: { text: 'V', variant: 'success' },
+						},
+					],
+				},
 			],
 		}),
 	],
