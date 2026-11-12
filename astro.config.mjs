@@ -448,6 +448,11 @@ export default defineConfig({
 							slug: 'chapter-6/sizes',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.13 Money and prices',
+							slug: 'chapter-6/money-and-prices',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
