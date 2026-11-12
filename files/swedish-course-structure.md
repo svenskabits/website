@@ -19,7 +19,7 @@ A page's level can sit one step off its chapter's level when the topic naturally
 
 | # | Title (SV / EN) | Grammar in the Title | Level | Topic | Learning Outcome | Grammar | Vocabulary | Pronunciation |
 |---|---|---|---|---|---|---|---|---|
-| 1 | **Hej, jag är Anna. Vem är du?**<br>*Hi, I'm Anna. Who are you?* | Subject pronouns, *vara*, SVO, *vem* | A1 | Greetings and introducing yourself | Greet people, say your name, and say where you're from | Subject pronouns, *vara* (present), basic word order (SVO) | Greetings and goodbyes, polite phrases, countries and nationalities, languages | The Swedish alphabet, Å Ä Ö, spelling words aloud |
+| 1 | **Hej allihopa!**<br>*Hello everyone!* | Subject pronouns, *vara*, SVO, *vem* | A1 | Greetings and introducing yourself | Greet people, say your name, and say where you're from | Subject pronouns, *vara* (present), basic word order (SVO) | Greetings and goodbyes, polite phrases, countries and nationalities, languages | The Swedish alphabet, Å Ä Ö, spelling words aloud |
 | 2 | **Var bor du?**<br>*Where do you live?* | Present tense, *var*, question form | A1 | Where you live and basic personal details | Give your address, phone number and age, and ask simple questions about someone | En- and ett-words, indefinite article, present tense (verb groups 1–4), *i* and *på* for place, *var / vad / vem / hur* | Numbers 0–100, phone numbers, places in town, age | Long and short vowels |
 | 3 | **Kan du prata svenska?**<br>*Can you speak Swedish?* | *Kan*, infinitive without *att*, yes/no questions | A1 | Abilities and languages | Say what you can, can't and want to do, and ask for help when you don't understand | *Kan, vill, måste*, infinitive without *att*, placement of *inte*, yes/no questions, *ja / nej / jo* | Classroom phrases, survival phrases, everyday verbs | Soft and hard K and G |
 | 4 | **Vad gör du på fritiden?**<br>*What do you do in your free time?* | *Göra*, *vad*, *i*/*på* | A1 | Hobbies, free time and the clock | Talk about your interests, how often you do things, and tell the time | Present tense of common verbs, inversion (V2 rule), frequency adverbs, *gilla / tycka om* | Hobbies, sports, music, days of the week, the clock, frequency expressions | Word stress, the R sound |
@@ -44,7 +44,7 @@ A page's level can sit one step off its chapter's level when the topic naturally
 
 # Part 2: Pages by Chapter
 
-## Chapter 1: Hej, jag är Anna. Vem är du? / Hi, I'm Anna. Who are you?
+## Chapter 1: Hej allihopa! / Hello everyone!
 
 | Page | Title | Type | Level |
 |---|---|---|---|
