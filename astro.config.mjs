@@ -1183,6 +1183,11 @@ export default defineConfig({
 							slug: 'chapter-16/the-internet',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.4 Social media',
+							slug: 'chapter-16/social-media',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
