@@ -1086,6 +1086,11 @@ export default defineConfig({
 							slug: 'chapter-14/compliments',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '14.11 Conditional: skulle',
+							slug: 'chapter-14/conditional-skulle',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
