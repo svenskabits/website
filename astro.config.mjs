@@ -473,6 +473,11 @@ export default defineConfig({
 							slug: 'chapter-6/the-sj-sound',
 							badge: { text: 'P', variant: 'note' },
 						},
+						{
+							label: '6.18 The tj-sound',
+							slug: 'chapter-6/the-tj-sound',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
