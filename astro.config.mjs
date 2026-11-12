@@ -919,6 +919,11 @@ export default defineConfig({
 							slug: 'chapter-12/verb-preposition',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '12.8 Main clause vs. subordinate clause',
+							slug: 'chapter-12/main-clause-vs-subordinate-clause',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
