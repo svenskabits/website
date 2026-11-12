@@ -823,6 +823,11 @@ export default defineConfig({
 							slug: 'chapter-11/weather-and-det-det-regnar',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '11.5 Booking a trip',
+							slug: 'chapter-11/booking-a-trip',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
