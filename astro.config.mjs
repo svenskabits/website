@@ -686,6 +686,11 @@ export default defineConfig({
 							slug: 'chapter-9/at-the-doctor',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '9.8 Bör and borde',
+							slug: 'chapter-9/bor-and-borde',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
