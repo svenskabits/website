@@ -393,6 +393,11 @@ export default defineConfig({
 							slug: 'chapter-6/fruit',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.2 Vegetables',
+							slug: 'chapter-6/vegetables',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
