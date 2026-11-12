@@ -853,6 +853,11 @@ export default defineConfig({
 							slug: 'chapter-11/sightseeing',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.11 Travel problems',
+							slug: 'chapter-11/travel-problems',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
