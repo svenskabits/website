@@ -499,6 +499,11 @@ export default defineConfig({
 							slug: 'chapter-7/parts-of-the-day',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.4 Time expressions (igår, förra veckan)',
+							slug: 'chapter-7/time-expressions-igar-forra-veckan',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
