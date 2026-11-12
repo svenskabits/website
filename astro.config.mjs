@@ -429,7 +429,7 @@ export default defineConfig({
 							badge: { text: 'G', variant: 'tip' },
 						},
 						{
-							label: '6.9 How much / how many',
+							label: '6.9 Hur mycket / hur många',
 							slug: 'chapter-6/hur-mycket-hur-manga',
 							badge: { text: 'G', variant: 'tip' },
 						},
