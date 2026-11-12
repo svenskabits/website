@@ -1274,6 +1274,11 @@ export default defineConfig({
 							slug: 'chapter-18/cause-and-consequence',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '18.8 Så att',
+							slug: 'chapter-18/sa-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
