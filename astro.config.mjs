@@ -275,6 +275,11 @@ export default defineConfig({
 							slug: 'chapter-4/nar',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '4.10 Frequency expressions',
+							slug: 'chapter-4/frequency-expressions',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
