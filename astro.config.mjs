@@ -1081,6 +1081,11 @@ export default defineConfig({
 							slug: 'chapter-14/apologizing-and-forgiving',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '14.10 Compliments',
+							slug: 'chapter-14/compliments',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
