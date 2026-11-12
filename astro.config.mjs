@@ -1259,6 +1259,11 @@ export default defineConfig({
 							slug: 'chapter-19/sentence-adverbs-nog-kanske-faktiskt',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '19.5 Common idioms',
+							slug: 'chapter-19/common-idioms',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
