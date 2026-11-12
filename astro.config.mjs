@@ -1112,6 +1112,11 @@ export default defineConfig({
 							slug: 'chapter-15/life-stages',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '15.2 Childhood and memories',
+							slug: 'chapter-15/childhood-and-memories',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
