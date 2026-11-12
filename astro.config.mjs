@@ -265,6 +265,11 @@ export default defineConfig({
 							slug: 'chapter-4/days-of-the-week',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.8 The clock',
+							slug: 'chapter-4/the-clock',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
