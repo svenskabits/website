@@ -250,6 +250,11 @@ export default defineConfig({
 							slug: 'chapter-4/outdoor-activities',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.5 Göra',
+							slug: 'chapter-4/gora',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
