@@ -509,6 +509,11 @@ export default defineConfig({
 							slug: 'chapter-7/time-i-pa-om-for-sedan',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '7.6 Morning routine',
+							slug: 'chapter-7/morning-routine',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
