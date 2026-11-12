@@ -753,7 +753,7 @@ export default defineConfig({
 							badge: { text: 'G', variant: 'tip' },
 						},
 						{
-							label: '10.5 And, but, or',
+							label: '10.5 Och, men, eller',
 							slug: 'chapter-10/och-men-eller',
 							badge: { text: 'G', variant: 'tip' },
 						},
