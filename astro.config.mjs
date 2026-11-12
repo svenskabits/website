@@ -169,6 +169,11 @@ export default defineConfig({
 							slug: 'chapter-3/classroom-phrases',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '3.2 Survival phrases (Jag förstår inte, Kan du upprepa?)',
+							slug: 'chapter-3/survival-phrases-jag-forstar-inte-kan-du-upprepa',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
