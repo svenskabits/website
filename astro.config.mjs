@@ -551,6 +551,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 8: Hur kommer jag dit? Gå rakt fram!',
+					badge: { text: 'A2', class: 'level-a2' },
+					items: [
+						{
+							label: '8.1 Places and buildings',
+							slug: 'chapter-8/places-and-buildings',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
