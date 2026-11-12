@@ -371,6 +371,11 @@ export default defineConfig({
 							slug: 'chapter-5/irregular-plurals',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.14 Det finns',
+							slug: 'chapter-5/det-finns',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
