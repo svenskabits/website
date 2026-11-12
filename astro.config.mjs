@@ -762,6 +762,11 @@ export default defineConfig({
 							slug: 'chapter-10/sa-and-for',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.7 Small talk',
+							slug: 'chapter-10/small-talk',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
