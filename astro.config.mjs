@@ -1373,6 +1373,62 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Chapter 19: Det är ju fikan som är bäst, faktiskt!',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '19.1 Spoken Swedish vs. written Swedish',
+							slug: 'chapter-19/spoken-swedish-vs-written-swedish',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '19.2 Fillers and discourse markers',
+							slug: 'chapter-19/fillers-and-discourse-markers',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '19.3 Modal particles: ju, väl, då, alltså',
+							slug: 'chapter-19/modal-particles-ju-val-da-alltsa',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '19.4 Sentence adverbs: nog, kanske, faktiskt',
+							slug: 'chapter-19/sentence-adverbs-nog-kanske-faktiskt',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '19.5 Common idioms',
+							slug: 'chapter-19/common-idioms',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '19.6 Proverbs',
+							slug: 'chapter-19/proverbs',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '19.7 Slang',
+							slug: 'chapter-19/slang',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '19.8 Fronting for emphasis',
+							slug: 'chapter-19/fronting-for-emphasis',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '19.9 Cleft sentences (det är… som)',
+							slug: 'chapter-19/cleft-sentences-det-ar-som',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '19.10 Natural rhythm and intonation',
+							slug: 'chapter-19/natural-rhythm-and-intonation',
+							badge: { text: 'P', variant: 'note' },
+						},
+					],
+				},
+				{
 					label: 'Chapter 20: Jag håller på att bli flytande i svenska!',
 					badge: { text: 'B2', class: 'level-b2' },
 					items: [
