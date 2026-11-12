@@ -701,6 +701,11 @@ export default defineConfig({
 							slug: 'chapter-9/at-the-pharmacy',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '9.11 Healthy habits',
+							slug: 'chapter-9/healthy-habits',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
