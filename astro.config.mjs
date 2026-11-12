@@ -1208,6 +1208,11 @@ export default defineConfig({
 							slug: 'chapter-16/reported-speech',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '16.9 Present participles',
+							slug: 'chapter-16/present-participles',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
