@@ -311,6 +311,11 @@ export default defineConfig({
 							slug: 'chapter-5/immediate-family',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '5.2 Extended family',
+							slug: 'chapter-5/extended-family',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
