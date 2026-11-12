@@ -799,6 +799,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 11: Det har varit varmare i år än förra året!',
+					badge: { text: 'A2', class: 'level-a2' },
+					items: [
+						{
+							label: '11.1 Weather',
+							slug: 'chapter-11/weather',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
