@@ -742,6 +742,11 @@ export default defineConfig({
 							slug: 'chapter-10/invitations',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '10.3 Ska',
+							slug: 'chapter-10/ska',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
