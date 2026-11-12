@@ -331,6 +331,11 @@ export default defineConfig({
 							slug: 'chapter-5/vems',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.6 The genitive -s',
+							slug: 'chapter-5/the-genitive-s',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
