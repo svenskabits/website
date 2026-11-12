@@ -1010,6 +1010,11 @@ export default defineConfig({
 							slug: 'chapter-13/s-verbs',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '13.11 Indirect questions',
+							slug: 'chapter-13/indirect-questions',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
