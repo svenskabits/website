@@ -1147,6 +1147,11 @@ export default defineConfig({
 							slug: 'chapter-15/medan-and-tills',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '15.9 Pseudo-coordination (sitter och läser)',
+							slug: 'chapter-15/pseudo-coordination-sitter-och-laser',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
