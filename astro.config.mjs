@@ -209,6 +209,11 @@ export default defineConfig({
 							slug: 'chapter-3/negation-with-inte',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '3.10 Yes/No questions',
+							slug: 'chapter-3/yes-no-questions',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
