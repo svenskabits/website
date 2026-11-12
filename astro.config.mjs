@@ -1294,6 +1294,11 @@ export default defineConfig({
 							slug: 'chapter-18/minimal-pairs-vowels',
 							badge: { text: 'P', variant: 'note' },
 						},
+						{
+							label: '18.12 Minimal pairs: consonants',
+							slug: 'chapter-18/minimal-pairs-consonants',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
