@@ -351,6 +351,11 @@ export default defineConfig({
 							slug: 'chapter-5/colors',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '5.10 Rooms',
+							slug: 'chapter-5/rooms',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
