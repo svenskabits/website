@@ -316,6 +316,11 @@ export default defineConfig({
 							slug: 'chapter-5/extended-family',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '5.3 Ha (to have)',
+							slug: 'chapter-5/ha-to-have',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
