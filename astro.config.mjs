@@ -295,6 +295,11 @@ export default defineConfig({
 							slug: 'chapter-4/word-stress',
 							badge: { text: 'P', variant: 'success' },
 						},
+						{
+							label: '4.14 The R sound',
+							slug: 'chapter-4/the-r-sound',
+							badge: { text: 'P', variant: 'success' },
+						},
 					],
 				},
 			],
