@@ -1279,6 +1279,11 @@ export default defineConfig({
 							slug: 'chapter-19/fronting-for-emphasis',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '19.9 Cleft sentences (det är… som)',
+							slug: 'chapter-19/cleft-sentences-det-ar-som',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
