@@ -504,6 +504,11 @@ export default defineConfig({
 							slug: 'chapter-7/time-expressions-igar-forra-veckan',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.5 Time: i, på, om, för… sedan',
+							slug: 'chapter-7/time-i-pa-om-for-sedan',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
