@@ -1066,6 +1066,11 @@ export default defineConfig({
 							slug: 'chapter-14/eftersom-for-att-darfor-att',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '14.7 Fast, trots att, även om',
+							slug: 'chapter-14/fast-trots-att-aven-om',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
