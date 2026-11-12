@@ -1235,6 +1235,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 18: Skogen måste skyddas så att djuren kan överleva',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '18.1 Landscape',
+							slug: 'chapter-18/landscape',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
