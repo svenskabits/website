@@ -204,6 +204,11 @@ export default defineConfig({
 							slug: 'chapter-3/modal-verbs-and-the-infinitive-without-att',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '3.9 Negation with inte',
+							slug: 'chapter-3/negation-with-inte',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
