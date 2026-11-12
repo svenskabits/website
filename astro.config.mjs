@@ -384,6 +384,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 6: Hur mycket kostar den här kanelbullen?',
+					badge: { text: 'A1', class: 'level-a1' },
+					items: [
+						{
+							label: '6.1 Fruit',
+							slug: 'chapter-6/fruit',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
