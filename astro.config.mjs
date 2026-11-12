@@ -1254,6 +1254,11 @@ export default defineConfig({
 							slug: 'chapter-20/prefixes-and-suffixes',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '20.4 Synonyms',
+							slug: 'chapter-20/synonyms',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
