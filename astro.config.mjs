@@ -1254,6 +1254,11 @@ export default defineConfig({
 							slug: 'chapter-17/politics',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.4 Economy',
+							slug: 'chapter-17/economy',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
