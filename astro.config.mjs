@@ -1259,6 +1259,11 @@ export default defineConfig({
 							slug: 'chapter-20/synonyms',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '20.5 False friends',
+							slug: 'chapter-20/false-friends',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
