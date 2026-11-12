@@ -326,6 +326,11 @@ export default defineConfig({
 							slug: 'chapter-5/possessives-min-mitt-mina',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.5 Vems',
+							slug: 'chapter-5/vems',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
