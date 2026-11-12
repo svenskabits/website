@@ -620,6 +620,11 @@ export default defineConfig({
 							slug: 'chapter-8/public-transport',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.14 Tickets',
+							slug: 'chapter-8/tickets',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
