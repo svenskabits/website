@@ -438,6 +438,11 @@ export default defineConfig({
 							slug: 'chapter-6/types-of-shops',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.11 Clothes',
+							slug: 'chapter-6/clothes',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
