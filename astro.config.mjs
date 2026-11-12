@@ -737,6 +737,11 @@ export default defineConfig({
 							slug: 'chapter-10/making-plans',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '10.2 Invitations',
+							slug: 'chapter-10/invitations',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
