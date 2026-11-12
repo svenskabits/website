@@ -1244,6 +1244,11 @@ export default defineConfig({
 							slug: 'chapter-20/collocations',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '20.2 Word families',
+							slug: 'chapter-20/word-families',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
