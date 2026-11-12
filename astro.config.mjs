@@ -647,6 +647,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 9: Du borde vila dig – du har ingen energi!',
+					badge: { text: 'A2', class: 'level-a2' },
+					items: [
+						{
+							label: '9.1 Body parts',
+							slug: 'chapter-9/body-parts',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
