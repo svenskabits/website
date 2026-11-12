@@ -1137,6 +1137,11 @@ export default defineConfig({
 							slug: 'chapter-15/narrative-expressions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '15.7 Innan and efter att',
+							slug: 'chapter-15/innan-and-efter-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
