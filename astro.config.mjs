@@ -1178,6 +1178,11 @@ export default defineConfig({
 							slug: 'chapter-16/computers',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.3 The internet',
+							slug: 'chapter-16/the-internet',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
