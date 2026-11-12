@@ -1284,6 +1284,11 @@ export default defineConfig({
 							slug: 'chapter-19/cleft-sentences-det-ar-som',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '19.10 Natural rhythm and intonation',
+							slug: 'chapter-19/natural-rhythm-and-intonation',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
