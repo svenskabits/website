@@ -1000,6 +1000,11 @@ export default defineConfig({
 							slug: 'chapter-13/passive-voice-with-s',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '13.9 Passive voice with bli',
+							slug: 'chapter-13/passive-voice-with-bli',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
