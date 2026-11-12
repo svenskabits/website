@@ -792,6 +792,11 @@ export default defineConfig({
 							slug: 'chapter-10/infinitive-phrases-for-att',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.13 Sentence intonation',
+							slug: 'chapter-10/sentence-intonation',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
