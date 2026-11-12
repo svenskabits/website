@@ -514,6 +514,11 @@ export default defineConfig({
 							slug: 'chapter-7/morning-routine',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.7 Evening routine',
+							slug: 'chapter-7/evening-routine',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
