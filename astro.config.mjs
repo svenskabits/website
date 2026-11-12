@@ -1025,6 +1025,11 @@ export default defineConfig({
 							slug: 'chapter-13/pitch-accent-tonaccent',
 							badge: { text: 'P', variant: 'note' },
 						},
+						{
+							label: '13.14 Accent 1 and accent 2 in practice',
+							slug: 'chapter-13/accent-1-and-accent-2-in-practice',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
