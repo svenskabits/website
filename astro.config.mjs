@@ -944,6 +944,11 @@ export default defineConfig({
 							slug: 'chapter-12/meetings',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.13 Work emails',
+							slug: 'chapter-12/work-emails',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
