@@ -818,6 +818,11 @@ export default defineConfig({
 							slug: 'chapter-11/seasons',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.4 Weather and "det" (det regnar)',
+							slug: 'chapter-11/weather-and-det-det-regnar',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
