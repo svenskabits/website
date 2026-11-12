@@ -1223,6 +1223,11 @@ export default defineConfig({
 							slug: 'chapter-16/participles-as-adjectives',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '16.12 Tag questions (eller hur?, inte sant?)',
+							slug: 'chapter-16/tag-questions-eller-hur-inte-sant',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
