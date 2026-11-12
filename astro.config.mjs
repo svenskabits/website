@@ -1164,6 +1164,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 16: Hon sa att nyheten var chockerande, eller hur?',
+					badge: { text: 'B1', class: 'level-b1' },
+					items: [
+						{
+							label: '16.1 Phones',
+							slug: 'chapter-16/phones',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
