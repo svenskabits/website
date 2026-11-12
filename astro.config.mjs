@@ -489,6 +489,11 @@ export default defineConfig({
 							slug: 'chapter-7/months',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.2 Dates',
+							slug: 'chapter-7/dates',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
