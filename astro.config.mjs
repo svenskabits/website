@@ -868,6 +868,11 @@ export default defineConfig({
 							slug: 'chapter-11/irregular-comparison-bra-battre-bast',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '11.14 NG and NK',
+							slug: 'chapter-11/ng-and-nk',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
