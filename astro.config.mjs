@@ -260,6 +260,11 @@ export default defineConfig({
 							slug: 'chapter-4/gilla-and-tycka-om',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '4.7 Days of the week',
+							slug: 'chapter-4/days-of-the-week',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
