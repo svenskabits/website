@@ -480,6 +480,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 7: Vad gjorde du igår?',
+					badge: { text: 'A2', class: 'level-a2' },
+					items: [
+						{
+							label: '7.1 Months',
+							slug: 'chapter-7/months',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
