@@ -408,6 +408,11 @@ export default defineConfig({
 							slug: 'chapter-6/drinks',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.5 Fika',
+							slug: 'chapter-6/fika',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
