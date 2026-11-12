@@ -1235,6 +1235,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 17: Både de rika och de fattiga har rätt till vård',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '17.1 Swedish traditions',
+							slug: 'chapter-17/swedish-traditions',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
