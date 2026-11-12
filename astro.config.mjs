@@ -1264,6 +1264,11 @@ export default defineConfig({
 							slug: 'chapter-19/common-idioms',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '19.6 Proverbs',
+							slug: 'chapter-19/proverbs',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
