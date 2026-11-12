@@ -11,6 +11,9 @@ export default defineConfig({
 			title: 'Svenska Bits',
 			logo: { src: './src/assets/logo.svg', alt: '' },
 			customCss: ['./src/styles/sidebar-badges.css'],
+			components: {
+				PageTitle: './src/components/SearchResultMetadata.astro',
+			},
 			head: [
 				{
 					tag: 'link',

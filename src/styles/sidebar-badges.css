@@ -125,3 +125,7 @@
 	--sl-color-border-badge: #b91c1c;
 	--sl-color-text-badge: #fff;
 }
+
+#starlight__search .pagefind-ui__result-nested {
+	display: none;
+}

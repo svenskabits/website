@@ -1,0 +1,14 @@
+---
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+
+const { level, type, title } = Astro.locals.starlightRoute.entry.data as {
+	level?: string;
+	type?: string;
+	title: string;
+};
+const prefix = [level, type].filter(Boolean).join(' · ');
+const searchTitle = prefix ? `${prefix} — ${title}` : title;
+---
+
+<Default />
+<span data-pagefind-meta={`title:${searchTitle}`} />
