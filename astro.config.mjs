@@ -1264,6 +1264,11 @@ export default defineConfig({
 							slug: 'chapter-20/false-friends',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '20.6 Linking words',
+							slug: 'chapter-20/linking-words',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
