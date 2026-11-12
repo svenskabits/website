@@ -219,6 +219,11 @@ export default defineConfig({
 							slug: 'chapter-3/answering-with-ja-nej-jo',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '3.12 Soft and hard K and G',
+							slug: 'chapter-3/soft-and-hard-k-and-g',
+							badge: { text: 'P', variant: 'success' },
+						},
 					],
 				},
 			],
