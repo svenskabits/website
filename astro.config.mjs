@@ -1274,6 +1274,11 @@ export default defineConfig({
 							slug: 'chapter-19/slang',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '19.8 Fronting for emphasis',
+							slug: 'chapter-19/fronting-for-emphasis',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
