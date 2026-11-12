@@ -880,6 +880,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 12: Jag letar efter ett jobb som jag trivs med',
+					badge: { text: 'B1', class: 'level-b1' },
+					items: [
+						{
+							label: '12.1 Professions',
+							slug: 'chapter-12/professions',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
