@@ -1103,6 +1103,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 15: Innan jag flyttade hit hade jag aldrig sett snö',
+					badge: { text: 'B1', class: 'level-b1' },
+					items: [
+						{
+							label: '15.1 Life stages',
+							slug: 'chapter-15/life-stages',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
