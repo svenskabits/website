@@ -398,6 +398,11 @@ export default defineConfig({
 							slug: 'chapter-6/vegetables',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.3 Meat and fish',
+							slug: 'chapter-6/meat-and-fish',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
