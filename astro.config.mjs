@@ -9,6 +9,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Svenska Bits',
+			logo: { src: './src/assets/logo.svg', alt: '' },
 			customCss: ['./src/styles/sidebar-badges.css'],
 			head: [
 				{

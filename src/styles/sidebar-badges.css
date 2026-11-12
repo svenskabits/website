@@ -1,3 +1,14 @@
+.site-title img,
+.hero h1 img {
+	border-radius: 3px;
+}
+
+.site-title img {
+	width: 32px;
+	height: 32px;
+	max-width: none;
+}
+
 .sidebar-content a {
 	display: flex;
 	align-items: flex-start;
