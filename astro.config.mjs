@@ -580,6 +580,11 @@ export default defineConfig({
 							slug: 'chapter-8/giving-directions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.6 Direction: till, från, åt',
+							slug: 'chapter-8/direction-till-fran-at',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
