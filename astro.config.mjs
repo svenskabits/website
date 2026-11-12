@@ -65,6 +65,43 @@ export default defineConfig({
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());`,
 				},
+				{
+					tag: 'script',
+					content: `(() => {
+	const formatSearchBadges = (searchRoot) => {
+		searchRoot
+			.querySelectorAll('.pagefind-ui__result-tag[data-pagefind-ui-meta]')
+			.forEach((badge) => {
+				if (badge.dataset.badgeValue) return;
+				const label = badge.dataset.pagefindUiMeta === 'level' ? 'Level' : 'Type';
+				const match = badge.textContent.match(/^(?:Level|Type):\\s*(.+)$/);
+				if (!match) return;
+				const value = match[1].trim();
+				badge.dataset.badgeValue = value;
+				badge.setAttribute('aria-label', label + ': ' + value);
+				badge.textContent = value;
+			});
+	};
+
+	let observedSearchRoot;
+	let searchObserver;
+	let searchRootFinder;
+	const findSearchRoot = () => {
+		const searchRoot = document.querySelector('#starlight__search');
+		if (!searchRoot || searchRoot === observedSearchRoot) return;
+		searchRootFinder?.disconnect();
+		searchObserver?.disconnect();
+		observedSearchRoot = searchRoot;
+		searchObserver = new MutationObserver(() => formatSearchBadges(searchRoot));
+		searchObserver.observe(searchRoot, { childList: true, characterData: true, subtree: true });
+		formatSearchBadges(searchRoot);
+	};
+
+	searchRootFinder = new MutationObserver(findSearchRoot);
+	searchRootFinder.observe(document.documentElement, { childList: true, subtree: true });
+	findSearchRoot();
+})();`,
+				},
 			],
 			sidebar: [
 				{

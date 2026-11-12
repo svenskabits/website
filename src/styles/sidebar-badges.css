@@ -148,7 +148,7 @@
 
 #starlight__search .pagefind-ui__result-title {
 	order: 0;
-	flex: 1 1 20rem;
+	flex: 1 1 0;
 	min-width: 0;
 	margin: 0;
 	padding: 0.5rem 0 !important;

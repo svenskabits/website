@@ -10,33 +10,3 @@ const { level, type } = Astro.locals.starlightRoute.entry.data as {
 <Default />
 {level && <span data-pagefind-meta={`level:${level}`} />}
 {type && <span data-pagefind-meta={`type:${type}`} />}
-
-<script is:inline>
-	(() => {
-		const searchRoot = document.querySelector('#starlight__search');
-		if (!searchRoot || searchRoot.dataset.badgeObserver) return;
-		searchRoot.dataset.badgeObserver = 'true';
-
-		const formatSearchBadges = () => {
-			searchRoot
-				.querySelectorAll('.pagefind-ui__result-tag[data-pagefind-ui-meta]')
-				.forEach((badge) => {
-					if (badge.dataset.badgeValue) return;
-					const label = badge.dataset.pagefindUiMeta === 'level' ? 'Level' : 'Type';
-					const match = badge.textContent.match(/^(?:Level|Type):\s*(.+)$/);
-					if (!match) return;
-					const value = match[1].trim();
-					badge.dataset.badgeValue = value;
-					badge.setAttribute('aria-label', `${label}: ${value}`);
-					badge.textContent = value;
-				});
-		};
-
-		new MutationObserver(formatSearchBadges).observe(searchRoot, {
-			childList: true,
-			characterData: true,
-			subtree: true,
-		});
-		formatSearchBadges();
-	})();
-</script>
