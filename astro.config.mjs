@@ -184,6 +184,11 @@ export default defineConfig({
 							slug: 'chapter-3/everyday-verbs',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '3.5 Kan',
+							slug: 'chapter-3/kan',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
