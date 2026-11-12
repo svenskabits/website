@@ -843,6 +843,11 @@ export default defineConfig({
 							slug: 'chapter-11/perfect-tense-har-supinum',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '11.9 Preteritum vs. perfect',
+							slug: 'chapter-11/preteritum-vs-perfect',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
