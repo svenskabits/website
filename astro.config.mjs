@@ -1020,6 +1020,11 @@ export default defineConfig({
 							slug: 'chapter-13/recycling-and-everyday-rules',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.13 Pitch accent (tonaccent)',
+							slug: 'chapter-13/pitch-accent-tonaccent',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
