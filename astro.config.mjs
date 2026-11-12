@@ -423,6 +423,11 @@ export default defineConfig({
 							slug: 'chapter-6/definite-plural',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.8 Quantifiers: många, mycket, lite',
+							slug: 'chapter-6/quantifiers-manga-mycket-lite',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
