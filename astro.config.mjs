@@ -873,6 +873,11 @@ export default defineConfig({
 							slug: 'chapter-11/ng-and-nk',
 							badge: { text: 'P', variant: 'note' },
 						},
+						{
+							label: '11.15 Silent letters (hj, lj, gj, dj)',
+							slug: 'chapter-11/silent-letters-hj-lj-gj-dj',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
