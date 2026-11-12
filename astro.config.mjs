@@ -1132,6 +1132,11 @@ export default defineConfig({
 							slug: 'chapter-15/brukar-and-brukade',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '15.6 Narrative expressions',
+							slug: 'chapter-15/narrative-expressions',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
