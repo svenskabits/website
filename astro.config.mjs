@@ -575,6 +575,11 @@ export default defineConfig({
 							slug: 'chapter-8/imperative',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.5 Giving directions',
+							slug: 'chapter-8/giving-directions',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
