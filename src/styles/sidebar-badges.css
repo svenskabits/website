@@ -46,6 +46,11 @@
 	gap: 0.4rem;
 }
 
+.sidebar-content summary > .caret {
+	align-self: flex-start;
+	margin-top: 2px;
+}
+
 .sidebar-content summary .group-label > span:first-child {
 	flex: 1;
 	min-width: 0;
