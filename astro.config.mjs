@@ -160,6 +160,229 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 3: Kan du prata svenska?',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '3.1 Classroom phrases',
+							slug: 'chapter-3/classroom-phrases',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '3.2 Survival phrases (Jag förstår inte, Kan du upprepa?)',
+							slug: 'chapter-3/survival-phrases-jag-forstar-inte-kan-du-upprepa',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '3.3 Learning Swedish',
+							slug: 'chapter-3/learning-swedish',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '3.4 Everyday verbs',
+							slug: 'chapter-3/everyday-verbs',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '3.5 Kan',
+							slug: 'chapter-3/kan',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.6 Vill',
+							slug: 'chapter-3/vill',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.7 Måste',
+							slug: 'chapter-3/maste',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.8 Modal verbs and the infinitive without "att"',
+							slug: 'chapter-3/modal-verbs-and-the-infinitive-without-att',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.9 Negation with inte',
+							slug: 'chapter-3/negation-with-inte',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.10 Yes/No questions',
+							slug: 'chapter-3/yes-no-questions',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.11 Answering with ja, nej, jo',
+							slug: 'chapter-3/answering-with-ja-nej-jo',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '3.12 Soft and hard K and G',
+							slug: 'chapter-3/soft-and-hard-k-and-g',
+							badge: { text: 'P', variant: 'success' },
+						},
+					],
+				},
+				{
+					label: 'Chapter 4: Vad gör du på fritiden?',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '4.1 Sports',
+							slug: 'chapter-4/sports',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.2 Music',
+							slug: 'chapter-4/music',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.3 Movies and TV',
+							slug: 'chapter-4/movies-and-tv',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.4 Outdoor activities',
+							slug: 'chapter-4/outdoor-activities',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.5 Göra',
+							slug: 'chapter-4/gora',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '4.6 Gilla and tycka om',
+							slug: 'chapter-4/gilla-and-tycka-om',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '4.7 Days of the week',
+							slug: 'chapter-4/days-of-the-week',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.8 The clock',
+							slug: 'chapter-4/the-clock',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.9 När',
+							slug: 'chapter-4/nar',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '4.10 Frequency expressions',
+							slug: 'chapter-4/frequency-expressions',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '4.11 Frequency adverbs',
+							slug: 'chapter-4/frequency-adverbs',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '4.12 Inversion (V2 rule)',
+							slug: 'chapter-4/inversion-v2-rule',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '4.13 Word stress',
+							slug: 'chapter-4/word-stress',
+							badge: { text: 'P', variant: 'success' },
+						},
+						{
+							label: '4.14 The R sound',
+							slug: 'chapter-4/the-r-sound',
+							badge: { text: 'P', variant: 'success' },
+						},
+					],
+				},
+				{
+					label: 'Chapter 5: Min familj är stor, men mitt hem är litet',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '5.1 Immediate family',
+							slug: 'chapter-5/immediate-family',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '5.2 Extended family',
+							slug: 'chapter-5/extended-family',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '5.3 Ha (to have)',
+							slug: 'chapter-5/ha-to-have',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.4 Possessives: min, mitt, mina',
+							slug: 'chapter-5/possessives-min-mitt-mina',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.5 Vems',
+							slug: 'chapter-5/vems',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.6 The genitive -s',
+							slug: 'chapter-5/the-genitive-s',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.7 Describing people',
+							slug: 'chapter-5/describing-people',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '5.8 Adjective agreement',
+							slug: 'chapter-5/adjective-agreement',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.9 Colors',
+							slug: 'chapter-5/colors',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '5.10 Rooms',
+							slug: 'chapter-5/rooms',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '5.11 Furniture',
+							slug: 'chapter-5/furniture',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '5.12 Plural: -or, -ar, -er, -n and no ending',
+							slug: 'chapter-5/plural-or-ar-er-n-and-no-ending',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.13 Irregular plurals',
+							slug: 'chapter-5/irregular-plurals',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.14 Det finns',
+							slug: 'chapter-5/det-finns',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '5.15 Vowel sounds Y and U',
+							slug: 'chapter-5/vowel-sounds-y-and-u',
+							badge: { text: 'P', variant: 'success' },
+						},
+					],
+				},
 			],
 		}),
 	],
