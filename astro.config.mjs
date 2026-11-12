@@ -1249,6 +1249,11 @@ export default defineConfig({
 							slug: 'chapter-20/word-families',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '20.3 Prefixes and suffixes',
+							slug: 'chapter-20/prefixes-and-suffixes',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
