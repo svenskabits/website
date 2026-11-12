@@ -361,6 +361,11 @@ export default defineConfig({
 							slug: 'chapter-5/furniture',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '5.12 Plural: -or, -ar, -er, -n and no ending',
+							slug: 'chapter-5/plural-or-ar-er-n-and-no-ending',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
