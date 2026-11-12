@@ -346,6 +346,11 @@ export default defineConfig({
 							slug: 'chapter-5/adjective-agreement',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.9 Colors',
+							slug: 'chapter-5/colors',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
