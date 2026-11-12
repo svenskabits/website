@@ -1152,6 +1152,11 @@ export default defineConfig({
 							slug: 'chapter-15/pseudo-coordination-sitter-och-laser',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '15.10 Swedish history basics',
+							slug: 'chapter-15/swedish-history-basics',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
