@@ -23,7 +23,7 @@ Example request: *Create a vocabulary page for "Fruit", level A1.*
 - Produce **one Markdown document** and nothing else: no introduction, no explanation, no comments about your work.
 - Name the file after the page title in lowercase kebab-case, ASCII only, for example `introducing-yourself.mdx` or `days-of-the-week.mdx`. If the project handoff gives you an exact target path, use it.
 - If you can write files, save the file. If you can't, output the complete file content only.
-- The document must have the front matter from section 4. Its body must contain only the **Key words** section and its vocabulary tables (with optional topic subheadings).
+- The document must have the front matter from section 4, followed by its vocabulary table or tables. Do not add a generic "Key words" heading.
 - Do **not** copy the HTML template comment from the sample into your page.
 
 ---
@@ -47,7 +47,7 @@ Example request: *Create a vocabulary page for "Fruit", level A1.*
 
 ## 4. Page structure
 
-The page has front matter followed directly by the **Key words** section. Do not add a page title or Swedish title in the body: the site displays the page title from front matter already.
+The page has front matter followed directly by its vocabulary table or tables. Do not add a page title or Swedish title in the body: the site displays the page title from front matter already. Do not add a generic "Key words" heading.
 
 ### Front matter
 
@@ -70,9 +70,9 @@ tags: [tag1, tag2, tag3]
 - `tags`: 2 to 4 lowercase English keywords.
 - Do **not** add page numbers, chapter names, "prerequisites", "next" or any other link to other pages.
 
-### Key words
+### Vocabulary tables
 
-Start the body with `## Key words`. Add one or more tables with these four columns:
+Each table has these four columns:
 
 **Swedish | English | Example (Swedish) | Example (English)**
 
@@ -84,7 +84,7 @@ Start the body with `## Key words`. Add one or more tables with these four colum
 - Give every Swedish example a natural, accurate English translation in the matching row. The two examples must have the same meaning.
 - Each example is **one short, natural sentence** at the page's level. Put the target word in **bold** in the Swedish example. The sentence must show what the word means. Avoid examples that only repeat the word.
 - Only include words a learner at this level would actually use.
-- If the topic naturally contains distinct groups, split the vocabulary into multiple tables under descriptive `###` subheadings (for example, `### Weekdays` and `### Seasons`). Keep them all inside the single `## Key words` section. Do not create a separate section for every arbitrary handful of words; use a single table when the vocabulary forms one coherent group.
+- Sort the vocabulary into meaningful semantic categories. If the page has only one table, do not add a heading for it. If it has more than one table, give each table its own descriptive `##` heading (for example, `## Greetings` and `## Goodbyes`). Do not add a parent heading such as "Key words". Do not mix categories in one table; for example, language names and basic verbs belong in separate tables. A category can include related vocabulary (such as all the days of the week) in one table. Do not split one coherent category into arbitrary smaller groups.
 
 ---
 
@@ -100,7 +100,7 @@ Start the body with `## Key words`. Add one or more tables with these four colum
 ## 6. Checklist (verify before you finish)
 
 - [ ] One file, correctly named, with valid front matter and no extra commentary.
-- [ ] The body contains only `## Key words`, optional topic subheadings, and vocabulary tables; no repeated title or Swedish subtitle.
+- [ ] The body contains only vocabulary tables and, when there is more than one table, a descriptive heading for each table; no generic "Key words" heading, repeated title, or Swedish subtitle.
 - [ ] Every table has Swedish and English vocabulary plus Swedish and English examples.
 - [ ] Every example translation accurately matches its Swedish example.
 - [ ] No key phrases, goal, tips, common mistakes, recap, dialogue, exercise, audio, image or link.
@@ -126,8 +126,6 @@ level: A1
 estimated_minutes: 3
 tags: [food, fruit, shopping]
 ---
-
-## Key words
 
 | Swedish | English | Example (Swedish) | Example (English) |
 |---|---|---|---|
