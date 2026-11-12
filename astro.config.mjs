@@ -615,6 +615,11 @@ export default defineConfig({
 							slug: 'chapter-8/signs-and-notices',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.13 Public transport',
+							slug: 'chapter-8/public-transport',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
