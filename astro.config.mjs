@@ -965,6 +965,11 @@ export default defineConfig({
 							slug: 'chapter-13/personnummer-and-bankid',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.2 Authorities (Skatteverket, Migrationsverket)',
+							slug: 'chapter-13/authorities-skatteverket-migrationsverket',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
