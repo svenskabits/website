@@ -625,6 +625,11 @@ export default defineConfig({
 							slug: 'chapter-8/tickets',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.15 Train',
+							slug: 'chapter-8/train',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
