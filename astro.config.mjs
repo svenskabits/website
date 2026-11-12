@@ -413,6 +413,11 @@ export default defineConfig({
 							slug: 'chapter-6/fika',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.6 Definite singular (-en, -et, -n, -t)',
+							slug: 'chapter-6/definite-singular-en-et-n-t',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
