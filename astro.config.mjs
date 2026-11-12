@@ -813,6 +813,11 @@ export default defineConfig({
 							slug: 'chapter-11/temperature',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.3 Seasons',
+							slug: 'chapter-11/seasons',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
