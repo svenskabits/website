@@ -671,6 +671,11 @@ export default defineConfig({
 							slug: 'chapter-9/reflexive-pronouns-mig-dig-sig',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.5 Reflexive verbs',
+							slug: 'chapter-9/reflexive-verbs',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
