@@ -12,6 +12,43 @@ export default defineConfig({
 			customCss: ['./src/styles/sidebar-badges.css'],
 			head: [
 				{
+					tag: 'link',
+					attrs: {
+						rel: 'icon',
+						type: 'image/png',
+						href: '/favicon/favicon-96x96.png',
+						sizes: '96x96',
+					},
+				},
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'icon',
+						type: 'image/svg+xml',
+						href: '/favicon/favicon.svg',
+					},
+				},
+				{
+					tag: 'link',
+					attrs: { rel: 'shortcut icon', href: '/favicon/favicon.ico' },
+				},
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'apple-touch-icon',
+						sizes: '180x180',
+						href: '/favicon/apple-touch-icon.png',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: { name: 'apple-mobile-web-app-title', content: 'Svenska Bits' },
+				},
+				{
+					tag: 'link',
+					attrs: { rel: 'manifest', href: '/favicon/site.webmanifest' },
+				},
+				{
 					tag: 'script',
 					attrs: {
 						async: true,
