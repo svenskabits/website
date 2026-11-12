@@ -565,6 +565,11 @@ export default defineConfig({
 							slug: 'chapter-8/ordinal-numbers',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.3 Asking for directions',
+							slug: 'chapter-8/asking-for-directions',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
