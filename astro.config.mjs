@@ -1117,6 +1117,11 @@ export default defineConfig({
 							slug: 'chapter-15/childhood-and-memories',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '15.3 Pluperfect (hade + supinum)',
+							slug: 'chapter-15/pluperfect-hade-supinum',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
