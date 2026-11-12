@@ -696,6 +696,11 @@ export default defineConfig({
 							slug: 'chapter-9/far',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.10 At the pharmacy',
+							slug: 'chapter-9/at-the-pharmacy',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
