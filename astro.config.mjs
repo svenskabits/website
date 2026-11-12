@@ -691,6 +691,11 @@ export default defineConfig({
 							slug: 'chapter-9/bor-and-borde',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.9 Får',
+							slug: 'chapter-9/far',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
