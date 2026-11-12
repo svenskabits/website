@@ -376,6 +376,11 @@ export default defineConfig({
 							slug: 'chapter-5/det-finns',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.15 Vowel sounds Y and U',
+							slug: 'chapter-5/vowel-sounds-y-and-u',
+							badge: { text: 'P', variant: 'success' },
+						},
 					],
 				},
 			],
