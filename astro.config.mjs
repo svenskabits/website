@@ -777,6 +777,11 @@ export default defineConfig({
 							slug: 'chapter-10/om-if-whether',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.10 Parties',
+							slug: 'chapter-10/parties',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
