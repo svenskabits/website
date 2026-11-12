@@ -956,6 +956,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 13: Vet du hur ett BankID beställs?',
+					badge: { text: 'B1', class: 'level-b1' },
+					items: [
+						{
+							label: '13.1 Personnummer and BankID',
+							slug: 'chapter-13/personnummer-and-bankid',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
