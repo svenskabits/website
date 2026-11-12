@@ -1046,6 +1046,11 @@ export default defineConfig({
 							slug: 'chapter-14/giving-opinions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '14.3 Tycka, tro, tänka',
+							slug: 'chapter-14/tycka-tro-tanka',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
