@@ -1032,6 +1032,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 14: Vad skulle du göra om du hade mer tid?',
+					badge: { text: 'B1', class: 'level-b1' },
+					items: [
+						{
+							label: '14.1 Basic emotions',
+							slug: 'chapter-14/basic-emotions',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
