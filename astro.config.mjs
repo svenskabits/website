@@ -529,6 +529,11 @@ export default defineConfig({
 							slug: 'chapter-7/past-tense-preteritum',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '7.10 Strong and irregular verbs',
+							slug: 'chapter-7/strong-and-irregular-verbs',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
