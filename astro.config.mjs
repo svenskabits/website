@@ -1015,6 +1015,11 @@ export default defineConfig({
 							slug: 'chapter-13/indirect-questions',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '13.12 Recycling and everyday rules',
+							slug: 'chapter-13/recycling-and-everyday-rules',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
