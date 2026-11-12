@@ -494,6 +494,11 @@ export default defineConfig({
 							slug: 'chapter-7/dates',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.3 Parts of the day',
+							slug: 'chapter-7/parts-of-the-day',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
