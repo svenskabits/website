@@ -12,6 +12,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 1: Hej allihopa!',
 					badge: { text: 'A1', class: 'level-a1' },
+					collapsed: true,
 					items: [
 						{
 							label: '1.1 Greetings and goodbyes',
@@ -73,6 +74,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 2: Var bor du?',
 					badge: { text: 'A1', class: 'level-a1' },
+					collapsed: true,
 					items: [
 						{
 							label: '2.1 Numbers 0–20',
@@ -164,6 +166,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 3: Kan du prata svenska?',
 					badge: { text: 'A1', class: 'level-a1' },
+					collapsed: true,
 					items: [
 						{
 							label: '3.1 Classroom phrases',
@@ -230,6 +233,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 4: Vad gör du på fritiden?',
 					badge: { text: 'A1', class: 'level-a1' },
+					collapsed: true,
 					items: [
 						{
 							label: '4.1 Sports',
@@ -306,6 +310,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 5: Min familj är stor, men mitt hem är litet',
 					badge: { text: 'A1', class: 'level-a1' },
+					collapsed: true,
 					items: [
 						{
 							label: '5.1 Immediate family',
@@ -387,6 +392,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 6: Hur mycket kostar den här kanelbullen?',
 					badge: { text: 'A1', class: 'level-a1' },
+					collapsed: true,
 					items: [
 						{
 							label: '6.1 Fruit',
@@ -483,6 +489,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 7: Vad gjorde du igår?',
 					badge: { text: 'A2', class: 'level-a2' },
+					collapsed: true,
 					items: [
 						{
 							label: '7.1 Months',
@@ -554,6 +561,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 8: Hur kommer jag dit? Gå rakt fram!',
 					badge: { text: 'A2', class: 'level-a2' },
+					collapsed: true,
 					items: [
 						{
 							label: '8.1 Places and buildings',
@@ -650,6 +658,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 9: Du borde vila dig – du har ingen energi!',
 					badge: { text: 'A2', class: 'level-a2' },
+					collapsed: true,
 					items: [
 						{
 							label: '9.1 Body parts',
@@ -731,6 +740,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 10: Vad ska du göra i helgen?',
 					badge: { text: 'A2', class: 'level-a2' },
+					collapsed: true,
 					items: [
 						{
 							label: '10.1 Making plans',
@@ -802,6 +812,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 11: Det har varit varmare i år än förra året!',
 					badge: { text: 'A2', class: 'level-a2' },
+					collapsed: true,
 					items: [
 						{
 							label: '11.1 Weather',
@@ -883,6 +894,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 12: Jag letar efter ett jobb som jag trivs med',
 					badge: { text: 'B1', class: 'level-b1' },
+					collapsed: true,
 					items: [
 						{
 							label: '12.1 Professions',
@@ -959,6 +971,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 13: Vet du hur ett BankID beställs?',
 					badge: { text: 'B1', class: 'level-b1' },
+					collapsed: true,
 					items: [
 						{
 							label: '13.1 Personnummer and BankID',
@@ -1035,6 +1048,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 14: Vad skulle du göra om du hade mer tid?',
 					badge: { text: 'B1', class: 'level-b1' },
+					collapsed: true,
 					items: [
 						{
 							label: '14.1 Basic emotions',
@@ -1106,6 +1120,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 15: Innan jag flyttade hit hade jag aldrig sett snö',
 					badge: { text: 'B1', class: 'level-b1' },
+					collapsed: true,
 					items: [
 						{
 							label: '15.1 Life stages',
@@ -1167,6 +1182,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 16: Hon sa att nyheten var chockerande, eller hur?',
 					badge: { text: 'B1', class: 'level-b1' },
+					collapsed: true,
 					items: [
 						{
 							label: '16.1 Phones',
@@ -1238,6 +1254,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 17: Både de rika och de fattiga har rätt till vård',
 					badge: { text: 'B2', class: 'level-b2' },
+					collapsed: true,
 					items: [
 						{
 							label: '17.1 Swedish traditions',
@@ -1309,6 +1326,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 18: Skogen måste skyddas så att djuren kan överleva',
 					badge: { text: 'B2', class: 'level-b2' },
+					collapsed: true,
 					items: [
 						{
 							label: '18.1 Landscape',
@@ -1375,6 +1393,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 19: Det är ju fikan som är bäst, faktiskt!',
 					badge: { text: 'B2', class: 'level-b2' },
+					collapsed: true,
 					items: [
 						{
 							label: '19.1 Spoken Swedish vs. written Swedish',
@@ -1431,6 +1450,7 @@ export default defineConfig({
 				{
 					label: 'Chapter 20: Jag håller på att bli flytande i svenska!',
 					badge: { text: 'B2', class: 'level-b2' },
+					collapsed: true,
 					items: [
 						{
 							label: '20.1 Collocations',
