@@ -524,6 +524,11 @@ export default defineConfig({
 							slug: 'chapter-7/verbs-of-daily-activities',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.9 Past tense (preteritum)',
+							slug: 'chapter-7/past-tense-preteritum',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
