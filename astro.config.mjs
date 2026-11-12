@@ -808,6 +808,11 @@ export default defineConfig({
 							slug: 'chapter-11/weather',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.2 Temperature',
+							slug: 'chapter-11/temperature',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
