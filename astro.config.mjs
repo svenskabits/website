@@ -949,6 +949,11 @@ export default defineConfig({
 							slug: 'chapter-12/work-emails',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.14 Sentence stress and rhythm',
+							slug: 'chapter-12/sentence-stress-and-rhythm',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
