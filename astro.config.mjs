@@ -1235,6 +1235,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 19: Det är ju fikan som är bäst, faktiskt!',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '19.1 Spoken Swedish vs. written Swedish',
+							slug: 'chapter-19/spoken-swedish-vs-written-swedish',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
