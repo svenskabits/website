@@ -1122,6 +1122,11 @@ export default defineConfig({
 							slug: 'chapter-15/pluperfect-hade-supinum',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '15.4 Word order with perfect tense',
+							slug: 'chapter-15/word-order-with-perfect-tense',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
