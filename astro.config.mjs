@@ -1289,6 +1289,11 @@ export default defineConfig({
 							slug: 'chapter-18/passive-voice-advanced-uses',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '18.11 Minimal pairs: vowels',
+							slug: 'chapter-18/minimal-pairs-vowels',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
