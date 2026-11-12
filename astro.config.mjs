@@ -519,6 +519,11 @@ export default defineConfig({
 							slug: 'chapter-7/evening-routine',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '7.8 Verbs of daily activities',
+							slug: 'chapter-7/verbs-of-daily-activities',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
