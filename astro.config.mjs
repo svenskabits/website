@@ -767,6 +767,11 @@ export default defineConfig({
 							slug: 'chapter-10/small-talk',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '10.8 Att-clauses',
+							slug: 'chapter-10/att-clauses',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
