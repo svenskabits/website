@@ -1244,6 +1244,11 @@ export default defineConfig({
 							slug: 'chapter-17/swedish-traditions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.2 Geography of Sweden',
+							slug: 'chapter-17/geography-of-sweden',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
