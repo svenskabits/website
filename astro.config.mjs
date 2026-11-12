@@ -848,6 +848,11 @@ export default defineConfig({
 							slug: 'chapter-11/preteritum-vs-perfect',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '11.10 Sightseeing',
+							slug: 'chapter-11/sightseeing',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
