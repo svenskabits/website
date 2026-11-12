@@ -939,6 +939,11 @@ export default defineConfig({
 							slug: 'chapter-12/contracts-and-salary',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.12 Meetings',
+							slug: 'chapter-12/meetings',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
