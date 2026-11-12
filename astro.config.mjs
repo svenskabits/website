@@ -1236,6 +1236,72 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Chapter 18: Skogen måste skyddas så att djuren kan överleva',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '18.1 Landscape',
+							slug: 'chapter-18/landscape',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '18.2 Animals',
+							slug: 'chapter-18/animals',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '18.3 Plants and trees',
+							slug: 'chapter-18/plants-and-trees',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '18.4 Environment',
+							slug: 'chapter-18/environment',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '18.5 Climate and sustainability',
+							slug: 'chapter-18/climate-and-sustainability',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '18.6 Intensifiers',
+							slug: 'chapter-18/intensifiers',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '18.7 Cause and consequence',
+							slug: 'chapter-18/cause-and-consequence',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '18.8 Så att',
+							slug: 'chapter-18/sa-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '18.9 Utan att and istället för att',
+							slug: 'chapter-18/utan-att-and-istallet-for-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '18.10 Passive voice: advanced uses',
+							slug: 'chapter-18/passive-voice-advanced-uses',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '18.11 Minimal pairs: vowels',
+							slug: 'chapter-18/minimal-pairs-vowels',
+							badge: { text: 'P', variant: 'note' },
+						},
+						{
+							label: '18.12 Minimal pairs: consonants',
+							slug: 'chapter-18/minimal-pairs-consonants',
+							badge: { text: 'P', variant: 'note' },
+						},
+					],
+				},
+				{
 					label: 'Chapter 20: Jag håller på att bli flytande i svenska!',
 					badge: { text: 'B2', class: 'level-b2' },
 					items: [
