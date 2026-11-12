@@ -255,6 +255,11 @@ export default defineConfig({
 							slug: 'chapter-4/gora',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '4.6 Gilla and tycka om',
+							slug: 'chapter-4/gilla-and-tycka-om',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
