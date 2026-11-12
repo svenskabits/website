@@ -458,6 +458,11 @@ export default defineConfig({
 							slug: 'chapter-6/demonstratives-den-har-den-dar',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.15 Vilken, vilket, vilka',
+							slug: 'chapter-6/vilken-vilket-vilka',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
