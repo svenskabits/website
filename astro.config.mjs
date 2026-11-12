@@ -1279,6 +1279,11 @@ export default defineConfig({
 							slug: 'chapter-17/relative-pronoun-vars',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '17.9 Både… och / antingen… eller',
+							slug: 'chapter-17/bade-och-antingen-eller',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
