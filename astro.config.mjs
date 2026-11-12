@@ -970,6 +970,11 @@ export default defineConfig({
 							slug: 'chapter-13/authorities-skatteverket-migrationsverket',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.3 Banking',
+							slug: 'chapter-13/banking',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
