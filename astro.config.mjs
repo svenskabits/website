@@ -174,6 +174,11 @@ export default defineConfig({
 							slug: 'chapter-3/survival-phrases-jag-forstar-inte-kan-du-upprepa',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '3.3 Learning Swedish',
+							slug: 'chapter-3/learning-swedish',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
