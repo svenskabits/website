@@ -630,6 +630,11 @@ export default defineConfig({
 							slug: 'chapter-8/train',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.16 Bus and metro',
+							slug: 'chapter-8/bus-and-metro',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
