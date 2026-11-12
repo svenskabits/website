@@ -889,6 +889,11 @@ export default defineConfig({
 							slug: 'chapter-12/professions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.2 Workplace',
+							slug: 'chapter-12/workplace',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
