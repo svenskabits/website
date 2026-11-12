@@ -706,6 +706,11 @@ export default defineConfig({
 							slug: 'chapter-9/healthy-habits',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '9.12 Någon, något, några',
+							slug: 'chapter-9/nagon-nagot-nagra',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
