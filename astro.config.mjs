@@ -463,6 +463,11 @@ export default defineConfig({
 							slug: 'chapter-6/vilken-vilket-vilka',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.16 Polite requests: skulle vilja',
+							slug: 'chapter-6/polite-requests-skulle-vilja',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
