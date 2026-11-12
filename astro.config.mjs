@@ -721,6 +721,11 @@ export default defineConfig({
 							slug: 'chapter-9/varfor',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.15 Retroflex sounds (rt, rd, rl, rn, rs)',
+							slug: 'chapter-9/retroflex-sounds-rt-rd-rl-rn-rs',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
