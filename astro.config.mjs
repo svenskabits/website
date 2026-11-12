@@ -924,6 +924,11 @@ export default defineConfig({
 							slug: 'chapter-12/main-clause-vs-subordinate-clause',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '12.9 Subordinate clause with "inte"',
+							slug: 'chapter-12/subordinate-clause-with-inte',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
