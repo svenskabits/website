@@ -904,6 +904,11 @@ export default defineConfig({
 							slug: 'chapter-12/double-definiteness-den-stora-bilen',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '12.5 Job search',
+							slug: 'chapter-12/job-search',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
