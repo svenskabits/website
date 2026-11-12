@@ -1213,6 +1213,11 @@ export default defineConfig({
 							slug: 'chapter-16/present-participles',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '16.10 Past participles',
+							slug: 'chapter-16/past-participles',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
