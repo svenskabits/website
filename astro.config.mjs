@@ -1244,6 +1244,11 @@ export default defineConfig({
 							slug: 'chapter-18/landscape',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '18.2 Animals',
+							slug: 'chapter-18/animals',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
