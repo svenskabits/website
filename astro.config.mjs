@@ -226,6 +226,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 4: Vad gör du på fritiden?',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '4.1 Sports',
+							slug: 'chapter-4/sports',
+							badge: { text: 'V', variant: 'success' },
+						},
+					],
+				},
 			],
 		}),
 	],
