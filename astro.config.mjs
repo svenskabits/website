@@ -443,6 +443,11 @@ export default defineConfig({
 							slug: 'chapter-6/clothes',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.12 Sizes',
+							slug: 'chapter-6/sizes',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
