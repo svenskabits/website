@@ -1061,6 +1061,11 @@ export default defineConfig({
 							slug: 'chapter-14/comparisons-lika-som-mer-an',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '14.6 Eftersom, för att, därför att',
+							slug: 'chapter-14/eftersom-for-att-darfor-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
