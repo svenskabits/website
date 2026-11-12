@@ -661,6 +661,11 @@ export default defineConfig({
 							slug: 'chapter-9/the-face',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '9.3 Symptoms and illnesses',
+							slug: 'chapter-9/symptoms-and-illnesses',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
