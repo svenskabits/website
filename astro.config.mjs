@@ -595,6 +595,11 @@ export default defineConfig({
 							slug: 'chapter-8/hit-and-dit',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.9 At home and away: hemma, hem, borta, bort',
+							slug: 'chapter-8/hemma-hemma-borta-bort',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
