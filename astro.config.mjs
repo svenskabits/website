@@ -716,6 +716,11 @@ export default defineConfig({
 							slug: 'chapter-9/ingen-inget-inga',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.14 Varför',
+							slug: 'chapter-9/varfor',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
