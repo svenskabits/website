@@ -995,6 +995,11 @@ export default defineConfig({
 							slug: 'chapter-13/healthcare-vardcentral-and-1177',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.8 Passive voice with -s',
+							slug: 'chapter-13/passive-voice-with-s',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
