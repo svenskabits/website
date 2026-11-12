@@ -1294,6 +1294,11 @@ export default defineConfig({
 							slug: 'chapter-20/review-clauses-and-conjunctions',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '20.12 Tongue twisters',
+							slug: 'chapter-20/tongue-twisters',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
