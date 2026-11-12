@@ -189,6 +189,11 @@ export default defineConfig({
 							slug: 'chapter-3/kan',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '3.6 Vill',
+							slug: 'chapter-3/vill',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
