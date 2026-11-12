@@ -270,6 +270,11 @@ export default defineConfig({
 							slug: 'chapter-4/the-clock',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.9 När',
+							slug: 'chapter-4/nar',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
