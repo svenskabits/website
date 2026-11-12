@@ -17,6 +17,11 @@ export default defineConfig({
 							slug: 'chapter-1/greetings-and-goodbyes',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: 'Polite phrases',
+							slug: 'chapter-1/polite-phrases',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
