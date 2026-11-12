@@ -41,15 +41,15 @@ Use the page title and level above as the prompt input. Create the page at the t
 
 Confirm the target filename from existing project naming conventions when needed. The page-writing prompt governs the `.mdx` content; the sidebar entry is also required project wiring, not unrelated navigation work.
 
-## Review, confirmation, and commit
+## Review, commit, and continuation
 
 For each subagent result:
 
 1. Review its changes and verify that only the intended page file and sidebar configuration were added or changed. Check that the page follows its matching prompt, has the correct frontmatter `title`, `type`, and `level`, is saved at the expected path, and is listed under the correct chapter in the sidebar with the right label, slug, type badge, and order.
 2. If the page or sidebar entry is incomplete or the wrong file was changed, ask the subagent to correct it. Do not fix lesson content yourself.
 3. Run the project's relevant validation when practical, without changing unrelated files. Report any validation that could not be run.
-4. Show the user the completed page/path and a concise review summary, then wait for the user's confirmation. Do not commit before confirmation.
-5. After confirmation, commit only the intended page file and sidebar configuration file. Check `git status` first and stage the exact affected paths so pre-existing or unrelated user changes are never included. If an existing page only needed sidebar registration, commit only the sidebar configuration file. Use a clear per-page commit message, such as `Add page: Greetings and goodbyes`.
-6. Verify the commit succeeded. Then continue with the next requested missing page, using the same handoff and approval process. If the user does not confirm, do not proceed to another page or commit.
+4. Do not pause for user approval between pages. Continue with the next requested incomplete page until the entire requested scope is complete.
+5. Each subagent must commit its own page and sidebar changes after implementation. Before committing, inspect `git status` and stage only its intended page file and its own sidebar change so pre-existing or unrelated work is never included. If an existing page only needed sidebar registration, commit only the sidebar configuration file. Use a clear page-specific message, such as `Add page: Greetings and goodbyes`.
+6. The coordinator reviews the resulting changes and verifies the commit succeeded before starting the next page. Report completed pages and concise review results as useful, but do not wait for user approval between pages.
 
 Never reset, discard, or overwrite unrelated work. Do not create a tracker or change the course structure unless explicitly asked.
