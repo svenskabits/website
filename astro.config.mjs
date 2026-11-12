@@ -194,6 +194,11 @@ export default defineConfig({
 							slug: 'chapter-3/vill',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '3.7 Måste',
+							slug: 'chapter-3/maste',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
