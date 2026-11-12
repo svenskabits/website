@@ -975,6 +975,11 @@ export default defineConfig({
 							slug: 'chapter-13/banking',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.4 Insurance',
+							slug: 'chapter-13/insurance',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
