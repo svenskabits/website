@@ -757,6 +757,11 @@ export default defineConfig({
 							slug: 'chapter-10/och-men-eller',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.6 Så and för',
+							slug: 'chapter-10/sa-and-for',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
