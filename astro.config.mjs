@@ -179,6 +179,11 @@ export default defineConfig({
 							slug: 'chapter-3/learning-swedish',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '3.4 Everyday verbs',
+							slug: 'chapter-3/everyday-verbs',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
