@@ -1188,6 +1188,11 @@ export default defineConfig({
 							slug: 'chapter-16/social-media',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.5 Apps',
+							slug: 'chapter-16/apps',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
