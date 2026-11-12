@@ -782,6 +782,11 @@ export default defineConfig({
 							slug: 'chapter-10/parties',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '10.11 Swedish holidays',
+							slug: 'chapter-10/swedish-holidays',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
