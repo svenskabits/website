@@ -1,0 +1,56 @@
+.sidebar-content a {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.4rem;
+}
+
+.sidebar-content a > span {
+	flex: 1;
+	min-width: 0;
+}
+
+.sidebar-content a > .sl-badge {
+	order: -1;
+	flex: none;
+}
+
+.sidebar-content summary .group-label {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.4rem;
+}
+
+.sidebar-content summary .group-label > span:first-child {
+	flex: 1;
+	min-width: 0;
+}
+
+.sidebar-content summary .group-label > .sl-badge {
+	order: -1;
+	flex: none;
+}
+
+/* Level badges: A1 (blue), A2 (orange), B1 (purple), B2 (red). */
+.sidebar-content .level-a1 {
+	--sl-color-bg-badge: #2563eb;
+	--sl-color-border-badge: #2563eb;
+	--sl-color-text-badge: #fff;
+}
+
+.sidebar-content .level-a2 {
+	--sl-color-bg-badge: #c2410c;
+	--sl-color-border-badge: #c2410c;
+	--sl-color-text-badge: #fff;
+}
+
+.sidebar-content .level-b1 {
+	--sl-color-bg-badge: #7e22ce;
+	--sl-color-border-badge: #7e22ce;
+	--sl-color-text-badge: #fff;
+}
+
+.sidebar-content .level-b2 {
+	--sl-color-bg-badge: #b91c1c;
+	--sl-color-border-badge: #b91c1c;
+	--sl-color-text-badge: #fff;
+}
