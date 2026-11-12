@@ -728,6 +728,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 10: Vad ska du göra i helgen?',
+					badge: { text: 'A2', class: 'level-a2' },
+					items: [
+						{
+							label: '10.1 Making plans',
+							slug: 'chapter-10/making-plans',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
