@@ -899,6 +899,11 @@ export default defineConfig({
 							slug: 'chapter-12/colleagues',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.4 Double definiteness (den stora bilen)',
+							slug: 'chapter-12/double-definiteness-den-stora-bilen',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
