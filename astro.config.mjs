@@ -418,6 +418,11 @@ export default defineConfig({
 							slug: 'chapter-6/definite-singular-en-et-n-t',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.7 Definite plural',
+							slug: 'chapter-6/definite-plural',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
