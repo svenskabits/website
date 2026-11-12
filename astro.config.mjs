@@ -468,6 +468,11 @@ export default defineConfig({
 							slug: 'chapter-6/polite-requests-skulle-vilja',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.17 The sj-sound',
+							slug: 'chapter-6/the-sj-sound',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
