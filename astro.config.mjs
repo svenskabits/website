@@ -833,6 +833,11 @@ export default defineConfig({
 							slug: 'chapter-11/hotel',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.7 Luggage',
+							slug: 'chapter-11/luggage',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
