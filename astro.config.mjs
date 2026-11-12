@@ -539,6 +539,11 @@ export default defineConfig({
 							slug: 'chapter-7/vara-ha-gora-in-the-past',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '7.12 Time before place',
+							slug: 'chapter-7/time-before-place',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
