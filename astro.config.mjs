@@ -1249,6 +1249,11 @@ export default defineConfig({
 							slug: 'chapter-18/animals',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '18.3 Plants and trees',
+							slug: 'chapter-18/plants-and-trees',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
