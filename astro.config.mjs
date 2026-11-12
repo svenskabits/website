@@ -240,6 +240,11 @@ export default defineConfig({
 							slug: 'chapter-4/music',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.3 Movies and TV',
+							slug: 'chapter-4/movies-and-tv',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
