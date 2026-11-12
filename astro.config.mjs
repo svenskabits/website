@@ -1051,6 +1051,11 @@ export default defineConfig({
 							slug: 'chapter-14/tycka-tro-tanka',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '14.4 Agreeing and disagreeing',
+							slug: 'chapter-14/agreeing-and-disagreeing',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
