@@ -934,6 +934,11 @@ export default defineConfig({
 							slug: 'chapter-12/relative-clauses-with-som',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '12.11 Contracts and salary',
+							slug: 'chapter-12/contracts-and-salary',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
