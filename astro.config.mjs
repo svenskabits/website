@@ -1264,6 +1264,11 @@ export default defineConfig({
 							slug: 'chapter-18/climate-and-sustainability',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '18.6 Intensifiers',
+							slug: 'chapter-18/intensifiers',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
