@@ -605,6 +605,11 @@ export default defineConfig({
 							slug: 'chapter-8/vart',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.11 Varifrån',
+							slug: 'chapter-8/varifran',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
