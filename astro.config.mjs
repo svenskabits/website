@@ -1249,6 +1249,11 @@ export default defineConfig({
 							slug: 'chapter-19/fillers-and-discourse-markers',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '19.3 Modal particles: ju, väl, då, alltså',
+							slug: 'chapter-19/modal-particles-ju-val-da-alltsa',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
