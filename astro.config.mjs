@@ -1249,6 +1249,11 @@ export default defineConfig({
 							slug: 'chapter-17/geography-of-sweden',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.3 Politics',
+							slug: 'chapter-17/politics',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
