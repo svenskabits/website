@@ -1193,6 +1193,11 @@ export default defineConfig({
 							slug: 'chapter-16/apps',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.6 Texting and abbreviations',
+							slug: 'chapter-16/texting-and-abbreviations',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
