@@ -1254,6 +1254,11 @@ export default defineConfig({
 							slug: 'chapter-19/modal-particles-ju-val-da-alltsa',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '19.4 Sentence adverbs: nog, kanske, faktiskt',
+							slug: 'chapter-19/sentence-adverbs-nog-kanske-faktiskt',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
