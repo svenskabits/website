@@ -69,6 +69,97 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 2: Var bor du?',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '2.1 Numbers 0–20',
+							slug: 'chapter-2/numbers-0-20',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '2.2 Numbers 21–100',
+							slug: 'chapter-2/numbers-21-100',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '2.3 Phone numbers',
+							slug: 'chapter-2/phone-numbers',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '2.4 Age',
+							slug: 'chapter-2/age',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '2.5 Places in town',
+							slug: 'chapter-2/places-in-town',
+							badge: { text: 'V', variant: 'success' },
+						},
+						{
+							label: '2.6 Long and short vowels',
+							slug: 'chapter-2/long-and-short-vowels',
+							badge: { text: 'P', variant: 'success' },
+						},
+						{
+							label: '2.7 En- and ett-words',
+							slug: 'chapter-2/en-and-ett-words',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.8 Indefinite article (en/ett)',
+							slug: 'chapter-2/indefinite-article-en-ett',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.9 The infinitive',
+							slug: 'chapter-2/the-infinitive',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.10 Present tense',
+							slug: 'chapter-2/present-tense',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.11 Verb groups 1–4',
+							slug: 'chapter-2/verb-groups-1-4',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.12 Place: i and på',
+							slug: 'chapter-2/place-i-and-pa',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.13 Wh-questions overview',
+							slug: 'chapter-2/wh-questions-overview',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.14 Var',
+							slug: 'chapter-2/var',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.15 Vad',
+							slug: 'chapter-2/vad',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.16 Vem',
+							slug: 'chapter-2/vem',
+							badge: { text: 'G', variant: 'success' },
+						},
+						{
+							label: '2.17 Hur',
+							slug: 'chapter-2/hur',
+							badge: { text: 'G', variant: 'success' },
+						},
+					],
+				},
 			],
 		}),
 	],
