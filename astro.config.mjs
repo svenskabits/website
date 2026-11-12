@@ -1284,6 +1284,11 @@ export default defineConfig({
 							slug: 'chapter-20/review-verb-tenses',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '20.10 Review: word order',
+							slug: 'chapter-20/review-word-order',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
