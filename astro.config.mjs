@@ -1284,6 +1284,11 @@ export default defineConfig({
 							slug: 'chapter-17/bade-och-antingen-eller',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '17.10 Varken… eller',
+							slug: 'chapter-17/varken-eller',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
