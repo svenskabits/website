@@ -590,6 +590,11 @@ export default defineConfig({
 							slug: 'chapter-8/position-under-over-framfor-bakom-bredvid',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.8 Hit and dit',
+							slug: 'chapter-8/hit-and-dit',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
