@@ -1218,6 +1218,11 @@ export default defineConfig({
 							slug: 'chapter-16/past-participles',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '16.11 Participles as adjectives',
+							slug: 'chapter-16/participles-as-adjectives',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
