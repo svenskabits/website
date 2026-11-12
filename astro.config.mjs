@@ -321,6 +321,11 @@ export default defineConfig({
 							slug: 'chapter-5/ha-to-have',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.4 Possessives: min, mitt, mina',
+							slug: 'chapter-5/possessives-min-mitt-mina',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
