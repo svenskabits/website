@@ -772,6 +772,11 @@ export default defineConfig({
 							slug: 'chapter-10/att-clauses',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.9 Om (if / whether)',
+							slug: 'chapter-10/om-if-whether',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
