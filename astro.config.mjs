@@ -544,6 +544,11 @@ export default defineConfig({
 							slug: 'chapter-7/time-before-place',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '7.13 Double consonants and spelling',
+							slug: 'chapter-7/double-consonants-and-spelling',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
