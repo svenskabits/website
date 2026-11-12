@@ -858,6 +858,11 @@ export default defineConfig({
 							slug: 'chapter-11/travel-problems',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.12 Comparative and superlative',
+							slug: 'chapter-11/comparative-and-superlative',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
