@@ -1274,6 +1274,11 @@ export default defineConfig({
 							slug: 'chapter-17/immigration-and-integration',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.8 Relative pronoun: vars',
+							slug: 'chapter-17/relative-pronoun-vars',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
