@@ -1294,6 +1294,11 @@ export default defineConfig({
 							slug: 'chapter-17/arts-and-literature',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.12 Fixed subjunctive expressions',
+							slug: 'chapter-17/fixed-subjunctive-expressions',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
