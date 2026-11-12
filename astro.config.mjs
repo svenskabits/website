@@ -635,6 +635,11 @@ export default defineConfig({
 							slug: 'chapter-8/bus-and-metro',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.17 Compound words',
+							slug: 'chapter-8/compound-words',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
