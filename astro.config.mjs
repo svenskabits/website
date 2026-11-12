@@ -1269,6 +1269,11 @@ export default defineConfig({
 							slug: 'chapter-18/intensifiers',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '18.7 Cause and consequence',
+							slug: 'chapter-18/cause-and-consequence',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
