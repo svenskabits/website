@@ -711,6 +711,11 @@ export default defineConfig({
 							slug: 'chapter-9/nagon-nagot-nagra',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.13 Ingen, inget, inga',
+							slug: 'chapter-9/ingen-inget-inga',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
