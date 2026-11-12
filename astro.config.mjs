@@ -1284,6 +1284,11 @@ export default defineConfig({
 							slug: 'chapter-18/utan-att-and-istallet-for-att',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '18.10 Passive voice: advanced uses',
+							slug: 'chapter-18/passive-voice-advanced-uses',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
