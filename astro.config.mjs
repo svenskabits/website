@@ -1041,6 +1041,11 @@ export default defineConfig({
 							slug: 'chapter-14/basic-emotions',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '14.2 Giving opinions',
+							slug: 'chapter-14/giving-opinions',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
