@@ -787,6 +787,11 @@ export default defineConfig({
 							slug: 'chapter-10/swedish-holidays',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '10.12 Infinitive phrases: för att',
+							slug: 'chapter-10/infinitive-phrases-for-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
