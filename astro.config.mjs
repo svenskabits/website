@@ -610,6 +610,11 @@ export default defineConfig({
 							slug: 'chapter-8/varifran',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.12 Signs and notices',
+							slug: 'chapter-8/signs-and-notices',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
