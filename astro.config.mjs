@@ -1198,6 +1198,11 @@ export default defineConfig({
 							slug: 'chapter-16/texting-and-abbreviations',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.7 Media and news',
+							slug: 'chapter-16/media-and-news',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
