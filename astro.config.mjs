@@ -656,6 +656,11 @@ export default defineConfig({
 							slug: 'chapter-9/body-parts',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '9.2 The face',
+							slug: 'chapter-9/the-face',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
