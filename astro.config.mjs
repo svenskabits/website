@@ -1259,6 +1259,11 @@ export default defineConfig({
 							slug: 'chapter-17/economy',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.5 Adjectives used as nouns',
+							slug: 'chapter-17/adjectives-used-as-nouns',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
