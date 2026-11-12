@@ -914,6 +914,11 @@ export default defineConfig({
 							slug: 'chapter-12/job-interview',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.7 Verb + preposition',
+							slug: 'chapter-12/verb-preposition',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
