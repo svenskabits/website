@@ -1005,6 +1005,11 @@ export default defineConfig({
 							slug: 'chapter-13/passive-voice-with-bli',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '13.10 S-verbs',
+							slug: 'chapter-13/s-verbs',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
