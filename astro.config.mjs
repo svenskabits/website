@@ -1279,6 +1279,11 @@ export default defineConfig({
 							slug: 'chapter-18/sa-att',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '18.9 Utan att and istället för att',
+							slug: 'chapter-18/utan-att-and-istallet-for-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
