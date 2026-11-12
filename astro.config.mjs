@@ -1269,6 +1269,11 @@ export default defineConfig({
 							slug: 'chapter-19/proverbs',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '19.7 Slang',
+							slug: 'chapter-19/slang',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
