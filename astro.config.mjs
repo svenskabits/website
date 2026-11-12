@@ -534,6 +534,11 @@ export default defineConfig({
 							slug: 'chapter-7/strong-and-irregular-verbs',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '7.11 Vara, ha, göra in the past',
+							slug: 'chapter-7/vara-ha-gora-in-the-past',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
