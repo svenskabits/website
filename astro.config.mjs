@@ -285,6 +285,11 @@ export default defineConfig({
 							slug: 'chapter-4/frequency-adverbs',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '4.12 Inversion (V2 rule)',
+							slug: 'chapter-4/inversion-v2-rule',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
