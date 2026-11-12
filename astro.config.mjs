@@ -1259,6 +1259,11 @@ export default defineConfig({
 							slug: 'chapter-18/environment',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '18.5 Climate and sustainability',
+							slug: 'chapter-18/climate-and-sustainability',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
