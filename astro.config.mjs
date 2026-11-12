@@ -1228,6 +1228,11 @@ export default defineConfig({
 							slug: 'chapter-16/tag-questions-eller-hur-inte-sant',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '16.13 Fast speech and contractions',
+							slug: 'chapter-16/fast-speech-and-contractions',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
