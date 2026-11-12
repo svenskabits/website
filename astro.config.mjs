@@ -863,6 +863,11 @@ export default defineConfig({
 							slug: 'chapter-11/comparative-and-superlative',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '11.13 Irregular comparison (bra, bättre, bäst)',
+							slug: 'chapter-11/irregular-comparison-bra-battre-bast',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
