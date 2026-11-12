@@ -676,6 +676,11 @@ export default defineConfig({
 							slug: 'chapter-9/reflexive-verbs',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.6 Object pronouns',
+							slug: 'chapter-9/object-pronouns',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
