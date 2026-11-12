@@ -433,6 +433,11 @@ export default defineConfig({
 							slug: 'chapter-6/hur-mycket-hur-manga',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.10 Types of shops',
+							slug: 'chapter-6/types-of-shops',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
