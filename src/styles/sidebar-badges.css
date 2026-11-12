@@ -3,10 +3,32 @@
 	border-radius: 3px;
 }
 
+@media (max-width: 49.999rem) {
+	.hero h1 img {
+		margin-inline: auto;
+	}
+}
+
 .site-title img {
 	width: 32px;
 	height: 32px;
 	max-width: none;
+}
+
+.site-title span:not(.sr-only) {
+	color: transparent;
+	background: linear-gradient(90deg, #006aa7 0 70%, #fecc02 70% 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hero h1 .brand-svenska {
+	color: #006aa7;
+}
+
+.hero h1 .brand-bits {
+	color: #fecc02;
 }
 
 .sidebar-content a {
