@@ -336,6 +336,11 @@ export default defineConfig({
 							slug: 'chapter-5/the-genitive-s',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.7 Describing people',
+							slug: 'chapter-5/describing-people',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
