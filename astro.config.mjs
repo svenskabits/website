@@ -1279,6 +1279,11 @@ export default defineConfig({
 							slug: 'chapter-20/review-nouns-articles-and-adjectives',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '20.9 Review: verb tenses',
+							slug: 'chapter-20/review-verb-tenses',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
