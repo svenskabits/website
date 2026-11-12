@@ -1269,6 +1269,11 @@ export default defineConfig({
 							slug: 'chapter-20/linking-words',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '20.7 Hålla på att',
+							slug: 'chapter-20/halla-pa-att',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
