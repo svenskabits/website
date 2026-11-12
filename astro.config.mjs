@@ -1091,6 +1091,11 @@ export default defineConfig({
 							slug: 'chapter-14/conditional-skulle',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '14.12 Conditional sentences',
+							slug: 'chapter-14/conditional-sentences',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
