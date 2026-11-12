@@ -280,6 +280,11 @@ export default defineConfig({
 							slug: 'chapter-4/frequency-expressions',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.11 Frequency adverbs',
+							slug: 'chapter-4/frequency-adverbs',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
