@@ -1127,6 +1127,11 @@ export default defineConfig({
 							slug: 'chapter-15/word-order-with-perfect-tense',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '15.5 Brukar and brukade',
+							slug: 'chapter-15/brukar-and-brukade',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
