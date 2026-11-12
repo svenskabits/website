@@ -453,6 +453,11 @@ export default defineConfig({
 							slug: 'chapter-6/money-and-prices',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '6.14 Demonstratives: den här, den där',
+							slug: 'chapter-6/demonstratives-den-har-den-dar',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
