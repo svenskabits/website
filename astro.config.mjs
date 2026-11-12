@@ -597,7 +597,7 @@ export default defineConfig({
 						},
 						{
 							label: '8.9 At home and away: hemma, hem, borta, bort',
-							slug: 'chapter-8/hemma-hemma-borta-bort',
+							slug: 'chapter-8/hemma-hem-borta-bort',
 							badge: { text: 'G', variant: 'tip' },
 						},
 					],
