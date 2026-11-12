@@ -1269,6 +1269,11 @@ export default defineConfig({
 							slug: 'chapter-17/religion',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '17.7 Immigration and integration',
+							slug: 'chapter-17/immigration-and-integration',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
