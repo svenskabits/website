@@ -1264,6 +1264,11 @@ export default defineConfig({
 							slug: 'chapter-17/adjectives-used-as-nouns',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '17.6 Religion',
+							slug: 'chapter-17/religion',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
