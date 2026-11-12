@@ -341,6 +341,11 @@ export default defineConfig({
 							slug: 'chapter-5/describing-people',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '5.8 Adjective agreement',
+							slug: 'chapter-5/adjective-agreement',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
