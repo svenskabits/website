@@ -828,6 +828,11 @@ export default defineConfig({
 							slug: 'chapter-11/booking-a-trip',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '11.6 Hotel',
+							slug: 'chapter-11/hotel',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
