@@ -585,6 +585,11 @@ export default defineConfig({
 							slug: 'chapter-8/direction-till-fran-at',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.7 Position: under, över, framför, bakom, bredvid',
+							slug: 'chapter-8/position-under-over-framfor-bakom-bredvid',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
