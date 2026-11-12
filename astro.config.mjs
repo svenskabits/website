@@ -1173,6 +1173,11 @@ export default defineConfig({
 							slug: 'chapter-16/phones',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '16.2 Computers',
+							slug: 'chapter-16/computers',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
