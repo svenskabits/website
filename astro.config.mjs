@@ -681,6 +681,11 @@ export default defineConfig({
 							slug: 'chapter-9/object-pronouns',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '9.7 At the doctor',
+							slug: 'chapter-9/at-the-doctor',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
