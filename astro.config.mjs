@@ -214,6 +214,11 @@ export default defineConfig({
 							slug: 'chapter-3/yes-no-questions',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '3.11 Answering with ja, nej, jo',
+							slug: 'chapter-3/answering-with-ja-nej-jo',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
