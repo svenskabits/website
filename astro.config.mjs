@@ -666,6 +666,11 @@ export default defineConfig({
 							slug: 'chapter-9/symptoms-and-illnesses',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '9.4 Reflexive pronouns: mig, dig, sig',
+							slug: 'chapter-9/reflexive-pronouns-mig-dig-sig',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
