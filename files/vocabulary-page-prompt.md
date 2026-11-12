@@ -1,6 +1,6 @@
 # Prompt: Write a Vocabulary (V) Page
 
-You are writing one page for a website that teaches Swedish as a second language to adult learners. The course covers CEFR levels A1 to B2. Every page covers **one single topic**, and the learner should finish it in a few minutes.
+You are writing one page for a website that teaches Swedish as a second language to adult learners. The course covers CEFR levels A1 to B2. Every page covers **one single topic**. Let the topic and CEFR level determine how much vocabulary the page needs; do not impose an arbitrary word or row count.
 
 This prompt explains how to write a **vocabulary page** (type **V**). Read all of it, including the sample page at the end, then write the page you are asked for.
 
@@ -76,7 +76,7 @@ Start the body with `## Key words`. Add one or more tables with these four colum
 
 **Swedish | English | Example (Swedish) | Example (English)**
 
-- Include **5 to 8** words in total. For closed sets such as colors or days of the week, up to **15** is fine.
+- Include the useful vocabulary needed to cover the topic at the stated CEFR level. There is **no fixed minimum or maximum number** of words or rows. Let the topic and level determine the scope; do not omit relevant vocabulary just to keep to a count.
 - Put the Swedish word in **bold**. Order words by usefulness or by a logical order of the set.
 - **Nouns:** give the indefinite article, such as *en bil* or *ett hus*. Write the plural only when it is irregular or particularly useful.
 - **Verbs:** give the infinitive without "att", such as *heta* or *komma från*.
@@ -92,7 +92,7 @@ Start the body with `## Key words`. Add one or more tables with these four colum
 
 - Write the English parts, including example translations, in plain, friendly, direct English.
 - Use the exact table headers shown above. Repeat the headers for each table.
-- Keep the whole page short. If it feels long, cut words from the tables first.
+- Keep entries concise, but do not cut useful vocabulary to meet a target page length or word count. The topic and level determine how many entries are appropriate.
 - Keep Swedish punctuation and quotation marks simple, and write currency, units and dates in the Swedish style where relevant.
 
 ---
@@ -106,6 +106,7 @@ Start the body with `## Key words`. Add one or more tables with these four colum
 - [ ] No key phrases, goal, tips, common mistakes, recap, dialogue, exercise, audio, image or link.
 - [ ] No reference to any other page, chapter or level.
 - [ ] Vocabulary and sentences suit the stated level.
+- [ ] The vocabulary coverage fits the topic and level, with no arbitrary word-count limit.
 - [ ] Every noun has the right article, every verb is in the infinitive, and all spelling is correct.
 - [ ] Every example sentence is natural Swedish and accurate.
 - [ ] Nothing in the page is uncertain or invented.
@@ -114,7 +115,7 @@ Start the body with `## Key words`. Add one or more tables with these four colum
 
 ## 7. Sample page
 
-This is a complete, correct page for the request *"Fruit", level A1*. Follow its structure, level of detail, tone and formatting. Your page will have different content, so do not copy its wording or examples.
+This is a formatting example for the request *"Fruit", level A1*. Follow its structure, tone and formatting, but choose as many vocabulary entries as the topic and level require. Your page will have different content, so do not copy its wording or examples.
 
 ````markdown
 ---
