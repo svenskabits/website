@@ -1235,6 +1235,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 20: Jag håller på att bli flytande i svenska!',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '20.1 Collocations',
+							slug: 'chapter-20/collocations',
+							badge: { text: 'V', variant: 'caution' },
+						},
+					],
+				},
 			],
 		}),
 	],
