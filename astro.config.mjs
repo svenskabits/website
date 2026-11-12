@@ -560,6 +560,11 @@ export default defineConfig({
 							slug: 'chapter-8/places-and-buildings',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '8.2 Ordinal numbers',
+							slug: 'chapter-8/ordinal-numbers',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
