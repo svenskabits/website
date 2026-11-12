@@ -600,6 +600,11 @@ export default defineConfig({
 							slug: 'chapter-8/hemma-hem-borta-bort',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.10 Vart',
+							slug: 'chapter-8/vart',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
