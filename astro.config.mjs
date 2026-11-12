@@ -1096,6 +1096,11 @@ export default defineConfig({
 							slug: 'chapter-14/conditional-sentences',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '14.13 Common reductions (jag → ja, det → de)',
+							slug: 'chapter-14/common-reductions-jag-ja-det-de',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
