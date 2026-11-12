@@ -1157,6 +1157,11 @@ export default defineConfig({
 							slug: 'chapter-15/swedish-history-basics',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '15.11 Connected speech',
+							slug: 'chapter-15/connected-speech',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
