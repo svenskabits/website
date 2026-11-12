@@ -985,6 +985,11 @@ export default defineConfig({
 							slug: 'chapter-13/formal-and-informal-language',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '13.6 Post and parcels',
+							slug: 'chapter-13/post-and-parcels',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
