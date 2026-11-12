@@ -1071,6 +1071,11 @@ export default defineConfig({
 							slug: 'chapter-14/fast-trots-att-aven-om',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '14.8 Complaining',
+							slug: 'chapter-14/complaining',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
