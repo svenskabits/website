@@ -1056,6 +1056,11 @@ export default defineConfig({
 							slug: 'chapter-14/agreeing-and-disagreeing',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '14.5 Comparisons: lika… som, mer än',
+							slug: 'chapter-14/comparisons-lika-som-mer-an',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
