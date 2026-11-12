@@ -747,6 +747,11 @@ export default defineConfig({
 							slug: 'chapter-10/ska',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.4 Future: kommer att and the present tense',
+							slug: 'chapter-10/future-kommer-att-and-present-tense',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
