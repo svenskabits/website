@@ -160,6 +160,17 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Chapter 3: Kan du prata svenska?',
+					badge: { text: 'A1', variant: 'note' },
+					items: [
+						{
+							label: '3.1 Classroom phrases',
+							slug: 'chapter-3/classroom-phrases',
+							badge: { text: 'V', variant: 'success' },
+						},
+					],
+				},
 			],
 		}),
 	],
