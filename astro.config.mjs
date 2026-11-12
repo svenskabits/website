@@ -10,6 +10,21 @@ export default defineConfig({
 		starlight({
 			title: 'Svenska Bits',
 			customCss: ['./src/styles/sidebar-badges.css'],
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						async: true,
+						src: 'https://www.googletagmanager.com/gtm.js?id=GTM-5TCZ6NP7',
+					},
+				},
+				{
+					tag: 'script',
+					content: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());`,
+				},
+			],
 			sidebar: [
 				{
 					label: 'Chapter 1: Hej allihopa!',
