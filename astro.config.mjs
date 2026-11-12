@@ -1236,6 +1236,77 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Chapter 17: Både de rika och de fattiga har rätt till vård',
+					badge: { text: 'B2', class: 'level-b2' },
+					items: [
+						{
+							label: '17.1 Swedish traditions',
+							slug: 'chapter-17/swedish-traditions',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.2 Geography of Sweden',
+							slug: 'chapter-17/geography-of-sweden',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.3 Politics',
+							slug: 'chapter-17/politics',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.4 Economy',
+							slug: 'chapter-17/economy',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.5 Adjectives used as nouns',
+							slug: 'chapter-17/adjectives-used-as-nouns',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '17.6 Religion',
+							slug: 'chapter-17/religion',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.7 Immigration and integration',
+							slug: 'chapter-17/immigration-and-integration',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.8 Relative pronoun: vars',
+							slug: 'chapter-17/relative-pronoun-vars',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '17.9 Både… och / antingen… eller',
+							slug: 'chapter-17/bade-och-antingen-eller',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '17.10 Varken… eller',
+							slug: 'chapter-17/varken-eller',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '17.11 Arts and literature',
+							slug: 'chapter-17/arts-and-literature',
+							badge: { text: 'V', variant: 'caution' },
+						},
+						{
+							label: '17.12 Fixed subjunctive expressions',
+							slug: 'chapter-17/fixed-subjunctive-expressions',
+							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '17.13 Regional accents',
+							slug: 'chapter-17/regional-accents',
+							badge: { text: 'P', variant: 'note' },
+						},
+					],
+				},
+				{
 					label: 'Chapter 18: Skogen måste skyddas så att djuren kan överleva',
 					badge: { text: 'B2', class: 'level-b2' },
 					items: [
