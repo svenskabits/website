@@ -990,6 +990,11 @@ export default defineConfig({
 							slug: 'chapter-13/post-and-parcels',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '13.7 Healthcare: vårdcentral and 1177',
+							slug: 'chapter-13/healthcare-vardcentral-and-1177',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
