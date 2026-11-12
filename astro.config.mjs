@@ -1142,6 +1142,11 @@ export default defineConfig({
 							slug: 'chapter-15/innan-and-efter-att',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '15.8 Medan and tills',
+							slug: 'chapter-15/medan-and-tills',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
