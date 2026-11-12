@@ -752,6 +752,11 @@ export default defineConfig({
 							slug: 'chapter-10/future-kommer-att-and-present-tense',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '10.5 And, but, or',
+							slug: 'chapter-10/och-men-eller',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
