@@ -1244,6 +1244,11 @@ export default defineConfig({
 							slug: 'chapter-19/spoken-swedish-vs-written-swedish',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '19.2 Fillers and discourse markers',
+							slug: 'chapter-19/fillers-and-discourse-markers',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
