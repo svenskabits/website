@@ -909,6 +909,11 @@ export default defineConfig({
 							slug: 'chapter-12/job-search',
 							badge: { text: 'V', variant: 'caution' },
 						},
+						{
+							label: '12.6 Job interview',
+							slug: 'chapter-12/job-interview',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
