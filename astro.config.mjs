@@ -428,6 +428,11 @@ export default defineConfig({
 							slug: 'chapter-6/quantifiers-manga-mycket-lite',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '6.9 How much / how many',
+							slug: 'chapter-6/hur-mycket-hur-manga',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
