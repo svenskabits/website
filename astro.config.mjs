@@ -1274,6 +1274,11 @@ export default defineConfig({
 							slug: 'chapter-20/halla-pa-att',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '20.8 Review: nouns, articles and adjectives',
+							slug: 'chapter-20/review-nouns-articles-and-adjectives',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
