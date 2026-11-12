@@ -929,6 +929,11 @@ export default defineConfig({
 							slug: 'chapter-12/subordinate-clause-with-inte',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '12.10 Relative clauses with "som"',
+							slug: 'chapter-12/relative-clauses-with-som',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
