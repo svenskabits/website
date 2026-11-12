@@ -640,6 +640,11 @@ export default defineConfig({
 							slug: 'chapter-8/compound-words',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '8.18 Stress in compound words',
+							slug: 'chapter-8/stress-in-compound-words',
+							badge: { text: 'P', variant: 'note' },
+						},
 					],
 				},
 			],
