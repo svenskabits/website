@@ -1289,6 +1289,11 @@ export default defineConfig({
 							slug: 'chapter-17/varken-eller',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '17.11 Arts and literature',
+							slug: 'chapter-17/arts-and-literature',
+							badge: { text: 'V', variant: 'caution' },
+						},
 					],
 				},
 			],
