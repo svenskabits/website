@@ -235,6 +235,11 @@ export default defineConfig({
 							slug: 'chapter-4/sports',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.2 Music',
+							slug: 'chapter-4/music',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
