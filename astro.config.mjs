@@ -366,6 +366,11 @@ export default defineConfig({
 							slug: 'chapter-5/plural-or-ar-er-n-and-no-ending',
 							badge: { text: 'G', variant: 'success' },
 						},
+						{
+							label: '5.13 Irregular plurals',
+							slug: 'chapter-5/irregular-plurals',
+							badge: { text: 'G', variant: 'success' },
+						},
 					],
 				},
 			],
