@@ -1289,6 +1289,11 @@ export default defineConfig({
 							slug: 'chapter-20/review-word-order',
 							badge: { text: 'G', variant: 'tip' },
 						},
+						{
+							label: '20.11 Review: clauses and conjunctions',
+							slug: 'chapter-20/review-clauses-and-conjunctions',
+							badge: { text: 'G', variant: 'tip' },
+						},
 					],
 				},
 			],
