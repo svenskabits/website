@@ -245,6 +245,11 @@ export default defineConfig({
 							slug: 'chapter-4/movies-and-tv',
 							badge: { text: 'V', variant: 'success' },
 						},
+						{
+							label: '4.4 Outdoor activities',
+							slug: 'chapter-4/outdoor-activities',
+							badge: { text: 'V', variant: 'success' },
+						},
 					],
 				},
 			],
