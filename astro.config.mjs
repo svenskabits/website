@@ -53,6 +53,104 @@ export default defineConfig({
 					attrs: { rel: 'manifest', href: '/favicon/site.webmanifest' },
 				},
 				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:type',
+						content: 'website',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:site_name',
+						content: 'Svenska Bits',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:title',
+						content: 'Svenska Bits — Swedish, one concept at a time',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:description',
+						content: 'Learn Swedish through small, focused lessons that explain one concept at a time.',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image',
+						content: 'https://www.svenskabits.com/logo.png',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image:type',
+						content: 'image/png',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image:alt',
+						content: 'Svenska Bits logo',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image:width',
+						content: '1200',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image:height',
+						content: '1200',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:card',
+						content: 'summary_large_image',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:title',
+						content: 'Svenska Bits — Swedish, one concept at a time',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:description',
+						content: 'Learn Swedish through small, focused lessons that explain one concept at a time.',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:image',
+						content: 'https://www.svenskabits.com/logo.png',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'twitter:image:alt',
+						content: 'Svenska Bits logo',
+					},
+				},
+				{
 					tag: 'script',
 					attrs: {
 						async: true,
