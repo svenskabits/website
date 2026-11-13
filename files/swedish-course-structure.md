@@ -23,7 +23,7 @@ A page's level can sit one step off its chapter's level when the topic naturally
 | 2 | **Var bor du?**<br>*Where do you live?* | Present tense, *var*, question form | A1 | Where you live and basic personal details | Give your address, phone number and age, and ask simple questions about someone | En- and ett-words, indefinite article, present tense (verb groups 1–4), *i* and *på* for place, *var / vad / vem / hur* | Numbers 0–100, phone numbers, places in town, age | Long and short vowels |
 | 3 | **Kan du prata svenska?**<br>*Can you speak Swedish?* | *Kan*, infinitive without *att*, yes/no questions | A1 | Abilities and languages | Say what you can, can't and want to do, and ask for help when you don't understand | *Kan, vill, måste*, infinitive without *att*, placement of *inte*, yes/no questions, *ja / nej / jo* | Classroom phrases, survival phrases, everyday verbs | Soft and hard K and G |
 | 4 | **Vad gör du på fritiden?**<br>*What do you do in your free time?* | *Göra*, *vad*, *i*/*på* | A1 | Hobbies, free time and the clock | Talk about your interests, how often you do things, and tell the time | Present tense of common verbs, inversion (V2 rule), frequency adverbs, *gilla / tycka om* | Hobbies, sports, music, days of the week, the clock, frequency expressions | Word stress, the R sound |
-| 5 | **Min familj är stor, men mitt hem är litet**<br>*My family is big, but my home is small* | *Min/mitt*, adjective agreement, en/ett | A1 | Family and home | Describe your family and home, and say who owns what | Plural nouns, irregular plurals, possessives (*min, mitt, mina*), *ha*, adjective agreement, genitive *-s*, *det finns* | Immediate and extended family, describing people, useful adjectives, rooms, furniture, colors | Vowel sounds Y and U |
+| 5 | **Min familj är stor, men mitt hem är litet**<br>*My family is big, but my home is small* | *Min/mitt*, adjective agreement, en/ett | A1 | Family and home | Describe your family and home, and say who owns what | Plural nouns, irregular plurals, possessives (*min, mitt, mina*), *ha*, adjective agreement, adverbs from adjectives, genitive *-s*, *det finns* | Immediate and extended family, describing people, useful adjectives, rooms, furniture, colors | Vowel sounds Y and U |
 | 6 | **Hur mycket kostar den här kanelbullen?**<br>*How much does this cinnamon bun cost?* | *Hur mycket*, demonstratives, definite form | A1 | Shopping, food and money | Order food, shop, ask for prices and make polite requests | Definite singular and plural, quantifiers (*mycket, lite, många*), *hur mycket / hur många*, *skulle vilja*, demonstratives (*den här / den där*) | Food and drink, fika, types of shops, clothes, sizes, money and prices | The sj-sound and tj-sound |
 | 7 | **Vad gjorde du igår?**<br>*What did you do yesterday?* | Past tense, time expressions | A2 | Talking about the past | Tell someone what you did yesterday, last weekend or last year | Past tense (preteritum), strong and irregular verbs, *vara / ha / göra* in the past, time expressions | Months, dates, parts of the day, time expressions (*igår, förra veckan*), daily routine verbs | Double consonants and spelling |
 | 8 | **Hur kommer jag dit? Gå rakt fram!**<br>*How do I get there? Go straight ahead!* | *Hit/dit*, directions, imperative | A2 | Getting around town | Ask for and give directions, and buy a ticket | Imperative, prepositions of direction (*till, från*), *hit / dit*, *hemma / hem*, position prepositions | Directions, public transport, tickets, places and buildings, signs, ordinal numbers | Stress in compound words |
@@ -129,14 +129,15 @@ A page's level can sit one step off its chapter's level when the topic naturally
 | 5.6 | The genitive -s | G | A1 |
 | 5.7 | Describing people | V | A1 |
 | 5.8 | Adjective agreement | G | A1 |
-| 5.9 | Useful adjectives | V | A1 |
-| 5.10 | Colors | V | A1 |
-| 5.11 | Rooms | V | A1 |
-| 5.12 | Furniture | V | A1 |
-| 5.13 | Plural: -or, -ar, -er, -n and no ending | G | A1 |
-| 5.14 | Irregular plurals | G | A2 |
-| 5.15 | Det finns | G | A1 |
-| 5.16 | Vowel sounds Y and U | P | A1 |
+| 5.9 | Adverbs from adjectives | G | A1 |
+| 5.10 | Useful adjectives | V | A1 |
+| 5.11 | Colors | V | A1 |
+| 5.12 | Rooms | V | A1 |
+| 5.13 | Furniture | V | A1 |
+| 5.14 | Plural: -or, -ar, -er, -n and no ending | G | A1 |
+| 5.15 | Irregular plurals | G | A2 |
+| 5.16 | Det finns | G | A1 |
+| 5.17 | Vowel sounds Y and U | P | A1 |
 
 ## Chapter 6: Hur mycket kostar den här kanelbullen? / How much does this cinnamon bun cost?
 
