@@ -128,8 +128,8 @@ A page's level can sit one step off its chapter's level when the topic naturally
 | 5.5 | Vems | G | A1 |
 | 5.6 | The genitive -s | G | A1 |
 | 5.7 | Describing people | V | A1 |
-| 5.8 | Useful adjectives | V | A1 |
-| 5.9 | Adjective agreement | G | A1 |
+| 5.8 | Adjective agreement | G | A1 |
+| 5.9 | Useful adjectives | V | A1 |
 | 5.10 | Colors | V | A1 |
 | 5.11 | Rooms | V | A1 |
 | 5.12 | Furniture | V | A1 |

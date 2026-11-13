@@ -536,14 +536,14 @@ gtag('js', new Date());`,
 							badge: { text: 'V', variant: 'caution' },
 						},
 						{
-							label: '5.8 Useful adjectives',
-							slug: 'chapter-5/useful-adjectives',
-							badge: { text: 'V', variant: 'caution' },
-						},
-						{
-							label: '5.9 Adjective agreement',
+							label: '5.8 Adjective agreement',
 							slug: 'chapter-5/adjective-agreement',
 							badge: { text: 'G', variant: 'tip' },
+						},
+						{
+							label: '5.9 Useful adjectives',
+							slug: 'chapter-5/useful-adjectives',
+							badge: { text: 'V', variant: 'caution' },
 						},
 						{
 							label: '5.10 Colors',
