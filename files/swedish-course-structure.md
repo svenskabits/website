@@ -52,7 +52,6 @@ A page's level can sit one step off its chapter's level when the topic naturally
 | 1.2 | Polite phrases | V | A1 |
 | 1.3 | The Swedish alphabet | P | A1 |
 | 1.4 | Å, Ä, Ö | P | A1 |
-| 1.5 | Spelling words aloud | P | A1 |
 | 1.6 | Introducing yourself | V | A1 |
 | 1.7 | Subject pronouns | G | A1 |
 | 1.8 | Vara (present tense) | G | A1 |

@@ -228,11 +228,6 @@ gtag('js', new Date());`,
 							badge: { text: 'P', variant: 'note' },
 						},
 						{
-							label: '1.5 Spelling words aloud',
-							slug: 'chapter-1/spelling-words-aloud',
-							badge: { text: 'P', variant: 'note' },
-						},
-						{
 							label: '1.6 Introducing yourself',
 							slug: 'chapter-1/introducing-yourself',
 							badge: { text: 'V', variant: 'caution' },
