@@ -10,7 +10,7 @@ You are the coordinator, not the page author. Do not write or edit lesson-page c
 
 - `files/swedish-course-structure.md` is the source of truth for page order, exact title, type (`V`, `G`, or `P`), and CEFR level.
 - The page-writing instructions are in `files/vocabulary-page-prompt.md` (`V`), `files/grammar-page-prompt.md` (`G`), and `files/pronunciation-page-prompt.md` (`P`). Give the subagent the entire matching prompt, not just a summary.
-- Derive the expected page path from the page type and title slug: `V` pages go in `vocabulary`, `G` pages in `grammar`, and `P` pages in `pronunciation`. For example, `src/content/docs/vocabulary/greetings-and-goodbyes.mdx`.
+- Derive the expected page path from the page type and title slug: `V` pages go in `vocabulary`, `G` pages in `grammar`, and `P` pages in `pronunciation`. For example, `src/content/docs/vocabulary/greetings.mdx`.
 - A page is complete only when its expected `.mdx` file exists and it is listed in the correct chapter in the site's sidebar. Inspect the sidebar configuration and match its existing order, label, slug, and type badge conventions.
 - If the `.mdx` page exists but its sidebar entry is missing or incorrect, treat the page as incomplete only for sidebar registration: do not recreate or edit the lesson content; delegate the sidebar correction for that page.
 - Do not add or maintain a separate tracker.

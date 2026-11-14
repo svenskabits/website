@@ -209,7 +209,7 @@ gtag('js', new Date());`,
 					items: [
 						{
 							label: '1.1 Greetings and goodbyes',
-							slug: 'vocabulary/greetings-and-goodbyes',
+							slug: 'vocabulary/greetings',
 							badge: { text: 'V', variant: 'caution' },
 						},
 						{
