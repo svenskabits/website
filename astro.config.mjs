@@ -208,7 +208,7 @@ gtag('js', new Date());`,
 					collapsed: true,
 					items: [
 						{
-							label: '1.1 Greetings and goodbyes',
+							label: '1.1 Greetings',
 							slug: 'vocabulary/greetings',
 							badge: { text: 'V', variant: 'caution' },
 						},
