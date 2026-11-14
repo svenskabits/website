@@ -124,7 +124,7 @@ A page's level can sit one step off its chapter's level when the topic naturally
 | 5.1 | Immediate family | V | A1 |
 | 5.2 | Extended family | V | A1 |
 | 5.3 | Ha (to have) | G | A1 |
-| 5.4 | Possessives: min, mitt, mina | G | A1 |
+| 5.4 | Possessives | G | A1 |
 | 5.5 | Vems | G | A1 |
 | 5.6 | The genitive -s | G | A1 |
 | 5.7 | Describing people | V | A1 |

@@ -516,8 +516,8 @@ gtag('js', new Date());`,
 							badge: { text: 'G', variant: 'tip' },
 						},
 						{
-							label: '5.4 Possessives: min, mitt, mina',
-							slug: 'grammar/possessives-min-mitt-mina',
+							label: '5.4 Possessives',
+							slug: 'grammar/possessives',
 							badge: { text: 'G', variant: 'tip' },
 						},
 						{
