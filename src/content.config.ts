@@ -8,8 +8,11 @@ export const collections = {
 		loader: docsLoader(),
 		schema: docsSchema({
 			extend: z.object({
+				title_sv: z.string().optional(),
 				level: z.string().optional(),
 				type: z.enum(['P', 'V', 'G']).optional(),
+				estimated_minutes: z.number().optional(),
+				tags: z.array(z.union([z.string(), z.number()]).transform(String)).optional(),
 			}),
 		}),
 	}),
