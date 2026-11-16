@@ -173,8 +173,16 @@
 }
 
 .vocabulary-card__verb-form {
-	display: grid;
-	gap: 0.15rem;
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.vocabulary-card__tense .vocabulary-card__form {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0.25rem 1rem;
 }
 
 .vocabulary-card__auxiliary {
