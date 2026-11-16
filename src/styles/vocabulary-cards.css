@@ -167,7 +167,7 @@
 }
 
 .vocabulary-card__form-example p + p {
-	margin-top: 0.2rem;
+	margin-top: 0;
 	color: var(--sl-color-gray-3);
 	font-size: var(--sl-text-sm);
 }
@@ -206,7 +206,7 @@
 .vocabulary-card__examples p + p,
 .vocabulary-card__example p + p,
 .vocabulary-card__tense-example p + p {
-	margin-top: 0.2rem;
+	margin-top: 0;
 	color: var(--sl-color-gray-3);
 	font-size: var(--sl-text-sm);
 }
