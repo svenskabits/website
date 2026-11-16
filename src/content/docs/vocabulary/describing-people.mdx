@@ -7,35 +7,39 @@ estimated_minutes: 5
 tags: [people, appearance, personality]
 ---
 
+import NounCard from '../../../components/vocabulary/NounCard.astro';
+import AdjectiveCard from '../../../components/vocabulary/AdjectiveCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
 ## Appearance
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **lång** | tall | Min bror är **lång**. | My brother is tall. |
-| **kort** | short | Min syster är **kort**. | My sister is short. |
-| **ung** | young | Min kusin är **ung**. | My cousin is young. |
-| **gammal** | old | Min farfar är **gammal**. | My grandfather is old. |
-| **blond** | blond | Han är **blond**. | He is blond. |
-| **brun** | brown | Hon har **brunt** hår. | She has brown hair. |
-| **blå** | blue | Hennes ögon är **blå**. | Her eyes are blue. |
-| **snygg** | good-looking | Han är **snygg**. | He is good-looking. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "lång", "phonetic": "[ˈloŋ]", "translation": "tall", "forms": [{"type": "COMMON", "form": "lång", "phonetic": "[ˈloŋ]", "example": {"swedish": "Min bror är lång.", "english": "My brother is tall."}}, {"type": "NEUTER", "form": "långt", "phonetic": "[ˈloŋt]", "example": {"swedish": "Barnet är långt.", "english": "The child is tall."}}, {"type": "PLURAL", "form": "långa", "phonetic": "[ˈloŋɑ]", "example": {"swedish": "Människorna är långa.", "english": "The people are tall."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "kort", "phonetic": "[ˈkurt]", "translation": "short", "forms": [{"type": "COMMON", "form": "kort", "phonetic": "[ˈkurt]", "example": {"swedish": "Min syster är kort.", "english": "My sister is short."}}, {"type": "NEUTER", "form": "kort", "phonetic": "[ˈkurt]", "example": {"swedish": "Barnet är kort.", "english": "The child is short."}}, {"type": "PLURAL", "form": "korta", "phonetic": "[ˈkurtɑ]", "example": {"swedish": "Människorna är korta.", "english": "The people are short."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "ung", "phonetic": "[ˈʉŋ]", "translation": "young", "forms": [{"type": "COMMON", "form": "ung", "phonetic": "[ˈʉŋ]", "example": {"swedish": "Min kusin är ung.", "english": "My cousin is young."}}, {"type": "NEUTER", "form": "ungt", "phonetic": "[ˈʉŋt]", "example": {"swedish": "Barnet är ungt.", "english": "The child is young."}}, {"type": "PLURAL", "form": "unga", "phonetic": "[ˈʉŋɑ]", "example": {"swedish": "Människorna är unga.", "english": "The people are young."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "gammal", "phonetic": "[ˈɡɑmmɑl]", "translation": "old", "forms": [{"type": "COMMON", "form": "gammal", "phonetic": "[ˈɡɑmmɑl]", "example": {"swedish": "Min farfar är gammal.", "english": "My grandfather is old."}}, {"type": "NEUTER", "form": "gammalt", "phonetic": "[ˈɡɑmmɑlt]", "example": {"swedish": "Barnet är gammalt.", "english": "The child is old."}}, {"type": "PLURAL", "form": "gamla", "phonetic": "[ˈɡɑmlɑ]", "example": {"swedish": "Människorna är gamla.", "english": "The people are old."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "blond", "phonetic": "[ˈblund]", "translation": "blond", "forms": [{"type": "COMMON", "form": "blond", "phonetic": "[ˈblund]", "example": {"swedish": "Han är blond.", "english": "He is blond."}}, {"type": "NEUTER", "form": "blont", "phonetic": "[ˈblunt]", "example": {"swedish": "Barnet är blont.", "english": "The child is blond."}}, {"type": "PLURAL", "form": "blonda", "phonetic": "[ˈblundɑ]", "example": {"swedish": "Människorna är blonda.", "english": "The people are blond."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "brun", "phonetic": "[ˈbrʉn]", "translation": "brown", "forms": [{"type": "COMMON", "form": "brun", "phonetic": "[ˈbrʉn]", "example": {"swedish": "Bilen är brun.", "english": "The car is brown."}}, {"type": "NEUTER", "form": "brunt", "phonetic": "[ˈbrʉnt]", "example": {"swedish": "Huset är brunt.", "english": "The house is brown."}}, {"type": "PLURAL", "form": "bruna", "phonetic": "[ˈbrʉnɑ]", "example": {"swedish": "Bilarna är bruna.", "english": "The cars are brown."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "blå", "phonetic": "[ˈblo]", "translation": "blue", "forms": [{"type": "COMMON", "form": "blå", "phonetic": "[ˈblo]", "example": {"swedish": "Hennes ögon är blå.", "english": "Her eyes are blue."}}, {"type": "NEUTER", "form": "blått", "phonetic": "[ˈblott]", "example": {"swedish": "Huset är blått.", "english": "The house is blue."}}, {"type": "PLURAL", "form": "blåa", "phonetic": "[ˈbloɑ]", "example": {"swedish": "Bilarna är blåa.", "english": "The cars are blue."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "snygg", "phonetic": "[ˈsnyɡɡ]", "translation": "good-looking", "forms": [{"type": "COMMON", "form": "snygg", "phonetic": "[ˈsnyɡɡ]", "example": {"swedish": "Han är snygg.", "english": "He is good-looking."}}, {"type": "NEUTER", "form": "snyggt", "phonetic": "[ˈsnyɡɡt]", "example": {"swedish": "Barnet är snyggt.", "english": "The child is good-looking."}}, {"type": "PLURAL", "form": "snygga", "phonetic": "[ˈsnyɡɡɑ]", "example": {"swedish": "Människorna är snygga.", "english": "The people are good-looking."}}]}} />
+</VocabularyGrid>
 
 ## Personality
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **snäll** | kind | Min lärare är **snäll**. | My teacher is kind. |
-| **trevlig** | friendly | Vår granne är **trevlig**. | Our neighbor is friendly. |
-| **glad** | happy | Min mamma är **glad**. | My mother is happy. |
-| **rolig** | funny | Min bror är **rolig**. | My brother is funny. |
-| **blyg** | shy | Min kusin är **blyg**. | My cousin is shy. |
-| **lugn** | calm | Min pappa är **lugn**. | My father is calm. |
-| **smart** | smart | Min syster är **smart**. | My sister is smart. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "snäll", "phonetic": "[ˈsnɛll]", "translation": "kind", "forms": [{"type": "COMMON", "form": "snäll", "phonetic": "[ˈsnɛll]", "example": {"swedish": "Min lärare är snäll.", "english": "My teacher is kind."}}, {"type": "NEUTER", "form": "snällt", "phonetic": "[ˈsnɛllt]", "example": {"swedish": "Barnet är snällt.", "english": "The child is kind."}}, {"type": "PLURAL", "form": "snälla", "phonetic": "[ˈsnɛllɑ]", "example": {"swedish": "Människorna är snälla.", "english": "The people are kind."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "trevlig", "phonetic": "[ˈtrɛvlɪɡ]", "translation": "friendly", "forms": [{"type": "COMMON", "form": "trevlig", "phonetic": "[ˈtrɛvlɪɡ]", "example": {"swedish": "Vår granne är trevlig.", "english": "Our neighbor is friendly."}}, {"type": "NEUTER", "form": "trevligt", "phonetic": "[ˈtrɛvlɪɡt]", "example": {"swedish": "Barnet är trevligt.", "english": "The child is friendly."}}, {"type": "PLURAL", "form": "trevliga", "phonetic": "[ˈtrɛvlɪɡɑ]", "example": {"swedish": "Människorna är trevliga.", "english": "The people are friendly."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "glad", "phonetic": "[ˈɡlɑd]", "translation": "happy", "forms": [{"type": "COMMON", "form": "glad", "phonetic": "[ˈɡlɑd]", "example": {"swedish": "Min mamma är glad.", "english": "My mother is happy."}}, {"type": "NEUTER", "form": "glatt", "phonetic": "[ˈɡlɑtt]", "example": {"swedish": "Barnet är glatt.", "english": "The child is happy."}}, {"type": "PLURAL", "form": "glada", "phonetic": "[ˈɡlɑdɑ]", "example": {"swedish": "Människorna är glada.", "english": "The people are happy."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "rolig", "phonetic": "[ˈrulɪɡ]", "translation": "funny", "forms": [{"type": "COMMON", "form": "rolig", "phonetic": "[ˈrulɪɡ]", "example": {"swedish": "Min bror är rolig.", "english": "My brother is funny."}}, {"type": "NEUTER", "form": "roligt", "phonetic": "[ˈrulɪɡt]", "example": {"swedish": "Barnet är roligt.", "english": "The child is funny."}}, {"type": "PLURAL", "form": "roliga", "phonetic": "[ˈrulɪɡɑ]", "example": {"swedish": "Människorna är roliga.", "english": "The people are funny."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "blyg", "phonetic": "[ˈblyɡ]", "translation": "shy", "forms": [{"type": "COMMON", "form": "blyg", "phonetic": "[ˈblyɡ]", "example": {"swedish": "Min kusin är blyg.", "english": "My cousin is shy."}}, {"type": "NEUTER", "form": "blygt", "phonetic": "[ˈblyɡt]", "example": {"swedish": "Barnet är blygt.", "english": "The child is shy."}}, {"type": "PLURAL", "form": "blyga", "phonetic": "[ˈblyɡɑ]", "example": {"swedish": "Människorna är blyga.", "english": "The people are shy."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "lugn", "phonetic": "[ˈlʉɡn]", "translation": "calm", "forms": [{"type": "COMMON", "form": "lugn", "phonetic": "[ˈlʉɡn]", "example": {"swedish": "Min pappa är lugn.", "english": "My father is calm."}}, {"type": "NEUTER", "form": "lugnt", "phonetic": "[ˈlʉɡnt]", "example": {"swedish": "Barnet är lugnt.", "english": "The child is calm."}}, {"type": "PLURAL", "form": "lugna", "phonetic": "[ˈlʉɡnɑ]", "example": {"swedish": "Människorna är lugna.", "english": "The people are calm."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "smart", "phonetic": "[ˈsmɑrt]", "translation": "smart", "forms": [{"type": "COMMON", "form": "smart", "phonetic": "[ˈsmɑrt]", "example": {"swedish": "Min syster är smart.", "english": "My sister is smart."}}, {"type": "NEUTER", "form": "smart", "phonetic": "[ˈsmɑrt]", "example": {"swedish": "Barnet är smart.", "english": "The child is smart."}}, {"type": "PLURAL", "form": "smarta", "phonetic": "[ˈsmɑrtɑ]", "example": {"swedish": "Människorna är smarta.", "english": "The people are smart."}}]}} />
+</VocabularyGrid>
 
 ## Physical features
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **hår** | hair | Hon har långt **hår**. | She has long hair. |
-| **ett öga (ögon)** | an eye | Hans **ögon** är gröna. | His eyes are green. |
-| **en näsa** | a nose | Hennes **näsa** är liten. | Her nose is small. |
+<VocabularyGrid>
+	<NounCard entry={{"kind": "noun", "lemma": "hår", "phonetic": "[ˈhor]", "translation": "hair", "forms": {"indefiniteSingular": {"form": "hår", "phonetic": "[ˈhor]", "example": {"swedish": "Hon har långt hår.", "english": "She has long hair."}}, "definiteSingular": {"form": "håret", "phonetic": "[ˈhorɛt]", "example": {"swedish": "Jag tycker om håret.", "english": "I like the hair."}}, "indefinitePlural": {"form": "hårstrån", "phonetic": "[ˈhoʂtron]", "example": {"swedish": "Jag använder hårstrån.", "english": "I use strands of hair."}}, "definitePlural": {"form": "hårstråna", "phonetic": "[ˈhoʂtronɑ]", "example": {"swedish": "Jag använder hårstråna.", "english": "I use the strands of hair."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "ett öga", "phonetic": "[ˈɛtt øɡɑ]", "translation": "an eye", "forms": {"indefiniteSingular": {"form": "ett öga", "phonetic": "[ˈɛtt øɡɑ]", "example": {"swedish": "Hans ögon är gröna.", "english": "His eyes are green."}}, "definiteSingular": {"form": "ögat", "phonetic": "[ˈøɡɑt]", "example": {"swedish": "Jag ser ögat.", "english": "I see the eye."}}, "indefinitePlural": {"form": "ögon", "phonetic": "[ˈøɡun]", "example": {"swedish": "Jag ser ögon.", "english": "I see eyes."}}, "definitePlural": {"form": "ögonen", "phonetic": "[ˈøɡunɛn]", "example": {"swedish": "Jag ser ögonen.", "english": "I see the eyes."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en näsa", "phonetic": "[ˈɛn nɛsɑ]", "translation": "a nose", "forms": {"indefiniteSingular": {"form": "en näsa", "phonetic": "[ˈɛn nɛsɑ]", "example": {"swedish": "Hennes näsa är liten.", "english": "Her nose is small."}}, "definiteSingular": {"form": "näsan", "phonetic": "[ˈnɛsɑn]", "example": {"swedish": "Jag ser näsan.", "english": "I see the nose."}}, "indefinitePlural": {"form": "näsor", "phonetic": "[ˈnɛsur]", "example": {"swedish": "Jag ser näsor.", "english": "I see noses."}}, "definitePlural": {"form": "näsorna", "phonetic": "[ˈnɛsurnɑ]", "example": {"swedish": "Jag ser näsorna.", "english": "I see the noses."}}}}} />
+</VocabularyGrid>

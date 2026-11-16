@@ -7,96 +7,99 @@ estimated_minutes: 5
 tags: [adjectives, descriptions, everyday]
 ---
 
+import AdjectiveCard from '../../../components/vocabulary/AdjectiveCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
 ## Quality and value
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| good | **bra** | **bra** | **bra** | Maten är **bra**. | The food is good. |
-| bad | **dålig** | **dåligt** | **dåliga** | Kaffet är **dåligt**. | The coffee is bad. |
-| tasty, good (food) | **god** | **gott** | **goda** | Soppan är **god**. | The soup is tasty. |
-| cheap | **billig** | **billigt** | **billiga** | Boken är **billig**. | The book is cheap. |
-| expensive | **dyr** | **dyrt** | **dyra** | Bilen är **dyr**. | The car is expensive. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "bra", "phonetic": "[ˈbrɑ]", "translation": "good", "forms": [{"type": "COMMON", "form": "bra", "phonetic": "[ˈbrɑ]", "example": {"swedish": "Maten är bra.", "english": "The food is good."}}, {"type": "NEUTER", "form": "bra", "phonetic": "[ˈbrɑ]", "example": {"swedish": "Kaffet är bra.", "english": "The coffee is good."}}, {"type": "PLURAL", "form": "bra", "phonetic": "[ˈbrɑ]", "example": {"swedish": "Äpplena är bra.", "english": "The apples are good."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "dålig", "phonetic": "[ˈdolɪɡ]", "translation": "bad", "forms": [{"type": "COMMON", "form": "dålig", "phonetic": "[ˈdolɪɡ]", "example": {"swedish": "Maten är dålig.", "english": "The food is bad."}}, {"type": "NEUTER", "form": "dåligt", "phonetic": "[ˈdolɪɡt]", "example": {"swedish": "Kaffet är dåligt.", "english": "The coffee is bad."}}, {"type": "PLURAL", "form": "dåliga", "phonetic": "[ˈdolɪɡɑ]", "example": {"swedish": "Äpplena är dåliga.", "english": "The apples are bad."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "god", "phonetic": "[ˈɡud]", "translation": "tasty, good (food)", "forms": [{"type": "COMMON", "form": "god", "phonetic": "[ˈɡud]", "example": {"swedish": "Soppan är god.", "english": "The soup is tasty."}}, {"type": "NEUTER", "form": "gott", "phonetic": "[ˈɡutt]", "example": {"swedish": "Kaffet är gott.", "english": "The coffee is tasty, good (food)."}}, {"type": "PLURAL", "form": "goda", "phonetic": "[ˈɡudɑ]", "example": {"swedish": "Äpplena är goda.", "english": "The apples are tasty, good (food)."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "billig", "phonetic": "[ˈbɪllɪɡ]", "translation": "cheap", "forms": [{"type": "COMMON", "form": "billig", "phonetic": "[ˈbɪllɪɡ]", "example": {"swedish": "Boken är billig.", "english": "The book is cheap."}}, {"type": "NEUTER", "form": "billigt", "phonetic": "[ˈbɪllɪɡt]", "example": {"swedish": "Huset är billigt.", "english": "The house is cheap."}}, {"type": "PLURAL", "form": "billiga", "phonetic": "[ˈbɪllɪɡɑ]", "example": {"swedish": "Bilarna är billiga.", "english": "The cars are cheap."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "dyr", "phonetic": "[ˈdyr]", "translation": "expensive", "forms": [{"type": "COMMON", "form": "dyr", "phonetic": "[ˈdyr]", "example": {"swedish": "Bilen är dyr.", "english": "The car is expensive."}}, {"type": "NEUTER", "form": "dyrt", "phonetic": "[ˈdyrt]", "example": {"swedish": "Huset är dyrt.", "english": "The house is expensive."}}, {"type": "PLURAL", "form": "dyra", "phonetic": "[ˈdyrɑ]", "example": {"swedish": "Bilarna är dyra.", "english": "The cars are expensive."}}]}} />
+</VocabularyGrid>
 
 ## Size and space
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| big | **stor** | **stort** | **stora** | Huset är **stort**. | The house is big. |
-| small | **liten** | **litet** | **små** | Rummet är **litet**. | The room is small. |
-| full | **full** | **fullt** | **fulla** | Bussen är **full**. | The bus is full. |
-| empty | **tom** | **tomt** | **tomma** | Glaset är **tomt**. | The glass is empty. |
-| high | **hög** | **högt** | **höga** | Taket är **högt**. | The ceiling is high. |
-| low | **låg** | **lågt** | **låga** | Staketet är **lågt**. | The fence is low. |
-| wide | **bred** | **brett** | **breda** | Vägen är **bred**. | The road is wide. |
-| narrow | **smal** | **smalt** | **smala** | Dörren är **smal**. | The door is narrow. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "stor", "phonetic": "[ˈstur]", "translation": "big", "forms": [{"type": "COMMON", "form": "stor", "phonetic": "[ˈstur]", "example": {"swedish": "Bilen är stor.", "english": "The car is big."}}, {"type": "NEUTER", "form": "stort", "phonetic": "[ˈsturt]", "example": {"swedish": "Huset är stort.", "english": "The house is big."}}, {"type": "PLURAL", "form": "stora", "phonetic": "[ˈsturɑ]", "example": {"swedish": "Bilarna är stora.", "english": "The cars are big."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "liten", "phonetic": "[ˈlɪtɛn]", "translation": "small", "forms": [{"type": "COMMON", "form": "liten", "phonetic": "[ˈlɪtɛn]", "example": {"swedish": "Bilen är liten.", "english": "The car is small."}}, {"type": "NEUTER", "form": "litet", "phonetic": "[ˈlɪtɛt]", "example": {"swedish": "Huset är litet.", "english": "The house is small."}}, {"type": "PLURAL", "form": "små", "phonetic": "[ˈsmo]", "example": {"swedish": "Bilarna är små.", "english": "The cars are small."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "full", "phonetic": "[ˈfʉll]", "translation": "full", "forms": [{"type": "COMMON", "form": "full", "phonetic": "[ˈfʉll]", "example": {"swedish": "Bussen är full.", "english": "The bus is full."}}, {"type": "NEUTER", "form": "fullt", "phonetic": "[ˈfʉllt]", "example": {"swedish": "Glaset är fullt.", "english": "The glass is full."}}, {"type": "PLURAL", "form": "fulla", "phonetic": "[ˈfʉllɑ]", "example": {"swedish": "Bussarna är fulla.", "english": "The buses are full."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "tom", "phonetic": "[ˈtum]", "translation": "empty", "forms": [{"type": "COMMON", "form": "tom", "phonetic": "[ˈtum]", "example": {"swedish": "Bussen är tom.", "english": "The bus is empty."}}, {"type": "NEUTER", "form": "tomt", "phonetic": "[ˈtumt]", "example": {"swedish": "Glaset är tomt.", "english": "The glass is empty."}}, {"type": "PLURAL", "form": "tomma", "phonetic": "[ˈtummɑ]", "example": {"swedish": "Bussarna är tomma.", "english": "The buses are empty."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "hög", "phonetic": "[ˈhøɡ]", "translation": "high", "forms": [{"type": "COMMON", "form": "hög", "phonetic": "[ˈhøɡ]", "example": {"swedish": "Kullen är hög.", "english": "The hill is high."}}, {"type": "NEUTER", "form": "högt", "phonetic": "[ˈhøɡt]", "example": {"swedish": "Taket är högt.", "english": "The roof is high."}}, {"type": "PLURAL", "form": "höga", "phonetic": "[ˈhøɡɑ]", "example": {"swedish": "Kullarna är höga.", "english": "The hills are high."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "låg", "phonetic": "[ˈloɡ]", "translation": "low", "forms": [{"type": "COMMON", "form": "låg", "phonetic": "[ˈloɡ]", "example": {"swedish": "Kullen är låg.", "english": "The hill is low."}}, {"type": "NEUTER", "form": "lågt", "phonetic": "[ˈloɡt]", "example": {"swedish": "Taket är lågt.", "english": "The roof is low."}}, {"type": "PLURAL", "form": "låga", "phonetic": "[ˈloɡɑ]", "example": {"swedish": "Kullarna är låga.", "english": "The hills are low."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "bred", "phonetic": "[ˈbrɛd]", "translation": "wide", "forms": [{"type": "COMMON", "form": "bred", "phonetic": "[ˈbrɛd]", "example": {"swedish": "Vägen är bred.", "english": "The road is wide."}}, {"type": "NEUTER", "form": "brett", "phonetic": "[ˈbrɛtt]", "example": {"swedish": "Fönstret är brett.", "english": "The window is wide."}}, {"type": "PLURAL", "form": "breda", "phonetic": "[ˈbrɛdɑ]", "example": {"swedish": "Vägarna är breda.", "english": "The roads are wide."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "smal", "phonetic": "[ˈsmɑl]", "translation": "narrow", "forms": [{"type": "COMMON", "form": "smal", "phonetic": "[ˈsmɑl]", "example": {"swedish": "Dörren är smal.", "english": "The door is narrow."}}, {"type": "NEUTER", "form": "smalt", "phonetic": "[ˈsmɑlt]", "example": {"swedish": "Fönstret är smalt.", "english": "The window is narrow."}}, {"type": "PLURAL", "form": "smala", "phonetic": "[ˈsmɑlɑ]", "example": {"swedish": "Vägarna är smala.", "english": "The roads are narrow."}}]}} />
+</VocabularyGrid>
 
 ## Taste
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| sweet | **söt** | **sött** | **söta** | Juicen är **söt**. | The juice is sweet. |
-| salty | **salt** | **salt** | **salta** | Soppan är **salt**. | The soup is salty. |
-| sour | **sur** | **surt** | **sura** | Citronen är **sur**. | The lemon is sour. |
-| strong | **stark** | **starkt** | **starka** | Kaffet är **starkt**. | The coffee is strong. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "söt", "phonetic": "[ˈsøt]", "translation": "sweet", "forms": [{"type": "COMMON", "form": "söt", "phonetic": "[ˈsøt]", "example": {"swedish": "Juicen är söt.", "english": "The juice is sweet."}}, {"type": "NEUTER", "form": "sött", "phonetic": "[ˈsøtt]", "example": {"swedish": "Kaffet är sött.", "english": "The coffee is sweet."}}, {"type": "PLURAL", "form": "söta", "phonetic": "[ˈsøtɑ]", "example": {"swedish": "Äpplena är söta.", "english": "The apples are sweet."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "salt", "phonetic": "[ˈsɑlt]", "translation": "salty", "forms": [{"type": "COMMON", "form": "salt", "phonetic": "[ˈsɑlt]", "example": {"swedish": "Soppan är salt.", "english": "The soup is salty."}}, {"type": "NEUTER", "form": "salt", "phonetic": "[ˈsɑlt]", "example": {"swedish": "Kaffet är salt.", "english": "The coffee is salty."}}, {"type": "PLURAL", "form": "salta", "phonetic": "[ˈsɑltɑ]", "example": {"swedish": "Äpplena är salta.", "english": "The apples are salty."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "sur", "phonetic": "[ˈsʉr]", "translation": "sour", "forms": [{"type": "COMMON", "form": "sur", "phonetic": "[ˈsʉr]", "example": {"swedish": "Citronen är sur.", "english": "The lemon is sour."}}, {"type": "NEUTER", "form": "surt", "phonetic": "[ˈsʉrt]", "example": {"swedish": "Kaffet är surt.", "english": "The coffee is sour."}}, {"type": "PLURAL", "form": "sura", "phonetic": "[ˈsʉrɑ]", "example": {"swedish": "Äpplena är sura.", "english": "The apples are sour."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "stark", "phonetic": "[ˈstɑrk]", "translation": "strong", "forms": [{"type": "COMMON", "form": "stark", "phonetic": "[ˈstɑrk]", "example": {"swedish": "Maten är stark.", "english": "The food is strong."}}, {"type": "NEUTER", "form": "starkt", "phonetic": "[ˈstɑrkt]", "example": {"swedish": "Kaffet är starkt.", "english": "The coffee is strong."}}, {"type": "PLURAL", "form": "starka", "phonetic": "[ˈstɑrkɑ]", "example": {"swedish": "Äpplena är starka.", "english": "The apples are strong."}}]}} />
+</VocabularyGrid>
 
 ## Temperature
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| warm | **varm** | **varmt** | **varma** | Mjölken är **varm**. | The milk is warm. |
-| cold | **kall** | **kallt** | **kalla** | Vattnet är **kallt**. | The water is cold. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "varm", "phonetic": "[ˈvɑrm]", "translation": "warm", "forms": [{"type": "COMMON", "form": "varm", "phonetic": "[ˈvɑrm]", "example": {"swedish": "Mjölken är varm.", "english": "The milk is warm."}}, {"type": "NEUTER", "form": "varmt", "phonetic": "[ˈvɑrmt]", "example": {"swedish": "Kaffet är varmt.", "english": "The coffee is warm."}}, {"type": "PLURAL", "form": "varma", "phonetic": "[ˈvɑrmɑ]", "example": {"swedish": "Äpplena är varma.", "english": "The apples are warm."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "kall", "phonetic": "[ˈkɑll]", "translation": "cold", "forms": [{"type": "COMMON", "form": "kall", "phonetic": "[ˈkɑll]", "example": {"swedish": "Maten är kall.", "english": "The food is cold."}}, {"type": "NEUTER", "form": "kallt", "phonetic": "[ˈkɑllt]", "example": {"swedish": "Kaffet är kallt.", "english": "The coffee is cold."}}, {"type": "PLURAL", "form": "kalla", "phonetic": "[ˈkɑllɑ]", "example": {"swedish": "Äpplena är kalla.", "english": "The apples are cold."}}]}} />
+</VocabularyGrid>
 
 ## Speed
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| fast | **snabb** | **snabbt** | **snabba** | Tåget är **snabbt**. | The train is fast. |
-| slow | **långsam** | **långsamt** | **långsamma** | Datorn är **långsam**. | The computer is slow. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "snabb", "phonetic": "[ˈsnɑbb]", "translation": "fast", "forms": [{"type": "COMMON", "form": "snabb", "phonetic": "[ˈsnɑbb]", "example": {"swedish": "Bilen är snabb.", "english": "The car is fast."}}, {"type": "NEUTER", "form": "snabbt", "phonetic": "[ˈsnɑbbt]", "example": {"swedish": "Tåget är snabbt.", "english": "The train is fast."}}, {"type": "PLURAL", "form": "snabba", "phonetic": "[ˈsnɑbbɑ]", "example": {"swedish": "Bilarna är snabba.", "english": "The cars are fast."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "långsam", "phonetic": "[ˈloŋsɑm]", "translation": "slow", "forms": [{"type": "COMMON", "form": "långsam", "phonetic": "[ˈloŋsɑm]", "example": {"swedish": "Datorn är långsam.", "english": "The computer is slow."}}, {"type": "NEUTER", "form": "långsamt", "phonetic": "[ˈloŋsɑmt]", "example": {"swedish": "Tåget är långsamt.", "english": "The train is slow."}}, {"type": "PLURAL", "form": "långsamma", "phonetic": "[ˈloŋsɑmmɑ]", "example": {"swedish": "Bilarna är långsamma.", "english": "The cars are slow."}}]}} />
+</VocabularyGrid>
 
 ## Cleanliness
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| clean | **ren** | **rent** | **rena** | Köket är **rent**. | The kitchen is clean. |
-| dirty | **smutsig** | **smutsigt** | **smutsiga** | Golvet är **smutsigt**. | The floor is dirty. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "ren", "phonetic": "[ˈrɛn]", "translation": "clean", "forms": [{"type": "COMMON", "form": "ren", "phonetic": "[ˈrɛn]", "example": {"swedish": "Lägenheten är ren.", "english": "The apartment is clean."}}, {"type": "NEUTER", "form": "rent", "phonetic": "[ˈrɛnt]", "example": {"swedish": "Huset är rent.", "english": "The house is clean."}}, {"type": "PLURAL", "form": "rena", "phonetic": "[ˈrɛnɑ]", "example": {"swedish": "Lägenheterna är rena.", "english": "The apartments are clean."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "smutsig", "phonetic": "[ˈsmʉtsɪɡ]", "translation": "dirty", "forms": [{"type": "COMMON", "form": "smutsig", "phonetic": "[ˈsmʉtsɪɡ]", "example": {"swedish": "Lägenheten är smutsig.", "english": "The apartment is dirty."}}, {"type": "NEUTER", "form": "smutsigt", "phonetic": "[ˈsmʉtsɪɡt]", "example": {"swedish": "Huset är smutsigt.", "english": "The house is dirty."}}, {"type": "PLURAL", "form": "smutsiga", "phonetic": "[ˈsmʉtsɪɡɑ]", "example": {"swedish": "Lägenheterna är smutsiga.", "english": "The apartments are dirty."}}]}} />
+</VocabularyGrid>
 
 ## Condition
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| wet | **våt** | **vått** | **våta** | Handduken är **våt**. | The towel is wet. |
-| dry | **torr** | **torrt** | **torra** | Brödet är **torrt**. | The bread is dry. |
-| whole, intact | **hel** | **helt** | **hela** | Boken är **hel**. | The book is intact. |
-| broken | **trasig** | **trasigt** | **trasiga** | Leksaken är **trasig**. | The toy is broken. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "våt", "phonetic": "[ˈvot]", "translation": "wet", "forms": [{"type": "COMMON", "form": "våt", "phonetic": "[ˈvot]", "example": {"swedish": "Handduken är våt.", "english": "The towel is wet."}}, {"type": "NEUTER", "form": "vått", "phonetic": "[ˈvott]", "example": {"swedish": "Plagget är vått.", "english": "The garment is wet."}}, {"type": "PLURAL", "form": "våta", "phonetic": "[ˈvotɑ]", "example": {"swedish": "Handdukarna är våta.", "english": "The towels are wet."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "torr", "phonetic": "[ˈturr]", "translation": "dry", "forms": [{"type": "COMMON", "form": "torr", "phonetic": "[ˈturr]", "example": {"swedish": "Handduken är torr.", "english": "The towel is dry."}}, {"type": "NEUTER", "form": "torrt", "phonetic": "[ˈturrt]", "example": {"swedish": "Plagget är torrt.", "english": "The garment is dry."}}, {"type": "PLURAL", "form": "torra", "phonetic": "[ˈturrɑ]", "example": {"swedish": "Handdukarna är torra.", "english": "The towels are dry."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "hel", "phonetic": "[ˈhɛl]", "translation": "whole, intact", "forms": [{"type": "COMMON", "form": "hel", "phonetic": "[ˈhɛl]", "example": {"swedish": "Boken är hel.", "english": "The book is intact."}}, {"type": "NEUTER", "form": "helt", "phonetic": "[ˈhɛlt]", "example": {"swedish": "Äpplet är helt.", "english": "The apple is whole, intact."}}, {"type": "PLURAL", "form": "hela", "phonetic": "[ˈhɛlɑ]", "example": {"swedish": "Böckerna är hela.", "english": "The books are whole, intact."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "trasig", "phonetic": "[ˈtrɑsɪɡ]", "translation": "broken", "forms": [{"type": "COMMON", "form": "trasig", "phonetic": "[ˈtrɑsɪɡ]", "example": {"swedish": "Leksaken är trasig.", "english": "The toy is broken."}}, {"type": "NEUTER", "form": "trasigt", "phonetic": "[ˈtrɑsɪɡt]", "example": {"swedish": "Föremålet är trasigt.", "english": "The object is broken."}}, {"type": "PLURAL", "form": "trasiga", "phonetic": "[ˈtrɑsɪɡɑ]", "example": {"swedish": "Leksakerna är trasiga.", "english": "The toys are broken."}}]}} />
+</VocabularyGrid>
 
 ## Common qualities
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| nice, lovely | **fin** | **fint** | **fina** | Blommorna är **fina**. | The flowers are lovely. |
-| simple | **enkel** | **enkelt** | **enkla** | Frågan är **enkel**. | The question is simple. |
-| important | **viktig** | **viktigt** | **viktiga** | Passet är **viktigt**. | The passport is important. |
-| ordinary, usual | **vanlig** | **vanligt** | **vanliga** | Det är en **vanlig** dag. | It is an ordinary day. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "fin", "phonetic": "[ˈfɪn]", "translation": "nice, lovely", "forms": [{"type": "COMMON", "form": "fin", "phonetic": "[ˈfɪn]", "example": {"swedish": "Bilen är fin.", "english": "The car is nice, lovely."}}, {"type": "NEUTER", "form": "fint", "phonetic": "[ˈfɪnt]", "example": {"swedish": "Huset är fint.", "english": "The house is nice, lovely."}}, {"type": "PLURAL", "form": "fina", "phonetic": "[ˈfɪnɑ]", "example": {"swedish": "Bilarna är fina.", "english": "The cars are nice, lovely."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "enkel", "phonetic": "[ˈɛnɕɛl]", "translation": "simple", "forms": [{"type": "COMMON", "form": "enkel", "phonetic": "[ˈɛnɕɛl]", "example": {"swedish": "Frågan är enkel.", "english": "The question is simple."}}, {"type": "NEUTER", "form": "enkelt", "phonetic": "[ˈɛnɕɛlt]", "example": {"swedish": "Kravet är enkelt.", "english": "The requirement is simple."}}, {"type": "PLURAL", "form": "enkla", "phonetic": "[ˈɛnklɑ]", "example": {"swedish": "Reglerna är enkla.", "english": "The rules are simple."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "viktig", "phonetic": "[ˈvɪktɪɡ]", "translation": "important", "forms": [{"type": "COMMON", "form": "viktig", "phonetic": "[ˈvɪktɪɡ]", "example": {"swedish": "Regeln är viktig.", "english": "The rule is important."}}, {"type": "NEUTER", "form": "viktigt", "phonetic": "[ˈvɪktɪɡt]", "example": {"swedish": "Kravet är viktigt.", "english": "The requirement is important."}}, {"type": "PLURAL", "form": "viktiga", "phonetic": "[ˈvɪktɪɡɑ]", "example": {"swedish": "Reglerna är viktiga.", "english": "The rules are important."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "vanlig", "phonetic": "[ˈvɑnlɪɡ]", "translation": "ordinary, usual", "forms": [{"type": "COMMON", "form": "vanlig", "phonetic": "[ˈvɑnlɪɡ]", "example": {"swedish": "Det är en vanlig dag.", "english": "It is an ordinary day."}}, {"type": "NEUTER", "form": "vanligt", "phonetic": "[ˈvɑnlɪɡt]", "example": {"swedish": "Kravet är vanligt.", "english": "The requirement is ordinary, usual."}}, {"type": "PLURAL", "form": "vanliga", "phonetic": "[ˈvɑnlɪɡɑ]", "example": {"swedish": "Reglerna är vanliga.", "english": "The rules are ordinary, usual."}}]}} />
+</VocabularyGrid>
 
 ## Body and feelings
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| hungry | **hungrig** | **hungrigt** | **hungriga** | Jag är **hungrig** nu. | I am hungry now. |
-| thirsty | **törstig** | **törstigt** | **törstiga** | Hon är **törstig**. | She is thirsty. |
-| tired | **trött** | **trött** | **trötta** | Barnet är **trött**. | The child is tired. |
-| sick, ill | **sjuk** | **sjukt** | **sjuka** | Min katt är **sjuk**. | My cat is ill. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "hungrig", "phonetic": "[ˈhʉŋrɪɡ]", "translation": "hungry", "forms": [{"type": "COMMON", "form": "hungrig", "phonetic": "[ˈhʉŋrɪɡ]", "example": {"swedish": "Jag är hungrig nu.", "english": "I am hungry now."}}, {"type": "NEUTER", "form": "hungrigt", "phonetic": "[ˈhʉŋrɪɡt]", "example": {"swedish": "Barnet är hungrigt.", "english": "The child is hungry."}}, {"type": "PLURAL", "form": "hungriga", "phonetic": "[ˈhʉŋrɪɡɑ]", "example": {"swedish": "Barnen är hungriga.", "english": "The children are hungry."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "törstig", "phonetic": "[ˈtøʂtɪɡ]", "translation": "thirsty", "forms": [{"type": "COMMON", "form": "törstig", "phonetic": "[ˈtøʂtɪɡ]", "example": {"swedish": "Hon är törstig.", "english": "She is thirsty."}}, {"type": "NEUTER", "form": "törstigt", "phonetic": "[ˈtøʂtɪɡt]", "example": {"swedish": "Barnet är törstigt.", "english": "The child is thirsty."}}, {"type": "PLURAL", "form": "törstiga", "phonetic": "[ˈtøʂtɪɡɑ]", "example": {"swedish": "Barnen är törstiga.", "english": "The children are thirsty."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "trött", "phonetic": "[ˈtrøtt]", "translation": "tired", "forms": [{"type": "COMMON", "form": "trött", "phonetic": "[ˈtrøtt]", "example": {"swedish": "Barnet är trött.", "english": "The child is tired."}}, {"type": "NEUTER", "form": "trött", "phonetic": "[ˈtrøtt]", "example": {"swedish": "Barnet är trött.", "english": "The child is tired."}}, {"type": "PLURAL", "form": "trötta", "phonetic": "[ˈtrøttɑ]", "example": {"swedish": "Barnen är trötta.", "english": "The children are tired."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "sjuk", "phonetic": "[ˈɧʉk]", "translation": "sick, ill", "forms": [{"type": "COMMON", "form": "sjuk", "phonetic": "[ˈɧʉk]", "example": {"swedish": "Min katt är sjuk.", "english": "My cat is ill."}}, {"type": "NEUTER", "form": "sjukt", "phonetic": "[ˈɧʉkt]", "example": {"swedish": "Barnet är sjukt.", "english": "The child is sick, ill."}}, {"type": "PLURAL", "form": "sjuka", "phonetic": "[ˈɧʉkɑ]", "example": {"swedish": "Barnen är sjuka.", "english": "The children are sick, ill."}}]}} />
+</VocabularyGrid>
 
 ## Difficulty
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| easy | **lätt** | **lätt** | **lätta** | Frågan är **lätt**. | The question is easy. |
-| difficult | **svår** | **svårt** | **svåra** | Provet är **svårt**. | The test is difficult. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "lätt", "phonetic": "[ˈlɛtt]", "translation": "easy", "forms": [{"type": "COMMON", "form": "lätt", "phonetic": "[ˈlɛtt]", "example": {"swedish": "Frågan är lätt.", "english": "The question is easy."}}, {"type": "NEUTER", "form": "lätt", "phonetic": "[ˈlɛtt]", "example": {"swedish": "Provet är lätt.", "english": "The test is easy."}}, {"type": "PLURAL", "form": "lätta", "phonetic": "[ˈlɛttɑ]", "example": {"swedish": "Uppgifterna är lätta.", "english": "The tasks are easy."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "svår", "phonetic": "[ˈsvor]", "translation": "difficult", "forms": [{"type": "COMMON", "form": "svår", "phonetic": "[ˈsvor]", "example": {"swedish": "Frågan är svår.", "english": "The question is difficult."}}, {"type": "NEUTER", "form": "svårt", "phonetic": "[ˈsvort]", "example": {"swedish": "Provet är svårt.", "english": "The test is difficult."}}, {"type": "PLURAL", "form": "svåra", "phonetic": "[ˈsvorɑ]", "example": {"swedish": "Uppgifterna är svåra.", "english": "The tasks are difficult."}}]}} />
+</VocabularyGrid>
 
 ## Open and closed
 
-| English meaning | En | Ett | Plural | Example (Swedish) | Example (English) |
-|---|---|---|---|---|---|
-| open | **öppen** | **öppet** | **öppna** | Fönstret är **öppet**. | The window is open. |
-| closed | **stängd** | **stängt** | **stängda** | Butiken är **stängd**. | The shop is closed. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "öppen", "phonetic": "[ˈøppɛn]", "translation": "open", "forms": [{"type": "COMMON", "form": "öppen", "phonetic": "[ˈøppɛn]", "example": {"swedish": "Dörren är öppen.", "english": "The door is open."}}, {"type": "NEUTER", "form": "öppet", "phonetic": "[ˈøppɛt]", "example": {"swedish": "Fönstret är öppet.", "english": "The window is open."}}, {"type": "PLURAL", "form": "öppna", "phonetic": "[ˈøppnɑ]", "example": {"swedish": "Dörrarna är öppna.", "english": "The doors are open."}}]}} />
+	<AdjectiveCard entry={{"kind": "adjective", "lemma": "stängd", "phonetic": "[ˈstɛŋd]", "translation": "closed", "forms": [{"type": "COMMON", "form": "stängd", "phonetic": "[ˈstɛŋd]", "example": {"swedish": "Butiken är stängd.", "english": "The shop is closed."}}, {"type": "NEUTER", "form": "stängt", "phonetic": "[ˈstɛŋt]", "example": {"swedish": "Fönstret är stängt.", "english": "The window is closed."}}, {"type": "PLURAL", "form": "stängda", "phonetic": "[ˈstɛŋdɑ]", "example": {"swedish": "Dörrarna är stängda.", "english": "The doors are closed."}}]}} />
+</VocabularyGrid>
