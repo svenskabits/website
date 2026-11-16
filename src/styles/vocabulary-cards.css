@@ -146,9 +146,16 @@
 }
 
 .vocabulary-card__adjective-form-value {
-	display: grid;
-	gap: 0.15rem;
-	justify-items: end;
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.vocabulary-card__adjective-form .vocabulary-card__form {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0.25rem 1rem;
 }
 
 .vocabulary-card__form-example {
