@@ -227,7 +227,7 @@ Use one `AdjectiveCard` per adjective. The top-level `phonetic` is IPA for the l
 }} />
 ```
 
-Each form must include its own IPA transcription and Swedish/English example pair. IPA covers only the form itself.
+Each form must include its own IPA transcription and Swedish/English example pair. IPA covers only the adjective form, excluding comparison words such as *mer* and *mest*.
 
 Allowed `type` enum values are `COMMON`, `NEUTER`, `PLURAL`, `COMPARATIVE`, `SUPERLATIVE`, and `ADVERB`.
 
