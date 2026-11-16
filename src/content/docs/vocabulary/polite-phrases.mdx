@@ -7,13 +7,69 @@ estimated_minutes: 3
 tags: [politeness, requests, thanks]
 ---
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **tack** | thanks; thank you | **Tack** för hjälpen! | Thanks for the help! |
-| **ursäkta** | excuse me | **Ursäkta**, var är toaletten? | Excuse me, where is the bathroom? |
-| **förlåt** | sorry | **Förlåt**, jag är sen. | Sorry, I am late. |
-| **varsågod** | here you are | **Varsågod**, här är din bok. | Here you are, here's your book. |
-| **gärna** | gladly; with pleasure | Jag hjälper dig **gärna**. | I am happy to help you. |
-| **snälla** | please | **Snälla**, vänta lite. | Please, wait a moment. |
-| **hjälpa** | to help | Kan du **hjälpa** mig? | Can you help me? |
-| **en tjänst** | a favor | Kan du göra mig en **tjänst**? | Can you do me a favor? |
+import NounCard from '../../../components/vocabulary/NounCard.astro';
+import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
+import AdjectiveCard from '../../../components/vocabulary/AdjectiveCard.astro';
+import VerbCard from '../../../components/vocabulary/VerbCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
+## Polite phrases
+
+<VocabularyGrid>
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'tack', phonetic: '[takː]', english: 'thanks; thank you', example: { swedish: 'Tack för hjälpen!', english: 'Thanks for the help!' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'ursäkta', phonetic: '[ɵˈʂɛkta]', english: 'excuse me', example: { swedish: 'Ursäkta, var är toaletten?', english: 'Excuse me, where is the bathroom?' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'förlåt', phonetic: '[fœˈɭoːt]', english: 'sorry', example: { swedish: 'Förlåt, jag är sen.', english: 'Sorry, I am late.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'varsågod', phonetic: '[vɑːʂoːˈɡuːd]', english: 'here you are', example: { swedish: 'Varsågod, här är din bok.', english: "Here you are, here's your book." } }} />
+	<AdjectiveCard entry={{
+		kind: 'adjective',
+		lemma: 'långsam',
+		phonetic: '[ˈlɔŋsam]',
+		translation: 'slow',
+		forms: [
+			{ type: 'COMMON', form: 'långsam', phonetic: '[ˈlɔŋsam]', example: { swedish: 'Den här bilen är långsam.', english: 'This car is slow.' } },
+			{ type: 'NEUTER', form: 'långsamt', phonetic: '[ˈlɔŋsamt]', example: { swedish: 'Tåget är långsamt.', english: 'The train is slow.' } },
+			{ type: 'PLURAL', form: 'långsamma', phonetic: '[ˈlɔŋsama]', example: { swedish: 'Bilarna är långsamma.', english: 'The cars are slow.' } },
+			{ type: 'COMPARATIVE', form: 'långsammare', phonetic: '[ˈlɔŋˌsamːarɛ]', example: { swedish: 'Den här bilen är långsammare.', english: 'This car is slower.' } },
+			{ type: 'SUPERLATIVE', form: 'långsammast', phonetic: '[ˈlɔŋˌsamːast]', example: { swedish: 'Den här bilen är långsammast av alla.', english: 'This car is the slowest of all.' } },
+			{ type: 'ADVERB', form: 'långsamt', phonetic: '[ˈlɔŋsamt]', example: { swedish: 'Han kör långsamt.', english: 'He drives slowly.' } },
+		]
+	}} />
+	<AdjectiveCard entry={{
+		kind: 'adjective',
+		lemma: 'intressant',
+		phonetic: '[ɪntrɛˈsanːt]',
+		translation: 'interesting',
+		forms: [
+			{ type: 'COMMON', form: 'intressant', phonetic: '[ɪntrɛˈsanːt]', example: { swedish: 'Det är en intressant bok.', english: 'It is an interesting book.' } },
+			{ type: 'NEUTER', form: 'intressant', phonetic: '[ɪntrɛˈsanːt]', example: { swedish: 'Det är ett intressant ämne.', english: 'It is an interesting subject.' } },
+			{ type: 'PLURAL', form: 'intressanta', phonetic: '[ɪntrɛˈsanta]', example: { swedish: 'Det är intressanta böcker.', english: 'They are interesting books.' } },
+			{ type: 'COMPARATIVE', form: 'mer intressant', phonetic: '[ɪntrɛˈsanːt]', example: { swedish: 'Den här boken är mer intressant.', english: 'This book is more interesting.' } },
+			{ type: 'SUPERLATIVE', form: 'mest intressant', phonetic: '[ɪntrɛˈsanːt]', example: { swedish: 'Boken är mest intressant av alla.', english: 'The book is the most interesting of all.' } },
+			{ type: 'ADVERB', form: 'intressant', phonetic: '[ɪntrɛˈsanːt]', example: { swedish: 'Hon skriver intressant.', english: 'She writes in an interesting way.' } },
+		]
+	}} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'snälla', phonetic: '[ˈsnɛlːa]', english: 'please', example: { swedish: 'Snälla, vänta lite.', english: 'Please, wait a moment.' } }} />
+	<VerbCard entry={{ kind: 'verb', lemma: 'hjälpa', phonetic: '[ˈjɛlːpa]', translation: 'to help', tenses: [
+		{ type: 'INFINITIVE', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Kan du hjälpa mig?', english: 'Can you help me?' } },
+		{ type: 'PRESENT', form: 'hjälper', phonetic: '[ˈjɛlːpɛr]', example: { swedish: 'Hon hjälper sin vän.', english: 'She helps her friend.' } },
+		{ type: 'PRETERITE', form: 'hjälpte', phonetic: '[ˈjɛlːptɛ]', example: { swedish: 'Han hjälpte mig i går.', english: 'He helped me yesterday.' } },
+		{ type: 'PERFECT', auxiliary: 'har', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag har redan hjälpt min vän.', english: 'I have already helped my friend.' } },
+		{ type: 'PLUPERFECT', auxiliary: 'hade', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag hade hjälpt henne före mötet.', english: 'I had helped her before the meeting.' } },
+		{ type: 'FUTURE_SKA', auxiliary: 'ska', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Jag ska hjälpa dig i morgon.', english: 'I will help you tomorrow.' } },
+		{ type: 'FUTURE_KOMMER_ATT', auxiliary: 'kommer att', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Jag kommer att hjälpa dig.', english: 'I will help you.' } },
+		{ type: 'IMPERATIVE', form: 'hjälp!', phonetic: '[jɛlp]', example: { swedish: 'Hjälp mig, tack!', english: 'Help me, please!' } },
+		{ type: 'CONDITIONAL_PERFECT', auxiliary: 'skulle ha', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag skulle ha hjälpt dig om jag hade kunnat.', english: 'I would have helped you if I could.' } },
+	] }} />
+	<NounCard entry={{
+		kind: 'noun',
+		lemma: 'tjänst',
+		phonetic: '[ɕɛnst]',
+		translation: 'a favor',
+		forms: {
+			indefiniteSingular: { form: 'en tjänst', phonetic: '[ɕɛnst]', example: { swedish: 'Kan du göra mig en tjänst?', english: 'Can you do me a favor?' } },
+			definiteSingular: { form: 'tjänsten', phonetic: '[ˈɕɛnstɛn]', example: { swedish: 'Jag uppskattar tjänsten.', english: 'I appreciate the favor.' } },
+			indefinitePlural: { form: 'tjänster', phonetic: '[ˈɕɛnstɛr]', example: { swedish: 'Hon gjorde många tjänster för oss.', english: 'She did many favors for us.' } },
+			definitePlural: { form: 'tjänsterna', phonetic: '[ˈɕɛnstɛɳa]', example: { swedish: 'Tjänsterna hjälpte oss mycket.', english: 'The favors helped us a lot.' } },
+		},
+	}} />
+</VocabularyGrid>
