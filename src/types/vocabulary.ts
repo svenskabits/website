@@ -66,6 +66,7 @@ export interface AdjectiveVocabularyEntry {
 export interface PhraseVocabularyEntry {
 	kind: 'phrase';
 	swedish: string;
+	phonetic: string;
 	english: string;
 	example: VocabularyExample;
 }

@@ -2,7 +2,7 @@
 
 You are writing one page for a website that teaches Swedish as a second language to adult learners. The course covers CEFR levels A1 to B2. Every page covers **one single topic**. Let the topic and CEFR level determine how much vocabulary the page needs; do not impose an arbitrary word count.
 
-This prompt currently defines the finalized **noun** and **verb** card data. Do not use vocabulary tables. If the requested page needs adjectives, phrases, or another category whose card props are not finalized in this prompt, stop and ask for that component contract instead of inventing props or falling back to a table.
+This prompt currently defines the finalized **noun**, **verb**, and **phrase** card data. Do not use vocabulary tables. If the requested page needs adjectives or another category whose card props are not finalized in this prompt, stop and ask for that component contract instead of inventing props or falling back to a table.
 
 ---
 
@@ -190,11 +190,25 @@ CONDITIONAL_PERFECT
 
 Use each applicable tense/form once per verb. The two future constructions have distinct enum values. Do not add duplicate enum values for a verb.
 
+### Phrases: `PhraseCard`
+
+Use one `PhraseCard` per phrase. The phonetic field is the IPA transcription of the complete Swedish phrase.
+
+```js
+<PhraseCard entry={{
+  kind: 'phrase',
+  swedish: 'hej då',
+  phonetic: '[hɛj doː]',
+  english: 'goodbye; bye',
+  example: { swedish: 'Hej då, vi ses i morgon.', english: 'Bye, see you tomorrow.' }
+}} />
+```
+
 ---
 
 ## 6. Other vocabulary categories
 
-The adjective and other category component contracts are not finalized in this prompt yet. If the requested page needs entries outside the noun and verb contracts above, do not guess their props and do not create a table. Ask for the appropriate finalized component contract before writing that page.
+The adjective and other category component contracts are not finalized in this prompt yet. If the requested page needs entries outside the noun, verb, and phrase contracts above, do not guess their props and do not create a table. Ask for the appropriate finalized component contract before writing that page.
 
 ---
 
@@ -214,5 +228,6 @@ Before finishing, verify:
 - [ ] Noun IPA excludes its article.
 - [ ] Every verb uses an allowed unique `type` value; each tense/form has IPA and an example pair.
 - [ ] Verb IPA covers only the verb form, not any auxiliary.
+- [ ] Every phrase has its full-phrase IPA and a Swedish/English example pair.
 - [ ] Every example translation matches its Swedish sentence and suits the CEFR level.
 - [ ] No grammar explanation, cross-page reference, or extra lesson section has been added.
