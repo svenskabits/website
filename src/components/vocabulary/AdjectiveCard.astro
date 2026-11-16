@@ -16,15 +16,16 @@ const formLabels: Record<AdjectiveFormType, string> = {
 };
 ---
 
-<article class="vocabulary-card vocabulary-card--adjective">
-	<header class="vocabulary-card__header">
+<details class="vocabulary-card vocabulary-card--adjective">
+	<summary class="vocabulary-card__summary">
 		<span class="vocabulary-card__kind">Adjective</span>
 		<h3 lang="sv">{entry.lemma}</h3>
 		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
 			{entry.phonetic}
 		</p>
 		<p class="vocabulary-card__translation">{entry.translation}</p>
-	</header>
+	</summary>
+	<div class="vocabulary-card__details">
 	<dl class="vocabulary-card__forms">
 		{entry.forms.map(({ type, form, phonetic, example }) => (
 			<div class="vocabulary-card__adjective-form">
@@ -42,4 +43,5 @@ const formLabels: Record<AdjectiveFormType, string> = {
 			</div>
 		))}
 	</dl>
-</article>
+	</div>
+</details>

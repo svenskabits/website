@@ -1,24 +1,75 @@
 .vocabulary-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+	grid-template-columns: minmax(0, 1fr);
 	gap: 1rem;
 	margin-block: 1rem 1.5rem;
 }
 
 .vocabulary-card {
 	min-width: 0;
-	padding: 1rem;
 	border: 1px solid var(--sl-color-gray-5);
 	border-radius: 0.75rem;
 	background: var(--sl-color-bg);
 	box-shadow: 0 1px 3px color-mix(in srgb, var(--sl-color-black) 8%, transparent);
 }
 
-.vocabulary-card__header {
-	margin-bottom: 0.85rem;
+.vocabulary-card__summary {
+	display: flex;
+	align-items: baseline;
+	gap: 0.35rem 1rem;
+	padding: 0.8rem 1rem;
+	list-style: none;
+	cursor: pointer;
 }
 
-.vocabulary-card__kind,
+.vocabulary-card__summary::-webkit-details-marker {
+	display: none;
+}
+
+.vocabulary-card__summary::before {
+	display: none;
+}
+
+.vocabulary-card__summary::after {
+	content: '';
+	width: 0.55rem;
+	height: 0.55rem;
+	flex: 0 0 auto;
+	margin-inline-start: auto;
+	border-right: 2px solid var(--sl-color-gray-3);
+	border-bottom: 2px solid var(--sl-color-gray-3);
+	transform: translateY(-0.15rem) rotate(45deg);
+	transition: transform 150ms ease;
+}
+
+.vocabulary-card[open] > .vocabulary-card__summary::after {
+	transform: translateY(0.1rem) rotate(225deg);
+}
+
+.vocabulary-card__summary:focus-visible {
+	border-radius: 0.7rem;
+	outline: 2px solid var(--sl-color-text-accent);
+	outline-offset: -3px;
+}
+
+.vocabulary-card__kind {
+	flex: 0 0 auto;
+	margin: 0;
+	color: var(--sl-color-gray-3);
+	font-size: var(--sl-text-xs);
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.vocabulary-card__summary h3 {
+	flex: 0 1 auto;
+	margin: 0;
+	color: var(--sl-color-text);
+	font-size: var(--sl-text-lg);
+	line-height: 1.4;
+}
+
 .vocabulary-card__example-label {
 	display: block;
 	margin-bottom: 0.25rem;
@@ -29,21 +80,27 @@
 	text-transform: uppercase;
 }
 
-.vocabulary-card__header h3 {
+.vocabulary-card__summary .vocabulary-card__translation {
+	flex: 1 1 12rem;
+	min-width: 0;
 	margin: 0;
-	color: var(--sl-color-text);
-	font-size: var(--sl-text-xl);
-}
-
-.vocabulary-card__translation {
-	margin: 0.15rem 0 0;
-	color: var(--sl-color-gray-2);
+	color: var(--sl-color-gray-3);
 }
 
 .vocabulary-card__phonetic {
-	margin: 0.15rem 0 0;
-	color: var(--sl-color-gray-3);
+	flex: 0 1 auto;
+	margin: 0;
+	color: #c2410c;
 	font-size: var(--sl-text-sm);
+}
+
+.vocabulary-card__details {
+	padding: 0 1rem 1rem;
+}
+
+.vocabulary-card[open] > .vocabulary-card__details {
+	padding-top: 0.75rem;
+	border-top: 1px solid var(--sl-color-gray-5);
 }
 
 .vocabulary-card__forms {
@@ -89,9 +146,16 @@
 }
 
 .vocabulary-card__adjective-form-value {
-	display: grid;
-	gap: 0.15rem;
-	justify-items: end;
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.vocabulary-card__adjective-form .vocabulary-card__form {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0.25rem 1rem;
 }
 
 .vocabulary-card__form-example {
@@ -103,14 +167,22 @@
 }
 
 .vocabulary-card__form-example p + p {
-	margin-top: 0.2rem;
+	margin-top: 0;
 	color: var(--sl-color-gray-3);
 	font-size: var(--sl-text-sm);
 }
 
 .vocabulary-card__verb-form {
-	display: grid;
-	gap: 0.15rem;
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.vocabulary-card__tense .vocabulary-card__form {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0.25rem 1rem;
 }
 
 .vocabulary-card__auxiliary {
@@ -127,9 +199,7 @@
 	list-style: none;
 }
 
-.vocabulary-card__examples li,
-.vocabulary-card__example,
-.vocabulary-card__tense-example {
+.vocabulary-card__examples li {
 	padding-top: 0.75rem;
 	border-top: 1px solid var(--sl-color-gray-5);
 }
@@ -143,7 +213,7 @@
 .vocabulary-card__examples p + p,
 .vocabulary-card__example p + p,
 .vocabulary-card__tense-example p + p {
-	margin-top: 0.2rem;
+	margin-top: 0;
 	color: var(--sl-color-gray-3);
 	font-size: var(--sl-text-sm);
 }
@@ -159,7 +229,27 @@
 }
 
 @media (max-width: 30rem) {
-	.vocabulary-card {
-		padding: 0.85rem;
+	.vocabulary-card__summary {
+		gap: 0.25rem 0.65rem;
+		padding: 0.75rem;
+	}
+
+	.vocabulary-card__details {
+		padding-inline: 0.75rem;
+	}
+}
+
+@media (min-width: 48rem) {
+	.vocabulary-card__forms {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0;
+	}
+
+	.vocabulary-card__noun-form + .vocabulary-card__noun-form,
+	.vocabulary-card__adjective-form + .vocabulary-card__adjective-form,
+	.vocabulary-card__tense + .vocabulary-card__tense {
+		margin: 0;
+		padding-top: 0.75rem;
+		border-top: 1px solid var(--sl-color-gray-5);
 	}
 }

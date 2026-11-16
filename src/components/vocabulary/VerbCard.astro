@@ -19,15 +19,16 @@ const tenseLabels: Record<VerbTenseType, string> = {
 };
 ---
 
-<article class="vocabulary-card vocabulary-card--verb">
-	<header class="vocabulary-card__header">
+<details class="vocabulary-card vocabulary-card--verb">
+	<summary class="vocabulary-card__summary">
 		<span class="vocabulary-card__kind">Verb</span>
 		<h3 lang="sv">{entry.lemma}</h3>
 		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
 			{entry.phonetic}
 		</p>
 		<p class="vocabulary-card__translation">{entry.translation}</p>
-	</header>
+	</summary>
+	<div class="vocabulary-card__details">
 	<dl class="vocabulary-card__forms">
 		{entry.tenses.map(({ type, auxiliary, form, phonetic, example }) => (
 			<div class="vocabulary-card__tense">
@@ -46,4 +47,5 @@ const tenseLabels: Record<VerbTenseType, string> = {
 			</div>
 		))}
 	</dl>
-</article>
+	</div>
+</details>
