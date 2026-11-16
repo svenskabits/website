@@ -7,13 +7,30 @@ estimated_minutes: 3
 tags: [politeness, requests, thanks]
 ---
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **tack** | thanks; thank you | **Tack** för hjälpen! | Thanks for the help! |
-| **ursäkta** | excuse me | **Ursäkta**, var är toaletten? | Excuse me, where is the bathroom? |
-| **förlåt** | sorry | **Förlåt**, jag är sen. | Sorry, I am late. |
-| **varsågod** | here you are | **Varsågod**, här är din bok. | Here you are, here's your book. |
-| **gärna** | gladly; with pleasure | Jag hjälper dig **gärna**. | I am happy to help you. |
-| **snälla** | please | **Snälla**, vänta lite. | Please, wait a moment. |
-| **hjälpa** | to help | Kan du **hjälpa** mig? | Can you help me? |
-| **en tjänst** | a favor | Kan du göra mig en **tjänst**? | Can you do me a favor? |
+import NounCard from '../../../components/vocabulary/NounCard.astro';
+import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
+import VerbCard from '../../../components/vocabulary/VerbCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
+## Polite phrases
+
+<VocabularyGrid>
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'tack', english: 'thanks; thank you', example: { swedish: 'Tack för hjälpen!', english: 'Thanks for the help!' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'ursäkta', english: 'excuse me', example: { swedish: 'Ursäkta, var är toaletten?', english: 'Excuse me, where is the bathroom?' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'förlåt', english: 'sorry', example: { swedish: 'Förlåt, jag är sen.', english: 'Sorry, I am late.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'varsågod', english: 'here you are', example: { swedish: 'Varsågod, här är din bok.', english: "Here you are, here's your book." } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'gärna', english: 'gladly; with pleasure', example: { swedish: 'Jag hjälper dig gärna.', english: 'I am happy to help you.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'snälla', english: 'please', example: { swedish: 'Snälla, vänta lite.', english: 'Please, wait a moment.' } }} />
+	<VerbCard entry={{ kind: 'verb', lemma: 'hjälpa', phonetic: '[ˈjɛlːpa]', translation: 'to help', tenses: [
+		{ type: 'INFINITIVE', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Kan du hjälpa mig?', english: 'Can you help me?' } },
+		{ type: 'PRESENT', form: 'hjälper', phonetic: '[ˈjɛlːpɛr]', example: { swedish: 'Hon hjälper sin vän.', english: 'She helps her friend.' } },
+		{ type: 'PRETERITE', form: 'hjälpte', phonetic: '[ˈjɛlːptɛ]', example: { swedish: 'Han hjälpte mig i går.', english: 'He helped me yesterday.' } },
+		{ type: 'PERFECT', auxiliary: 'har', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag har redan hjälpt min vän.', english: 'I have already helped my friend.' } },
+		{ type: 'PLUPERFECT', auxiliary: 'hade', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag hade hjälpt henne före mötet.', english: 'I had helped her before the meeting.' } },
+		{ type: 'FUTURE_SKA', auxiliary: 'ska', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Jag ska hjälpa dig i morgon.', english: 'I will help you tomorrow.' } },
+		{ type: 'FUTURE_KOMMER_ATT', auxiliary: 'kommer att', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Jag kommer att hjälpa dig.', english: 'I will help you.' } },
+		{ type: 'IMPERATIVE', form: 'hjälp!', phonetic: '[jɛlp]', example: { swedish: 'Hjälp mig, tack!', english: 'Help me, please!' } },
+		{ type: 'CONDITIONAL_PERFECT', auxiliary: 'skulle ha', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag skulle ha hjälpt dig om jag hade kunnat.', english: 'I would have helped you if I could.' } },
+	] }} />
+	<NounCard entry={{ kind: 'noun', lemma: 'tjänst', phonetic: '[ɕɛnst]', translation: 'a favor', forms: { indefiniteSingular: 'en tjänst', definiteSingular: 'tjänsten', indefinitePlural: 'tjänster', definitePlural: 'tjänsterna' }, examples: [{ swedish: 'Kan du göra mig en tjänst?', english: 'Can you do me a favor?' }] }} />
+</VocabularyGrid>

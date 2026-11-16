@@ -1,0 +1,49 @@
+---
+import { VerbTenseType, type VerbVocabularyEntry } from '../../types/vocabulary';
+
+interface Props {
+	entry: VerbVocabularyEntry;
+}
+
+const { entry } = Astro.props;
+const tenseLabels: Record<VerbTenseType, string> = {
+	[VerbTenseType.INFINITIVE]: 'Infinitive',
+	[VerbTenseType.PRESENT]: 'Present',
+	[VerbTenseType.PRETERITE]: 'Preterite',
+	[VerbTenseType.PERFECT]: 'Perfect',
+	[VerbTenseType.PLUPERFECT]: 'Pluperfect',
+	[VerbTenseType.FUTURE_SKA]: 'Future (ska)',
+	[VerbTenseType.FUTURE_KOMMER_ATT]: 'Future (kommer att)',
+	[VerbTenseType.IMPERATIVE]: 'Imperative',
+	[VerbTenseType.CONDITIONAL_PERFECT]: 'Conditional perfect (skulle)',
+};
+---
+
+<article class="vocabulary-card vocabulary-card--verb">
+	<header class="vocabulary-card__header">
+		<span class="vocabulary-card__kind">Verb</span>
+		<h3 lang="sv">{entry.lemma}</h3>
+		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
+			{entry.phonetic}
+		</p>
+		<p class="vocabulary-card__translation">{entry.translation}</p>
+	</header>
+	<dl class="vocabulary-card__forms">
+		{entry.tenses.map(({ type, auxiliary, form, phonetic, example }) => (
+			<div class="vocabulary-card__tense">
+				<div class="vocabulary-card__form">
+					<dt>{tenseLabels[type]}</dt>
+					<dd class="vocabulary-card__verb-form">
+						{auxiliary && <span class="vocabulary-card__auxiliary" lang="sv">{auxiliary}</span>}
+						<span lang="sv">{form}</span>
+						<span class="vocabulary-card__phonetic" lang="sv-fonipa">{phonetic}</span>
+					</dd>
+				</div>
+				<div class="vocabulary-card__tense-example">
+					<p lang="sv">{example.swedish}</p>
+					<p>{example.english}</p>
+				</div>
+			</div>
+		))}
+	</dl>
+</article>

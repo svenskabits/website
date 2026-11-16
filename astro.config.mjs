@@ -11,7 +11,7 @@ export default defineConfig({
 		starlight({
 			title: 'Svenska Bits',
 			logo: { src: './src/assets/logo.svg', alt: '' },
-			customCss: ['./src/styles/sidebar-badges.css'],
+			customCss: ['./src/styles/sidebar-badges.css', './src/styles/vocabulary-cards.css'],
 			components: {
 				PageTitle: './src/components/SearchResultMetadata.astro',
 			},

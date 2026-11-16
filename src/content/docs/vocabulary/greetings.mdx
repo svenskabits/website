@@ -7,22 +7,25 @@ estimated_minutes: 3
 tags: [greetings, goodbyes, everyday]
 ---
 
+import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
 ## Greetings
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **hej** | hi; hello | **Hej**, jag heter Anna. | Hi, my name is Anna. |
-| **hallå** | hello | **Hallå**, är du där? | Hello, are you there? |
-| **god morgon** | good morning | **God morgon**, Ali! | Good morning, Ali! |
-| **god kväll** | good evening | **God kväll**, välkommen in! | Good evening, come in! |
-| **välkommen** | welcome | **Välkommen** hem till oss! | Welcome to our home! |
+<VocabularyGrid>
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'hej', english: 'hi; hello', example: { swedish: 'Hej, jag heter Anna.', english: 'Hi, my name is Anna.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'hallå', english: 'hello', example: { swedish: 'Hallå, är du där?', english: 'Hello, are you there?' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'god morgon', english: 'good morning', example: { swedish: 'God morgon, Ali!', english: 'Good morning, Ali!' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'god kväll', english: 'good evening', example: { swedish: 'God kväll, välkommen in!', english: 'Good evening, come in!' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'välkommen', english: 'welcome', example: { swedish: 'Välkommen hem till oss!', english: 'Welcome to our home!' } }} />
+</VocabularyGrid>
 
 ## Goodbyes
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **hej då** | goodbye; bye | **Hej då**, vi ses i morgon. | Bye, see you tomorrow. |
-| **ha det bra** | take care | **Ha det bra** på jobbet! | Take care at work! |
-| **vi ses** | see you | **Vi ses** snart igen. | See you again soon. |
-| **vi hörs** | talk to you later | **Vi hörs** på telefon. | Talk to you on the phone. |
-| **god natt** | good night | **God natt**, mamma! | Good night, Mom! |
+<VocabularyGrid>
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'hej då', english: 'goodbye; bye', example: { swedish: 'Hej då, vi ses i morgon.', english: 'Bye, see you tomorrow.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'ha det bra', english: 'take care', example: { swedish: 'Ha det bra på jobbet!', english: 'Take care at work!' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'vi ses', english: 'see you', example: { swedish: 'Vi ses snart igen.', english: 'See you again soon.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'vi hörs', english: 'talk to you later', example: { swedish: 'Vi hörs på telefon.', english: 'Talk to you on the phone.' } }} />
+	<PhraseCard entry={{ kind: 'phrase', swedish: 'god natt', english: 'good night', example: { swedish: 'God natt, mamma!', english: 'Good night, Mom!' } }} />
+</VocabularyGrid>

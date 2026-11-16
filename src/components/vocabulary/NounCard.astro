@@ -1,0 +1,44 @@
+---
+import type { NounVocabularyEntry } from '../../types/vocabulary';
+
+interface Props {
+	entry: NounVocabularyEntry;
+}
+
+const { entry } = Astro.props;
+const forms = [
+	{ label: 'Indefinite singular', value: entry.forms.indefiniteSingular },
+	{ label: 'Definite singular', value: entry.forms.definiteSingular },
+	{ label: 'Indefinite plural', value: entry.forms.indefinitePlural },
+	{ label: 'Definite plural', value: entry.forms.definitePlural },
+];
+---
+
+<article class="vocabulary-card vocabulary-card--noun">
+	<header class="vocabulary-card__header">
+		<span class="vocabulary-card__kind">Noun</span>
+		<h3 lang="sv">{entry.lemma}</h3>
+		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
+			{entry.phonetic}
+		</p>
+		<p class="vocabulary-card__translation">{entry.translation}</p>
+	</header>
+	<dl class="vocabulary-card__forms">
+		{forms.map(({ label, value }) => (
+			<div class="vocabulary-card__form">
+				<dt>{label}</dt>
+				<dd lang="sv">{value}</dd>
+			</div>
+		))}
+	</dl>
+	{entry.examples.length > 0 && (
+		<ul class="vocabulary-card__examples">
+			{entry.examples.map((example) => (
+				<li>
+					<p lang="sv">{example.swedish}</p>
+					<p>{example.english}</p>
+				</li>
+			))}
+		</ul>
+	)}
+</article>

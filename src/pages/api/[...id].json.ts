@@ -1,4 +1,5 @@
 import { getCollection } from 'astro:content';
+import { serializeMdxToAst } from '../../lib/mdx-ast';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('docs');
@@ -9,8 +10,9 @@ export async function getStaticPaths() {
 			post: {
 				id: post.id,
 				url: post.id === 'index' ? '/' : `/${post.id}/`,
+				bodyFormat: 'remark-mdast-mdx-components-v1',
 				...post.data,
-				body: post.body,
+				body: serializeMdxToAst(post.body ?? ''),
 			},
 		},
 	}));
