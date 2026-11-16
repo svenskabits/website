@@ -1,8 +1,8 @@
 # Prompt: Write a Vocabulary (V) Page
 
-You are writing one page for a website that teaches Swedish as a second language to adult learners. The course covers CEFR levels A1 to B2. Every page covers **one single topic**. Let the topic and CEFR level determine how much vocabulary the page needs; do not impose an arbitrary word or row count.
+You are writing one page for a website that teaches Swedish as a second language to adult learners. The course covers CEFR levels A1 to B2. Every page covers **one single topic**. Let the topic and CEFR level determine how much vocabulary the page needs; do not impose an arbitrary word count.
 
-This prompt explains how to write a **vocabulary page** (type **V**). Read all of it, including the sample page at the end, then write the page you are asked for.
+This prompt currently defines the finalized **noun** and **verb** card data. Do not use vocabulary tables. If the requested page needs adjectives, phrases, or another category whose card props are not finalized in this prompt, stop and ask for that component contract instead of inventing props or falling back to a table.
 
 ---
 
@@ -16,15 +16,14 @@ Level: {A1 | A2 | B1 | B2}
 Notes (optional): {anything specific to include or avoid}
 ```
 
-Example request: *Create a vocabulary page for "Fruit", level A1.*
-
 ## 2. Output
 
-- Produce **one Markdown document** and nothing else: no introduction, no explanation, no comments about your work.
-- Name the file after the page title in lowercase kebab-case, ASCII only, for example `introducing-yourself.mdx` or `days-of-the-week.mdx`. If the project handoff gives you an exact target path, use it.
-- If you can write files, save the file. If you can't, output the complete file content only.
-- The document must have the front matter from section 4, followed by its vocabulary table or tables. Do not add a generic "Key words" heading.
-- Do **not** copy the HTML template comment from the sample into your page.
+- Produce **one MDX document** and nothing else: no introduction, explanation, or comments about your work.
+- Name the file after the page title in lowercase kebab-case, ASCII only. If the project handoff specifies a target path, use it.
+- The document must have the front matter from section 4, followed by headings and explicit card component instances.
+- Do not create separate JSON data files. The page's literal component props are the source data and are exported by the MDX AST API.
+- Do not use Markdown tables, JavaScript `.map()` expressions, variables for card data, spread props, or imports of data modules. Use explicit component instances with a literal `entry` object so Remark can export the props as JSON.
+- Do not copy an HTML template comment into the page.
 
 ---
 
@@ -33,21 +32,21 @@ Example request: *Create a vocabulary page for "Fruit", level A1.*
 1. **One topic per page.** If the topic seems too wide, cover its most useful core. Do not widen it.
 2. **Concise and concrete.** Short sentences, practical words, no filler.
 3. **Useful first.** Choose the words a learner is most likely to need in real life, in order of frequency and usefulness.
-4. **Match the level.** Vocabulary and example sentences must suit the page's CEFR level:
+4. **Match the level.** Vocabulary and examples must suit the page's CEFR level:
    - **A1:** very common, concrete words. Short sentences (about 3 to 7 words) in the simple present tense.
    - **A2:** everyday topics. Short sentences, and the past tense and simple connectors are fine.
    - **B1:** wider and more abstract vocabulary. Longer sentences and subordinate clauses are fine.
    - **B2:** nuance, collocations, register and idiomatic use.
-5. **Each page stands alone.** Never refer to other pages, chapters, sections or levels. Do not write "see page…", "as we learned earlier", "later in the course" or "in the next chapter". You don't know how the course will be ordered, and references are hard to maintain.
-6. **No grammar lessons.** This is a vocabulary page. Use grammar naturally in examples without explaining it.
-7. **No key phrases section.** Do not add phrases, dialogues, exercises, tips, common mistakes, a goal, a recap, audio or image placeholders, or links. A natural example sentence belongs in the vocabulary table; do not repeat it in another section.
-8. **Accuracy matters more than coverage.** Use standard Swedish as used in Sweden. Check spelling, å/ä/ö, and the en/ett gender of every noun. If you aren't sure a word, phrase or fact is correct and current, leave it out. For facts about Swedish society (institutions, rules, customs), state only what you are confident is correct, and keep it general otherwise.
+5. **Each page stands alone.** Never refer to other pages, chapters, sections, or levels.
+6. **No grammar lessons.** Use grammar naturally in examples without explaining it.
+7. **No extra sections.** Do not add dialogues, exercises, tips, common mistakes, a goal, a recap, audio or image placeholders, or links. Put examples in their card data; do not repeat them elsewhere.
+8. **Accuracy matters more than coverage.** Use standard Swedish as used in Sweden. Check spelling, å/ä/ö, noun gender, forms, and IPA. If unsure, leave the item out.
 
 ---
 
 ## 4. Page structure
 
-The page has front matter followed directly by its vocabulary table or tables. Do not add a page title or Swedish title in the body: the site displays the page title from front matter already. Do not add a generic "Key words" heading.
+The page has front matter, followed by optional descriptive `##` headings and card components. Do not repeat the page title or Swedish title in the body.
 
 ### Front matter
 
@@ -63,76 +62,157 @@ tags: [tag1, tag2, tag3]
 ```
 
 - `title`: the page title as given.
-- `title_sv`: a natural Swedish version of the title. Keep it in front matter, but do not repeat it in the body.
+- `title_sv`: a natural Swedish version of the title.
 - `type`: always `V`.
-- `level`: the level you were given.
+- `level`: the given CEFR level.
 - `estimated_minutes`: a whole number from 2 to 5.
 - `tags`: 2 to 4 lowercase English keywords.
-- Do **not** add page numbers, chapter names, "prerequisites", "next" or any other link to other pages.
+- Do not add page numbers, chapter names, prerequisites, next-page links, or other cross-page references.
 
-### Vocabulary tables
+### MDX imports and AST-safe component use
 
-Each table has these four columns:
+Import only the components used by the page, after the closing front matter:
 
-**Swedish | English | Example (Swedish) | Example (English)**
+```mdx
+import NounCard from '../../../components/vocabulary/NounCard.astro';
+import VerbCard from '../../../components/vocabulary/VerbCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+```
 
-- Include the useful vocabulary needed to cover the topic at the stated CEFR level. There is **no fixed minimum or maximum number** of words or rows. Let the topic and level determine the scope; do not omit relevant vocabulary just to keep to a count.
-- Put the Swedish word in **bold**. Order words by usefulness or by a logical order of the set.
-- **Nouns:** give the indefinite article, such as *en bil* or *ett hus*. Write the plural only when it is irregular or particularly useful.
-- **Verbs:** give the infinitive without "att", such as *heta* or *komma från*.
-- **Adjectives:** give the base form.
-- Give every Swedish example a natural, accurate English translation in the matching row. The two examples must have the same meaning.
-- Each example is **one short, natural sentence** at the page's level. Put the target word in **bold** in the Swedish example. The sentence must show what the word means. Avoid examples that only repeat the word.
-- Only include words a learner at this level would actually use.
-- Sort the vocabulary into meaningful semantic categories. If the page has only one table, do not add a heading for it. If it has more than one table, give each table its own descriptive `##` heading (for example, `## Greetings` and `## Goodbyes`). Do not add a parent heading such as "Key words". Do not mix categories in one table; for example, language names and basic verbs belong in separate tables. A category can include related vocabulary (such as all the days of the week) in one table. Do not split one coherent category into arbitrary smaller groups.
+Wrap related cards in `VocabularyGrid`. Use a literal `entry` object on each card. Do not put components inside expressions or loops. This keeps the sequence of text and components statically visible to the Remark AST exporter and makes each card's data available in the page API.
+
+Use descriptive `##` headings for distinct semantic groups. Do not add a generic “Key words” heading. If a page has only one coherent group, a heading is optional.
 
 ---
 
-## 5. Style rules
+## 5. Finalized card data contracts
 
-- Write the English parts, including example translations, in plain, friendly, direct English.
-- Use the exact table headers shown above. Repeat the headers for each table.
-- Keep entries concise, but do not cut useful vocabulary to meet a target page length or word count. The topic and level determine how many entries are appropriate.
-- Keep Swedish punctuation and quotation marks simple, and write currency, units and dates in the Swedish style where relevant.
+Every example object has exactly these fields:
+
+```js
+{ swedish: 'A natural Swedish sentence.', english: 'Its accurate English translation.' }
+```
+
+The Swedish sentence and English translation must have the same meaning. Keep the target form in the Swedish sentence.
+
+### Nouns: `NounCard`
+
+Use one `NounCard` per noun. The noun's lemma is the base noun without its article. The top-level `phonetic` is the IPA for the lemma only.
+
+```js
+<NounCard entry={{
+  kind: 'noun',
+  lemma: 'tjänst',
+  phonetic: '[ɕɛnst]',
+  translation: 'a favor',
+  forms: {
+    indefiniteSingular: {
+      form: 'en tjänst',
+      phonetic: '[ɕɛnst]',
+      example: { swedish: 'Kan du göra mig en tjänst?', english: 'Can you do me a favor?' }
+    },
+    definiteSingular: {
+      form: 'tjänsten',
+      phonetic: '[ˈɕɛnstɛn]',
+      example: { swedish: 'Jag uppskattar tjänsten.', english: 'I appreciate the favor.' }
+    },
+    indefinitePlural: {
+      form: 'tjänster',
+      phonetic: '[ˈɕɛnstɛr]',
+      example: { swedish: 'Hon gjorde många tjänster för oss.', english: 'She did many favors for us.' }
+    },
+    definitePlural: {
+      form: 'tjänsterna',
+      phonetic: '[ˈɕɛnstɛɳa]',
+      example: { swedish: 'Tjänsterna hjälpte oss mycket.', english: 'The favors helped us a lot.' }
+    }
+  }
+}} />
+```
+
+Requirements:
+
+- Include **all four forms**: indefinite singular, definite singular, indefinite plural, and definite plural.
+- Every form object must include `form`, `phonetic`, and its own Swedish/English `example` pair.
+- The form's `phonetic` is IPA for the noun form only. For example, the phonetic for `en tjänst` is for `tjänst`; do not include `en` or `ett`.
+- `lemma`, top-level `phonetic`, and `translation` describe the base noun.
+- Do not add an example title or form label inside the example.
+
+### Verbs: `VerbCard`
+
+Use one `VerbCard` per verb. The lemma is the infinitive without `att`; top-level `phonetic` is the IPA for that infinitive.
+
+```js
+<VerbCard entry={{
+  kind: 'verb',
+  lemma: 'hjälpa',
+  phonetic: '[ˈjɛlːpa]',
+  translation: 'to help',
+  tenses: [
+    {
+      type: 'INFINITIVE',
+      form: 'hjälpa',
+      phonetic: '[ˈjɛlːpa]',
+      example: { swedish: 'Kan du hjälpa mig?', english: 'Can you help me?' }
+    },
+    {
+      type: 'PERFECT',
+      auxiliary: 'har',
+      form: 'hjälpt',
+      phonetic: '[ˈjɛlpt]',
+      example: { swedish: 'Jag har redan hjälpt min vän.', english: 'I have already helped my friend.' }
+    }
+  ]
+}} />
+```
+
+Each item in `tenses` must have:
+
+- `type`: one unique enum value from the list below.
+- `form`: the verb's form only, without any auxiliary.
+- `phonetic`: IPA for `form` only, excluding auxiliaries such as *har*, *hade*, *ska*, *kommer att*, or *skulle ha*.
+- `example`: a Swedish example and its matching English translation. The example may include the auxiliary.
+- `auxiliary`: optional Swedish auxiliary/construction, kept separate from `form` and `phonetic`.
+
+Allowed `type` enum values:
+
+```text
+INFINITIVE
+PRESENT
+PRETERITE
+PERFECT
+PLUPERFECT
+FUTURE_SKA
+FUTURE_KOMMER_ATT
+IMPERATIVE
+CONDITIONAL_PERFECT
+```
+
+Use each applicable tense/form once per verb. The two future constructions have distinct enum values. Do not add duplicate enum values for a verb.
 
 ---
 
-## 6. Checklist (verify before you finish)
+## 6. Other vocabulary categories
 
-- [ ] One file, correctly named, with valid front matter and no extra commentary.
-- [ ] The body contains only vocabulary tables and, when there is more than one table, a descriptive heading for each table; no generic "Key words" heading, repeated title, or Swedish subtitle.
-- [ ] Every table has Swedish and English vocabulary plus Swedish and English examples.
-- [ ] Every example translation accurately matches its Swedish example.
-- [ ] No key phrases, goal, tips, common mistakes, recap, dialogue, exercise, audio, image or link.
-- [ ] No reference to any other page, chapter or level.
-- [ ] Vocabulary and sentences suit the stated level.
-- [ ] The vocabulary coverage fits the topic and level, with no arbitrary word-count limit.
-- [ ] Every noun has the right article, every verb is in the infinitive, and all spelling is correct.
-- [ ] Every example sentence is natural Swedish and accurate.
-- [ ] Nothing in the page is uncertain or invented.
+The adjective and other category component contracts are not finalized in this prompt yet. If the requested page needs entries outside the noun and verb contracts above, do not guess their props and do not create a table. Ask for the appropriate finalized component contract before writing that page.
 
 ---
 
-## 7. Sample page
+## 7. Style and checklist
 
-This is a formatting example for the request *"Fruit", level A1*. Follow its structure, tone and formatting, but choose as many vocabulary entries as the topic and level require. Your page will have different content, so do not copy its wording or examples.
+- Write English translations in plain, friendly, direct English.
+- Use standard Swedish spelling and punctuation.
+- Keep examples concise and natural. Every form/tense example must demonstrate the target Swedish form.
+- Do not cut useful vocabulary to meet an arbitrary word count.
 
-````markdown
----
-title: "Fruit"
-title_sv: "Frukt"
-type: V
-level: A1
-estimated_minutes: 3
-tags: [food, fruit, shopping]
----
+Before finishing, verify:
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **ett äpple** | an apple | Jag äter ett **äpple**. | I am eating an apple. |
-| **en banan** | a banana | Hon vill ha en **banan**. | She wants a banana. |
-| **en apelsin** | an orange | **Apelsinen** är söt. | The orange is sweet. |
-| **ett päron** | a pear | Han köper ett **päron**. | He is buying a pear. |
-| **en jordgubbe** | a strawberry | Barnet äter en **jordgubbe**. | The child is eating a strawberry. |
-| **ett bär** | a berry | Jag plockar ett **bär**. | I am picking a berry. |
-````
+- [ ] Front matter is valid and matches the requested page title and level.
+- [ ] Every vocabulary item uses a finalized card component with literal, static props.
+- [ ] There are no tables, data-file imports, `.map()` expressions, dynamic props, or repeated examples.
+- [ ] Every noun has the correct article and all four noun forms, each with its own IPA and example pair.
+- [ ] Noun IPA excludes its article.
+- [ ] Every verb uses an allowed unique `type` value; each tense/form has IPA and an example pair.
+- [ ] Verb IPA covers only the verb form, not any auxiliary.
+- [ ] Every example translation matches its Swedish sentence and suits the CEFR level.
+- [ ] No grammar explanation, cross-page reference, or extra lesson section has been added.
