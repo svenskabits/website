@@ -9,12 +9,17 @@ export interface NounVocabularyEntry {
 	phonetic: string;
 	translation: string;
 	forms: {
-		indefiniteSingular: string;
-		definiteSingular: string;
-		indefinitePlural: string;
-		definitePlural: string;
+		indefiniteSingular: NounForm;
+		definiteSingular: NounForm;
+		indefinitePlural: NounForm;
+		definitePlural: NounForm;
 	};
-	examples: VocabularyExample[];
+}
+
+export interface NounForm {
+	form: string;
+	phonetic: string;
+	example: VocabularyExample;
 }
 
 export enum VerbTenseType {

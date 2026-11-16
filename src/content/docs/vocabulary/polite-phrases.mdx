@@ -32,5 +32,16 @@ import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro'
 		{ type: 'IMPERATIVE', form: 'hjälp!', phonetic: '[jɛlp]', example: { swedish: 'Hjälp mig, tack!', english: 'Help me, please!' } },
 		{ type: 'CONDITIONAL_PERFECT', auxiliary: 'skulle ha', form: 'hjälpt', phonetic: '[ˈjɛlpt]', example: { swedish: 'Jag skulle ha hjälpt dig om jag hade kunnat.', english: 'I would have helped you if I could.' } },
 	] }} />
-	<NounCard entry={{ kind: 'noun', lemma: 'tjänst', phonetic: '[ɕɛnst]', translation: 'a favor', forms: { indefiniteSingular: 'en tjänst', definiteSingular: 'tjänsten', indefinitePlural: 'tjänster', definitePlural: 'tjänsterna' }, examples: [{ swedish: 'Kan du göra mig en tjänst?', english: 'Can you do me a favor?' }] }} />
+	<NounCard entry={{
+		kind: 'noun',
+		lemma: 'tjänst',
+		phonetic: '[ɕɛnst]',
+		translation: 'a favor',
+		forms: {
+			indefiniteSingular: { form: 'en tjänst', phonetic: '[ɛn ɕɛnst]', example: { swedish: 'Kan du göra mig en tjänst?', english: 'Can you do me a favor?' } },
+			definiteSingular: { form: 'tjänsten', phonetic: '[ˈɕɛnstɛn]', example: { swedish: 'Jag uppskattar tjänsten.', english: 'I appreciate the favor.' } },
+			indefinitePlural: { form: 'tjänster', phonetic: '[ˈɕɛnstɛr]', example: { swedish: 'Hon gjorde många tjänster för oss.', english: 'She did many favors for us.' } },
+			definitePlural: { form: 'tjänsterna', phonetic: '[ˈɕɛnstɛɳa]', example: { swedish: 'Tjänsterna hjälpte oss mycket.', english: 'The favors helped us a lot.' } },
+		},
+	}} />
 </VocabularyGrid>

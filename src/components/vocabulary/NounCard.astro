@@ -7,10 +7,10 @@ interface Props {
 
 const { entry } = Astro.props;
 const forms = [
-	{ label: 'Indefinite singular', value: entry.forms.indefiniteSingular },
-	{ label: 'Definite singular', value: entry.forms.definiteSingular },
-	{ label: 'Indefinite plural', value: entry.forms.indefinitePlural },
-	{ label: 'Definite plural', value: entry.forms.definitePlural },
+	{ label: 'Indefinite singular', ...entry.forms.indefiniteSingular },
+	{ label: 'Definite singular', ...entry.forms.definiteSingular },
+	{ label: 'Indefinite plural', ...entry.forms.indefinitePlural },
+	{ label: 'Definite plural', ...entry.forms.definitePlural },
 ];
 ---
 
@@ -24,21 +24,20 @@ const forms = [
 		<p class="vocabulary-card__translation">{entry.translation}</p>
 	</header>
 	<dl class="vocabulary-card__forms">
-		{forms.map(({ label, value }) => (
-			<div class="vocabulary-card__form">
-				<dt>{label}</dt>
-				<dd lang="sv">{value}</dd>
+		{forms.map(({ label, form, phonetic, example }) => (
+			<div class="vocabulary-card__noun-form">
+				<div class="vocabulary-card__form">
+					<dt>{label}</dt>
+					<dd class="vocabulary-card__noun-form-value">
+						<span lang="sv">{form}</span>
+						<span class="vocabulary-card__phonetic" lang="sv-fonipa">{phonetic}</span>
+					</dd>
+				</div>
+				<div class="vocabulary-card__form-example">
+					<p lang="sv">{example.swedish}</p>
+					<p>{example.english}</p>
+				</div>
 			</div>
 		))}
 	</dl>
-	{entry.examples.length > 0 && (
-		<ul class="vocabulary-card__examples">
-			{entry.examples.map((example) => (
-				<li>
-					<p lang="sv">{example.swedish}</p>
-					<p>{example.english}</p>
-				</li>
-			))}
-		</ul>
-	)}
 </article>

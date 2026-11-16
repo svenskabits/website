@@ -70,6 +70,32 @@
 	text-align: end;
 }
 
+.vocabulary-card__noun-form + .vocabulary-card__noun-form {
+	margin-top: 0.75rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid var(--sl-color-gray-5);
+}
+
+.vocabulary-card__noun-form-value {
+	display: grid;
+	gap: 0.15rem;
+	justify-items: end;
+}
+
+.vocabulary-card__form-example {
+	margin-top: 0.35rem;
+}
+
+.vocabulary-card__form-example p {
+	margin: 0;
+}
+
+.vocabulary-card__form-example p + p {
+	margin-top: 0.2rem;
+	color: var(--sl-color-gray-3);
+	font-size: var(--sl-text-sm);
+}
+
 .vocabulary-card__verb-form {
 	display: grid;
 	gap: 0.15rem;
