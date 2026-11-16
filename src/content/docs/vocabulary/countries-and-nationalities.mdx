@@ -7,54 +7,58 @@ estimated_minutes: 4
 tags: [countries, nationalities, places]
 ---
 
+import AdjectiveCard from '../../../components/vocabulary/AdjectiveCard.astro';
+import ProperNounCard from '../../../components/vocabulary/ProperNounCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
 ## Countries
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **Sverige** | Sweden | Jag bor i **Sverige**. | I live in Sweden. |
-| **Finland** | Finland | Hon kommer från **Finland**. | She comes from Finland. |
-| **Norge** | Norway | Han bor i **Norge**. | He lives in Norway. |
-| **Danmark** | Denmark | De åker till **Danmark**. | They travel to Denmark. |
-| **Island** | Iceland | Min vän bor på **Island**. | My friend lives in Iceland. |
-| **Tyskland** | Germany | Vi bor i **Tyskland**. | We live in Germany. |
-| **Storbritannien** | the United Kingdom | Hon kommer från **Storbritannien**. | She comes from the United Kingdom. |
-| **USA** | the United States | De bor i **USA**. | They live in the United States. |
-| **Frankrike** | France | Min familj bor i **Frankrike**. | My family lives in France. |
-| **Spanien** | Spain | Han åker till **Spanien**. | He travels to Spain. |
-| **Italien** | Italy | Vi kommer från **Italien**. | We come from Italy. |
-| **Polen** | Poland | Hon bor i **Polen**. | She lives in Poland. |
-| **Ukraina** | Ukraine | De kommer från **Ukraina**. | They come from Ukraine. |
-| **Syrien** | Syria | Min vän kommer från **Syrien**. | My friend comes from Syria. |
-| **Iran** | Iran | Han kommer från **Iran**. | He comes from Iran. |
-| **Irak** | Iraq | Hon kommer från **Irak**. | She comes from Iraq. |
-| **Somalia** | Somalia | Vi kommer från **Somalia**. | We come from Somalia. |
-| **Turkiet** | Turkey | Min familj kommer från **Turkiet**. | My family comes from Turkey. |
-| **Grekland** | Greece | De bor i **Grekland**. | They live in Greece. |
-| **Kina** | China | Han bor i **Kina**. | He lives in China. |
-| **Nederländerna** | the Netherlands | Hon kommer från **Nederländerna**. | She comes from the Netherlands. |
+<VocabularyGrid>
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Sverige", "phonetic": "[ˈsveːrɪjɛ]", "english": "Sweden", "example": {"swedish": "Jag bor i Sverige.", "english": "I live in Sweden."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Finland", "phonetic": "[ˈfɪnlɑnd]", "english": "Finland", "example": {"swedish": "Hon kommer från Finland.", "english": "She comes from Finland."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Norge", "phonetic": "[ˈnɔrjɛ]", "english": "Norway", "example": {"swedish": "Han bor i Norge.", "english": "He lives in Norway."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Danmark", "phonetic": "[ˈdɑnmɑrk]", "english": "Denmark", "example": {"swedish": "De åker till Danmark.", "english": "They travel to Denmark."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Island", "phonetic": "[ˈɪslɑnd]", "english": "Iceland", "example": {"swedish": "Min vän bor på Island.", "english": "My friend lives in Iceland."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Tyskland", "phonetic": "[ˈtʏsklɑnd]", "english": "Germany", "example": {"swedish": "Vi bor i Tyskland.", "english": "We live in Germany."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Storbritannien", "phonetic": "[ˈstɔrbrɪtɑnnɪɛn]", "english": "the United Kingdom", "example": {"swedish": "Hon kommer från Storbritannien.", "english": "She comes from the United Kingdom."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "USA", "phonetic": "[ʉːɛsˈɑː]", "english": "the United States", "example": {"swedish": "De bor i USA.", "english": "They live in the United States."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Frankrike", "phonetic": "[ˈfrɑnkrɪɕɛ]", "english": "France", "example": {"swedish": "Min familj bor i Frankrike.", "english": "My family lives in France."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Spanien", "phonetic": "[ˈspɑːnɪɛn]", "english": "Spain", "example": {"swedish": "Han åker till Spanien.", "english": "He travels to Spain."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Italien", "phonetic": "[ˈiːtɑlɪɛn]", "english": "Italy", "example": {"swedish": "Vi kommer från Italien.", "english": "We come from Italy."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Polen", "phonetic": "[ˈpuːlɛn]", "english": "Poland", "example": {"swedish": "Hon bor i Polen.", "english": "She lives in Poland."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Ukraina", "phonetic": "[ˈɵkrɑɪnɑ]", "english": "Ukraine", "example": {"swedish": "De kommer från Ukraina.", "english": "They come from Ukraine."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Syrien", "phonetic": "[ˈsyːrɪɛn]", "english": "Syria", "example": {"swedish": "Min vän kommer från Syrien.", "english": "My friend comes from Syria."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Iran", "phonetic": "[ˈiːrɑn]", "english": "Iran", "example": {"swedish": "Han kommer från Iran.", "english": "He comes from Iran."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Irak", "phonetic": "[ˈiːrɑk]", "english": "Iraq", "example": {"swedish": "Hon kommer från Irak.", "english": "She comes from Iraq."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Somalia", "phonetic": "[ˈsuːmɑlɪɑ]", "english": "Somalia", "example": {"swedish": "Vi kommer från Somalia.", "english": "We come from Somalia."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Turkiet", "phonetic": "[ˈtɵrɕɪɛt]", "english": "Turkey", "example": {"swedish": "Min familj kommer från Turkiet.", "english": "My family comes from Turkey."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Grekland", "phonetic": "[ˈɡrɛklɑnd]", "english": "Greece", "example": {"swedish": "De bor i Grekland.", "english": "They live in Greece."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Kina", "phonetic": "[ˈɕiːnɑ]", "english": "China", "example": {"swedish": "Han bor i Kina.", "english": "He lives in China."}}} />
+	<ProperNounCard entry={{"kind": "proper-noun", "swedish": "Nederländerna", "phonetic": "[ˈneːdɛrlɛndɛrnɑ]", "english": "the Netherlands", "example": {"swedish": "Hon kommer från Nederländerna.", "english": "She comes from the Netherlands."}}} />
+</VocabularyGrid>
 
 ## Nationalities
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **svensk** | Swedish | Jag är **svensk**. | I am Swedish. |
-| **finsk** | Finnish | Han är **finsk**. | He is Finnish. |
-| **norsk** | Norwegian | Hon är **norsk**. | She is Norwegian. |
-| **dansk** | Danish | Min vän är **dansk**. | My friend is Danish. |
-| **isländsk** | Icelandic | Ali är **isländsk**. | Ali is Icelandic. |
-| **tysk** | German | Sara är **tysk**. | Sara is German. |
-| **brittisk** | British | Han är **brittisk**. | He is British. |
-| **amerikansk** | American | Hon är **amerikansk**. | She is American. |
-| **fransk** | French | Min lärare är **fransk**. | My teacher is French. |
-| **spansk** | Spanish | Han är **spansk**. | He is Spanish. |
-| **italiensk** | Italian | Hon är **italiensk**. | She is Italian. |
-| **polsk** | Polish | Min vän är **polsk**. | My friend is Polish. |
-| **ukrainsk** | Ukrainian | Han är **ukrainsk**. | He is Ukrainian. |
-| **syrisk** | Syrian | Sara är **syrisk**. | Sara is Syrian. |
-| **iransk** | Iranian | Min granne är **iransk**. | My neighbour is Iranian. |
-| **irakisk** | Iraqi | Han är **irakisk**. | He is Iraqi. |
-| **somalisk** | Somali | Hon är **somalisk**. | She is Somali. |
-| **turkisk** | Turkish | Min vän är **turkisk**. | My friend is Turkish. |
-| **grekisk** | Greek | Ali är **grekisk**. | Ali is Greek. |
-| **kinesisk** | Chinese | Sara är **kinesisk**. | Sara is Chinese. |
-| **nederländsk** | Dutch | Han är **nederländsk**. | He is Dutch. |
+<VocabularyGrid>
+	<AdjectiveCard entry={{"lemma": "svensk", "translation": "Swedish", "kind": "adjective", "phonetic": "[ˈsvɛnsk]", "forms": [{"type": "COMMON", "form": "svensk", "phonetic": "[ˈsvɛnsk]", "example": {"swedish": "Jag är svensk.", "english": "I am Swedish."}}, {"type": "NEUTER", "form": "svenskt", "phonetic": "[ˈsvɛnskt]", "example": {"swedish": "Huset är svenskt.", "english": "The house is Swedish."}}, {"type": "PLURAL", "form": "svenska", "phonetic": "[ˈsvɛnskɑ]", "example": {"swedish": "Bilarna är svenska.", "english": "The cars are Swedish."}}]}} />
+	<AdjectiveCard entry={{"lemma": "finsk", "translation": "Finnish", "kind": "adjective", "phonetic": "[ˈfɪnsk]", "forms": [{"type": "COMMON", "form": "finsk", "phonetic": "[ˈfɪnsk]", "example": {"swedish": "Han är finsk.", "english": "He is Finnish."}}, {"type": "NEUTER", "form": "finskt", "phonetic": "[ˈfɪnskt]", "example": {"swedish": "Huset är finskt.", "english": "The house is Finnish."}}, {"type": "PLURAL", "form": "finska", "phonetic": "[ˈfɪnskɑ]", "example": {"swedish": "Bilarna är finska.", "english": "The cars are Finnish."}}]}} />
+	<AdjectiveCard entry={{"lemma": "norsk", "translation": "Norwegian", "kind": "adjective", "phonetic": "[ˈnɔʂk]", "forms": [{"type": "COMMON", "form": "norsk", "phonetic": "[ˈnɔʂk]", "example": {"swedish": "Hon är norsk.", "english": "She is Norwegian."}}, {"type": "NEUTER", "form": "norskt", "phonetic": "[ˈnɔʂkt]", "example": {"swedish": "Huset är norskt.", "english": "The house is Norwegian."}}, {"type": "PLURAL", "form": "norska", "phonetic": "[ˈnɔʂkɑ]", "example": {"swedish": "Bilarna är norska.", "english": "The cars are Norwegian."}}]}} />
+	<AdjectiveCard entry={{"lemma": "dansk", "translation": "Danish", "kind": "adjective", "phonetic": "[ˈdɑnsk]", "forms": [{"type": "COMMON", "form": "dansk", "phonetic": "[ˈdɑnsk]", "example": {"swedish": "Min vän är dansk.", "english": "My friend is Danish."}}, {"type": "NEUTER", "form": "danskt", "phonetic": "[ˈdɑnskt]", "example": {"swedish": "Huset är danskt.", "english": "The house is Danish."}}, {"type": "PLURAL", "form": "danska", "phonetic": "[ˈdɑnskɑ]", "example": {"swedish": "Bilarna är danska.", "english": "The cars are Danish."}}]}} />
+	<AdjectiveCard entry={{"lemma": "isländsk", "translation": "Icelandic", "kind": "adjective", "phonetic": "[ˈɪslɛndsk]", "forms": [{"type": "COMMON", "form": "isländsk", "phonetic": "[ˈɪslɛndsk]", "example": {"swedish": "Ali är isländsk.", "english": "Ali is Icelandic."}}, {"type": "NEUTER", "form": "isländskt", "phonetic": "[ˈɪslɛndskt]", "example": {"swedish": "Huset är isländskt.", "english": "The house is Icelandic."}}, {"type": "PLURAL", "form": "isländska", "phonetic": "[ˈɪslɛndskɑ]", "example": {"swedish": "Bilarna är isländska.", "english": "The cars are Icelandic."}}]}} />
+	<AdjectiveCard entry={{"lemma": "tysk", "translation": "German", "kind": "adjective", "phonetic": "[ˈtʏsk]", "forms": [{"type": "COMMON", "form": "tysk", "phonetic": "[ˈtʏsk]", "example": {"swedish": "Sara är tysk.", "english": "Sara is German."}}, {"type": "NEUTER", "form": "tyskt", "phonetic": "[ˈtʏskt]", "example": {"swedish": "Huset är tyskt.", "english": "The house is German."}}, {"type": "PLURAL", "form": "tyska", "phonetic": "[ˈtʏskɑ]", "example": {"swedish": "Bilarna är tyska.", "english": "The cars are German."}}]}} />
+	<AdjectiveCard entry={{"lemma": "brittisk", "translation": "British", "kind": "adjective", "phonetic": "[ˈbrɪttɪsk]", "forms": [{"type": "COMMON", "form": "brittisk", "phonetic": "[ˈbrɪttɪsk]", "example": {"swedish": "Han är brittisk.", "english": "He is British."}}, {"type": "NEUTER", "form": "brittiskt", "phonetic": "[ˈbrɪttɪskt]", "example": {"swedish": "Huset är brittiskt.", "english": "The house is British."}}, {"type": "PLURAL", "form": "brittiska", "phonetic": "[ˈbrɪttɪskɑ]", "example": {"swedish": "Bilarna är brittiska.", "english": "The cars are British."}}]}} />
+	<AdjectiveCard entry={{"lemma": "amerikansk", "translation": "American", "kind": "adjective", "phonetic": "[ˈɑːmɛrɪkɑnsk]", "forms": [{"type": "COMMON", "form": "amerikansk", "phonetic": "[ˈɑːmɛrɪkɑnsk]", "example": {"swedish": "Hon är amerikansk.", "english": "She is American."}}, {"type": "NEUTER", "form": "amerikanskt", "phonetic": "[ˈɑːmɛrɪkɑnskt]", "example": {"swedish": "Huset är amerikanskt.", "english": "The house is American."}}, {"type": "PLURAL", "form": "amerikanska", "phonetic": "[ˈɑːmɛrɪkɑnskɑ]", "example": {"swedish": "Bilarna är amerikanska.", "english": "The cars are American."}}]}} />
+	<AdjectiveCard entry={{"lemma": "fransk", "translation": "French", "kind": "adjective", "phonetic": "[ˈfrɑnsk]", "forms": [{"type": "COMMON", "form": "fransk", "phonetic": "[ˈfrɑnsk]", "example": {"swedish": "Min lärare är fransk.", "english": "My teacher is French."}}, {"type": "NEUTER", "form": "franskt", "phonetic": "[ˈfrɑnskt]", "example": {"swedish": "Huset är franskt.", "english": "The house is French."}}, {"type": "PLURAL", "form": "franska", "phonetic": "[ˈfrɑnskɑ]", "example": {"swedish": "Bilarna är franska.", "english": "The cars are French."}}]}} />
+	<AdjectiveCard entry={{"lemma": "spansk", "translation": "Spanish", "kind": "adjective", "phonetic": "[ˈspɑnsk]", "forms": [{"type": "COMMON", "form": "spansk", "phonetic": "[ˈspɑnsk]", "example": {"swedish": "Han är spansk.", "english": "He is Spanish."}}, {"type": "NEUTER", "form": "spanskt", "phonetic": "[ˈspɑnskt]", "example": {"swedish": "Huset är spanskt.", "english": "The house is Spanish."}}, {"type": "PLURAL", "form": "spanska", "phonetic": "[ˈspɑnskɑ]", "example": {"swedish": "Bilarna är spanska.", "english": "The cars are Spanish."}}]}} />
+	<AdjectiveCard entry={{"lemma": "italiensk", "translation": "Italian", "kind": "adjective", "phonetic": "[ˈiːtɑlɪɛnsk]", "forms": [{"type": "COMMON", "form": "italiensk", "phonetic": "[ˈiːtɑlɪɛnsk]", "example": {"swedish": "Hon är italiensk.", "english": "She is Italian."}}, {"type": "NEUTER", "form": "italienskt", "phonetic": "[ˈiːtɑlɪɛnskt]", "example": {"swedish": "Huset är italienskt.", "english": "The house is Italian."}}, {"type": "PLURAL", "form": "italienska", "phonetic": "[ˈiːtɑlɪɛnskɑ]", "example": {"swedish": "Bilarna är italienska.", "english": "The cars are Italian."}}]}} />
+	<AdjectiveCard entry={{"lemma": "polsk", "translation": "Polish", "kind": "adjective", "phonetic": "[ˈpɔlsk]", "forms": [{"type": "COMMON", "form": "polsk", "phonetic": "[ˈpɔlsk]", "example": {"swedish": "Min vän är polsk.", "english": "My friend is Polish."}}, {"type": "NEUTER", "form": "polskt", "phonetic": "[ˈpɔlskt]", "example": {"swedish": "Huset är polskt.", "english": "The house is Polish."}}, {"type": "PLURAL", "form": "polska", "phonetic": "[ˈpɔlskɑ]", "example": {"swedish": "Bilarna är polska.", "english": "The cars are Polish."}}]}} />
+	<AdjectiveCard entry={{"lemma": "ukrainsk", "translation": "Ukrainian", "kind": "adjective", "phonetic": "[ˈɵkrɑɪnsk]", "forms": [{"type": "COMMON", "form": "ukrainsk", "phonetic": "[ˈɵkrɑɪnsk]", "example": {"swedish": "Han är ukrainsk.", "english": "He is Ukrainian."}}, {"type": "NEUTER", "form": "ukrainskt", "phonetic": "[ˈɵkrɑɪnskt]", "example": {"swedish": "Huset är ukrainskt.", "english": "The house is Ukrainian."}}, {"type": "PLURAL", "form": "ukrainska", "phonetic": "[ˈɵkrɑɪnskɑ]", "example": {"swedish": "Bilarna är ukrainska.", "english": "The cars are Ukrainian."}}]}} />
+	<AdjectiveCard entry={{"lemma": "syrisk", "translation": "Syrian", "kind": "adjective", "phonetic": "[ˈsyːrɪsk]", "forms": [{"type": "COMMON", "form": "syrisk", "phonetic": "[ˈsyːrɪsk]", "example": {"swedish": "Sara är syrisk.", "english": "Sara is Syrian."}}, {"type": "NEUTER", "form": "syriskt", "phonetic": "[ˈsyːrɪskt]", "example": {"swedish": "Huset är syriskt.", "english": "The house is Syrian."}}, {"type": "PLURAL", "form": "syriska", "phonetic": "[ˈsyːrɪskɑ]", "example": {"swedish": "Bilarna är syriska.", "english": "The cars are Syrian."}}]}} />
+	<AdjectiveCard entry={{"lemma": "iransk", "translation": "Iranian", "kind": "adjective", "phonetic": "[ˈiːrɑnsk]", "forms": [{"type": "COMMON", "form": "iransk", "phonetic": "[ˈiːrɑnsk]", "example": {"swedish": "Min granne är iransk.", "english": "My neighbour is Iranian."}}, {"type": "NEUTER", "form": "iranskt", "phonetic": "[ˈiːrɑnskt]", "example": {"swedish": "Huset är iranskt.", "english": "The house is Iranian."}}, {"type": "PLURAL", "form": "iranska", "phonetic": "[ˈiːrɑnskɑ]", "example": {"swedish": "Bilarna är iranska.", "english": "The cars are Iranian."}}]}} />
+	<AdjectiveCard entry={{"lemma": "irakisk", "translation": "Iraqi", "kind": "adjective", "phonetic": "[ˈiːrɑɕɪsk]", "forms": [{"type": "COMMON", "form": "irakisk", "phonetic": "[ˈiːrɑɕɪsk]", "example": {"swedish": "Han är irakisk.", "english": "He is Iraqi."}}, {"type": "NEUTER", "form": "irakiskt", "phonetic": "[ˈiːrɑɕɪskt]", "example": {"swedish": "Huset är irakiskt.", "english": "The house is Iraqi."}}, {"type": "PLURAL", "form": "irakiska", "phonetic": "[ˈiːrɑɕɪskɑ]", "example": {"swedish": "Bilarna är irakiska.", "english": "The cars are Iraqi."}}]}} />
+	<AdjectiveCard entry={{"lemma": "somalisk", "translation": "Somali", "kind": "adjective", "phonetic": "[ˈsuːmɑlɪsk]", "forms": [{"type": "COMMON", "form": "somalisk", "phonetic": "[ˈsuːmɑlɪsk]", "example": {"swedish": "Hon är somalisk.", "english": "She is Somali."}}, {"type": "NEUTER", "form": "somaliskt", "phonetic": "[ˈsuːmɑlɪskt]", "example": {"swedish": "Huset är somaliskt.", "english": "The house is Somali."}}, {"type": "PLURAL", "form": "somaliska", "phonetic": "[ˈsuːmɑlɪskɑ]", "example": {"swedish": "Bilarna är somaliska.", "english": "The cars are Somali."}}]}} />
+	<AdjectiveCard entry={{"lemma": "turkisk", "translation": "Turkish", "kind": "adjective", "phonetic": "[ˈtɵrɕɪsk]", "forms": [{"type": "COMMON", "form": "turkisk", "phonetic": "[ˈtɵrɕɪsk]", "example": {"swedish": "Min vän är turkisk.", "english": "My friend is Turkish."}}, {"type": "NEUTER", "form": "turkiskt", "phonetic": "[ˈtɵrɕɪskt]", "example": {"swedish": "Huset är turkiskt.", "english": "The house is Turkish."}}, {"type": "PLURAL", "form": "turkiska", "phonetic": "[ˈtɵrɕɪskɑ]", "example": {"swedish": "Bilarna är turkiska.", "english": "The cars are Turkish."}}]}} />
+	<AdjectiveCard entry={{"lemma": "grekisk", "translation": "Greek", "kind": "adjective", "phonetic": "[ˈɡreːɕɪsk]", "forms": [{"type": "COMMON", "form": "grekisk", "phonetic": "[ˈɡreːɕɪsk]", "example": {"swedish": "Ali är grekisk.", "english": "Ali is Greek."}}, {"type": "NEUTER", "form": "grekiskt", "phonetic": "[ˈɡreːɕɪskt]", "example": {"swedish": "Huset är grekiskt.", "english": "The house is Greek."}}, {"type": "PLURAL", "form": "grekiska", "phonetic": "[ˈɡreːɕɪskɑ]", "example": {"swedish": "Bilarna är grekiska.", "english": "The cars are Greek."}}]}} />
+	<AdjectiveCard entry={{"lemma": "kinesisk", "translation": "Chinese", "kind": "adjective", "phonetic": "[ˈɕiːnɛsɪsk]", "forms": [{"type": "COMMON", "form": "kinesisk", "phonetic": "[ˈɕiːnɛsɪsk]", "example": {"swedish": "Sara är kinesisk.", "english": "Sara is Chinese."}}, {"type": "NEUTER", "form": "kinesiskt", "phonetic": "[ˈɕiːnɛsɪskt]", "example": {"swedish": "Huset är kinesiskt.", "english": "The house is Chinese."}}, {"type": "PLURAL", "form": "kinesiska", "phonetic": "[ˈɕiːnɛsɪskɑ]", "example": {"swedish": "Bilarna är kinesiska.", "english": "The cars are Chinese."}}]}} />
+	<AdjectiveCard entry={{"lemma": "nederländsk", "translation": "Dutch", "kind": "adjective", "phonetic": "[ˈneːdɛrlɛndsk]", "forms": [{"type": "COMMON", "form": "nederländsk", "phonetic": "[ˈneːdɛrlɛndsk]", "example": {"swedish": "Han är nederländsk.", "english": "He is Dutch."}}, {"type": "NEUTER", "form": "nederländskt", "phonetic": "[ˈneːdɛrlɛndskt]", "example": {"swedish": "Huset är nederländskt.", "english": "The house is Dutch."}}, {"type": "PLURAL", "form": "nederländska", "phonetic": "[ˈneːdɛrlɛndskɑ]", "example": {"swedish": "Bilarna är nederländska.", "english": "The cars are Dutch."}}]}} />
+</VocabularyGrid>

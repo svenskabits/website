@@ -70,6 +70,38 @@ export interface AdjectiveVocabularyEntry {
 	}>;
 }
 
+export interface NumberVocabularyEntry {
+	kind: 'number';
+	swedish: string;
+	phonetic: string;
+	english: string;
+	example: VocabularyExample;
+}
+
+export interface AdverbVocabularyEntry {
+	kind: 'adverb';
+	swedish: string;
+	phonetic: string;
+	english: string;
+	example: VocabularyExample;
+}
+
+export interface ProperNounVocabularyEntry {
+	kind: 'proper-noun';
+	swedish: string;
+	phonetic: string;
+	english: string;
+	example: VocabularyExample;
+}
+
+export interface LanguageVocabularyEntry {
+	kind: 'language';
+	swedish: string;
+	phonetic: string;
+	english: string;
+	example: VocabularyExample;
+}
+
 export interface PhraseVocabularyEntry {
 	kind: 'phrase';
 	swedish: string;

@@ -7,26 +7,29 @@ estimated_minutes: 3
 tags: [numbers, counting, basics]
 ---
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **noll** | zero | Jag har **noll** kronor. | I have zero kronor. |
-| **en / ett** | one | Jag har **ett** äpple. | I have one apple. |
-| **två** | two | Jag har **två** katter. | I have two cats. |
-| **tre** | three | Vi har **tre** barn. | We have three children. |
-| **fyra** | four | Det finns **fyra** stolar. | There are four chairs. |
-| **fem** | five | Hon har **fem** äpplen. | She has five apples. |
-| **sex** | six | Jag ser **sex** fåglar. | I see six birds. |
-| **sju** | seven | Klockan är **sju**. | It is seven o'clock. |
-| **åtta** | eight | Vi börjar klockan **åtta**. | We start at eight. |
-| **nio** | nine | Han är **nio** år. | He is nine years old. |
-| **tio** | ten | Jag räknar till **tio**. | I count to ten. |
-| **elva** | eleven | Vi är **elva** personer. | There are eleven of us. |
-| **tolv** | twelve | Klockan är **tolv**. | It is twelve o'clock. |
-| **tretton** | thirteen | Hon är **tretton** år. | She is thirteen years old. |
-| **fjorton** | fourteen | Det kostar **fjorton** kronor. | It costs fourteen kronor. |
-| **femton** | fifteen | Jag har **femton** böcker. | I have fifteen books. |
-| **sexton** | sixteen | Bussen kommer om **sexton** minuter. | The bus comes in sixteen minutes. |
-| **sjutton** | seventeen | De har **sjutton** frågor. | They have seventeen questions. |
-| **arton** | eighteen | Min bror är **arton** år. | My brother is eighteen years old. |
-| **nitton** | nineteen | Jag har **nitton** kronor. | I have nineteen kronor. |
-| **tjugo** | twenty | Vi behöver **tjugo** stolar. | We need twenty chairs. |
+import NumberCard from '../../../components/vocabulary/NumberCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
+<VocabularyGrid>
+	<NumberCard entry={{"kind": "number", "swedish": "noll", "english": "zero", "example": {"swedish": "Jag har noll kronor.", "english": "I have zero kronor."}, "phonetic": "[ˈnɔll]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "en / ett", "english": "one", "example": {"swedish": "Jag har ett äpple.", "english": "I have one apple."}, "phonetic": "[ɛn] [ˈ/] [ɛtː]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "två", "english": "two", "example": {"swedish": "Jag har två katter.", "english": "I have two cats."}, "phonetic": "[ˈtvoː]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tre", "english": "three", "example": {"swedish": "Vi har tre barn.", "english": "We have three children."}, "phonetic": "[ˈtreː]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "fyra", "english": "four", "example": {"swedish": "Det finns fyra stolar.", "english": "There are four chairs."}, "phonetic": "[ˈfyːrɑ]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "fem", "english": "five", "example": {"swedish": "Hon har fem äpplen.", "english": "She has five apples."}, "phonetic": "[ˈfɛm]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sex", "english": "six", "example": {"swedish": "Jag ser sex fåglar.", "english": "I see six birds."}, "phonetic": "[ˈsɛks]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sju", "english": "seven", "example": {"swedish": "Klockan är sju.", "english": "It is seven o'clock."}, "phonetic": "[ˈɧʉː]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "åtta", "english": "eight", "example": {"swedish": "Vi börjar klockan åtta.", "english": "We start at eight."}, "phonetic": "[ˈɔttɑ]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "nio", "english": "nine", "example": {"swedish": "Han är nio år.", "english": "He is nine years old."}, "phonetic": "[ˈniːɔ]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tio", "english": "ten", "example": {"swedish": "Jag räknar till tio.", "english": "I count to ten."}, "phonetic": "[ˈtiːɔ]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "elva", "english": "eleven", "example": {"swedish": "Vi är elva personer.", "english": "There are eleven of us."}, "phonetic": "[ˈɛlvɑ]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tolv", "english": "twelve", "example": {"swedish": "Klockan är tolv.", "english": "It is twelve o'clock."}, "phonetic": "[ˈtɔlv]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tretton", "english": "thirteen", "example": {"swedish": "Hon är tretton år.", "english": "She is thirteen years old."}, "phonetic": "[ˈtrɛttɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "fjorton", "english": "fourteen", "example": {"swedish": "Det kostar fjorton kronor.", "english": "It costs fourteen kronor."}, "phonetic": "[ˈfjɔrtɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "femton", "english": "fifteen", "example": {"swedish": "Jag har femton böcker.", "english": "I have fifteen books."}, "phonetic": "[ˈfɛmtɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sexton", "english": "sixteen", "example": {"swedish": "Bussen kommer om sexton minuter.", "english": "The bus comes in sixteen minutes."}, "phonetic": "[ˈsɛkstɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sjutton", "english": "seventeen", "example": {"swedish": "De har sjutton frågor.", "english": "They have seventeen questions."}, "phonetic": "[ˈɧɵttɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "arton", "english": "eighteen", "example": {"swedish": "Min bror är arton år.", "english": "My brother is eighteen years old."}, "phonetic": "[ˈɑrtɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "nitton", "english": "nineteen", "example": {"swedish": "Jag har nitton kronor.", "english": "I have nineteen kronor."}, "phonetic": "[ˈnɪttɔn]"}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tjugo", "english": "twenty", "example": {"swedish": "Vi behöver tjugo stolar.", "english": "We need twenty chairs."}, "phonetic": "[ˈɕʉːɡɔ]"}} />
+</VocabularyGrid>
