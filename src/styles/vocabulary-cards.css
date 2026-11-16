@@ -53,7 +53,13 @@
 }
 
 .vocabulary-card__kind {
-	display: none;
+	flex: 0 0 auto;
+	margin: 0;
+	color: var(--sl-color-gray-3);
+	font-size: var(--sl-text-xs);
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
 }
 
 .vocabulary-card__summary h3 {
