@@ -26,6 +26,10 @@
 	display: none;
 }
 
+.vocabulary-card__summary::before {
+	display: none;
+}
+
 .vocabulary-card__summary::after {
 	content: '';
 	width: 0.55rem;
@@ -49,13 +53,7 @@
 }
 
 .vocabulary-card__kind {
-	flex: 0 0 auto;
-	margin: 0;
-	color: var(--sl-color-gray-3);
-	font-size: var(--sl-text-xs);
-	font-weight: 600;
-	letter-spacing: 0.04em;
-	text-transform: uppercase;
+	display: none;
 }
 
 .vocabulary-card__summary h3 {
