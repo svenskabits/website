@@ -48,7 +48,7 @@ export interface VerbVocabularyEntry {
 	}>;
 }
 
-export enum AdjectiveAdverbFormType {
+export enum AdjectiveFormType {
 	COMMON = 'COMMON',
 	NEUTER = 'NEUTER',
 	PLURAL = 'PLURAL',
@@ -57,14 +57,13 @@ export enum AdjectiveAdverbFormType {
 	SUPERLATIVE = 'SUPERLATIVE',
 }
 
-export interface AdjectiveAdverbVocabularyEntry {
-	kind: 'adjective-adverb';
-	partOfSpeech: 'adjective' | 'adverb';
+export interface AdjectiveVocabularyEntry {
+	kind: 'adjective';
 	lemma: string;
 	phonetic: string;
 	translation: string;
 	forms: Array<{
-		type: AdjectiveAdverbFormType;
+		type: AdjectiveFormType;
 		form: string;
 		phonetic: string;
 		example: VocabularyExample;

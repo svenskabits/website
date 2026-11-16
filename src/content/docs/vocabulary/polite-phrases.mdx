@@ -9,8 +9,8 @@ tags: [politeness, requests, thanks]
 
 import NounCard from '../../../components/vocabulary/NounCard.astro';
 import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
+import AdjectiveCard from '../../../components/vocabulary/AdjectiveCard.astro';
 import VerbCard from '../../../components/vocabulary/VerbCard.astro';
-import AdjectiveAdverbCard from '../../../components/vocabulary/AdjectiveAdverbCard.astro';
 import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
 
 ## Polite phrases
@@ -20,16 +20,18 @@ import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro'
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'ursäkta', phonetic: '[ɵˈʂɛkta]', english: 'excuse me', example: { swedish: 'Ursäkta, var är toaletten?', english: 'Excuse me, where is the bathroom?' } }} />
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'förlåt', phonetic: '[fœˈɭoːt]', english: 'sorry', example: { swedish: 'Förlåt, jag är sen.', english: 'Sorry, I am late.' } }} />
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'varsågod', phonetic: '[vɑːʂoːˈɡuːd]', english: 'here you are', example: { swedish: 'Varsågod, här är din bok.', english: "Here you are, here's your book." } }} />
-	<AdjectiveAdverbCard entry={{
-		kind: 'adjective-adverb',
-		partOfSpeech: 'adverb',
-		lemma: 'gärna',
-		phonetic: '[ˈjæːɳa]',
-		translation: 'gladly; with pleasure',
+	<AdjectiveCard entry={{
+		kind: 'adjective',
+		lemma: 'långsam',
+		phonetic: '[ˈlɔŋsam]',
+		translation: 'slow',
 		forms: [
-			{ type: 'ADVERB', form: 'gärna', phonetic: '[ˈjæːɳa]', example: { swedish: 'Jag hjälper dig gärna.', english: 'I am happy to help you.' } },
-			{ type: 'COMPARATIVE', form: 'hellre', phonetic: '[ˈhɛlːrɛ]', example: { swedish: 'Jag stannar hellre hemma.', english: "I'd rather stay home." } },
-			{ type: 'SUPERLATIVE', form: 'helst', phonetic: '[hɛlst]', example: { swedish: 'Jag vill helst gå hem.', english: 'I would rather go home.' } },
+			{ type: 'COMMON', form: 'långsam', phonetic: '[ˈlɔŋsam]', example: { swedish: 'Den här bilen är långsam.', english: 'This car is slow.' } },
+			{ type: 'NEUTER', form: 'långsamt', phonetic: '[ˈlɔŋsamt]', example: { swedish: 'Tåget är långsamt.', english: 'The train is slow.' } },
+			{ type: 'PLURAL', form: 'långsamma', phonetic: '[ˈlɔŋsama]', example: { swedish: 'Bilarna är långsamma.', english: 'The cars are slow.' } },
+			{ type: 'COMPARATIVE', form: 'långsammare', phonetic: '[ˈlɔŋˌsamːarɛ]', example: { swedish: 'Den här bilen är långsammare.', english: 'This car is slower.' } },
+			{ type: 'SUPERLATIVE', form: 'långsammast', phonetic: '[ˈlɔŋˌsamːast]', example: { swedish: 'Den här bilen är långsammast av alla.', english: 'This car is the slowest of all.' } },
+			{ type: 'ADVERB', form: 'långsamt', phonetic: '[ˈlɔŋsamt]', example: { swedish: 'Han kör långsamt.', english: 'He drives slowly.' } },
 		]
 	}} />
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'snälla', phonetic: '[ˈsnɛlːa]', english: 'please', example: { swedish: 'Snälla, vänta lite.', english: 'Please, wait a moment.' } }} />

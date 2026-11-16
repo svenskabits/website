@@ -2,7 +2,7 @@
 
 You are writing one page for a website that teaches Swedish as a second language to adult learners. The course covers CEFR levels A1 to B2. Every page covers **one single topic**. Let the topic and CEFR level determine how much vocabulary the page needs; do not impose an arbitrary word count.
 
-This prompt currently defines the finalized **noun**, **verb**, **phrase**, and **adjective/adverb** card data. Do not use vocabulary tables. If the requested page needs another category whose card props are not finalized in this prompt, stop and ask for that component contract instead of inventing props or falling back to a table.
+This prompt currently defines the finalized **noun**, **verb**, **phrase**, and **adjective** card data. Do not use vocabulary tables. If the requested page needs another category whose card props are not finalized in this prompt, stop and ask for that component contract instead of inventing props or falling back to a table.
 
 ---
 
@@ -74,7 +74,9 @@ tags: [tag1, tag2, tag3]
 Import only the components used by the page, after the closing front matter:
 
 ```mdx
+import AdjectiveCard from '../../../components/vocabulary/AdjectiveCard.astro';
 import NounCard from '../../../components/vocabulary/NounCard.astro';
+import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
 import VerbCard from '../../../components/vocabulary/VerbCard.astro';
 import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
 ```
@@ -204,34 +206,36 @@ Use one `PhraseCard` per phrase. The phonetic field is the IPA transcription of 
 }} />
 ```
 
-### Adjectives and adverbs: `AdjectiveAdverbCard`
+### Adjectives: `AdjectiveCard`
 
-Use one `AdjectiveAdverbCard` per adjective or adverb. Set `partOfSpeech` to `adjective` or `adverb`. The top-level `phonetic` is IPA for the lemma alone.
+Use one `AdjectiveCard` per adjective. The top-level `phonetic` is IPA for the lemma alone. Include applicable common, neuter, plural, comparative, superlative, and adverb forms. The adverb form is optional when the adjective has no natural or useful adverb.
 
 ```js
-<AdjectiveAdverbCard entry={{
-  kind: 'adjective-adverb',
-  partOfSpeech: 'adverb',
-  lemma: 'gärna',
-  phonetic: '[ˈjæːɳa]',
-  translation: 'gladly; with pleasure',
+<AdjectiveCard entry={{
+  kind: 'adjective',
+  lemma: 'långsam',
+  phonetic: '[ˈlɔŋsam]',
+  translation: 'slow',
   forms: [
-    { type: 'ADVERB', form: 'gärna', phonetic: '[ˈjæːɳa]', example: { swedish: 'Jag hjälper dig gärna.', english: 'I am happy to help you.' } },
-    { type: 'COMPARATIVE', form: 'hellre', phonetic: '[ˈhɛlːrɛ]', example: { swedish: 'Jag stannar hellre hemma.', english: "I'd rather stay home." } },
-    { type: 'SUPERLATIVE', form: 'helst', phonetic: '[hɛlst]', example: { swedish: 'Jag vill helst gå hem.', english: 'I would rather go home.' } }
+    { type: 'COMMON', form: 'långsam', phonetic: '[ˈlɔŋsam]', example: { swedish: 'Den här bilen är långsam.', english: 'This car is slow.' } },
+    { type: 'NEUTER', form: 'långsamt', phonetic: '[ˈlɔŋsamt]', example: { swedish: 'Tåget är långsamt.', english: 'The train is slow.' } },
+    { type: 'PLURAL', form: 'långsamma', phonetic: '[ˈlɔŋsama]', example: { swedish: 'Bilarna är långsamma.', english: 'The cars are slow.' } },
+    { type: 'COMPARATIVE', form: 'långsammare', phonetic: '[ˈlɔŋˌsamːarɛ]', example: { swedish: 'Den här bilen är långsammare.', english: 'This car is slower.' } },
+    { type: 'SUPERLATIVE', form: 'långsammast', phonetic: '[ˈlɔŋˌsamːast]', example: { swedish: 'Den här bilen är långsammast av alla.', english: 'This car is the slowest of all.' } },
+    { type: 'ADVERB', form: 'långsamt', phonetic: '[ˈlɔŋsamt]', example: { swedish: 'Han kör långsamt.', english: 'He drives slowly.' } }
   ]
 }} />
 ```
 
-Each form must include its own IPA transcription and Swedish/English example pair. IPA covers only the form itself, not surrounding words. For adjectives, include applicable `COMMON`, `NEUTER`, `PLURAL`, `COMPARATIVE`, and `SUPERLATIVE` forms, and `ADVERB` when one exists. For adverb-only entries, use `ADVERB` for the base form and include comparisons when they exist.
+Each form must include its own IPA transcription and Swedish/English example pair. IPA covers only the form itself.
 
-Allowed `type` enum values are `COMMON`, `NEUTER`, `PLURAL`, `ADVERB`, `COMPARATIVE`, and `SUPERLATIVE`.
+Allowed `type` enum values are `COMMON`, `NEUTER`, `PLURAL`, `COMPARATIVE`, `SUPERLATIVE`, and `ADVERB`.
 
 ---
 
 ## 6. Other vocabulary categories
 
-Other category component contracts are not finalized in this prompt yet. If the requested page needs entries outside the noun, verb, phrase, and adjective/adverb contracts above, do not guess their props and do not create a table. Ask for the appropriate finalized component contract before writing that page.
+Other category component contracts are not finalized in this prompt yet. If the requested page needs entries outside the noun, verb, phrase, and adjective contracts above, do not guess their props and do not create a table. Ask for the appropriate finalized component contract before writing that page.
 
 ---
 
@@ -252,6 +256,6 @@ Before finishing, verify:
 - [ ] Every verb uses an allowed unique `type` value; each tense/form has IPA and an example pair.
 - [ ] Verb IPA covers only the verb form, not any auxiliary.
 - [ ] Every phrase has its full-phrase IPA and a Swedish/English example pair.
-- [ ] Adjective/adverb entries use an allowed form `type`, with IPA and a Swedish/English example for each form.
+- [ ] Adjectives use applicable allowed form `type` values, with IPA and a Swedish/English example for each included form.
 - [ ] Every example translation matches its Swedish sentence and suits the CEFR level.
 - [ ] No grammar explanation, cross-page reference, or extra lesson section has been added.

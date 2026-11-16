@@ -1,25 +1,24 @@
 ---
-import { AdjectiveAdverbFormType, type AdjectiveAdverbVocabularyEntry } from '../../types/vocabulary';
+import { AdjectiveFormType, type AdjectiveVocabularyEntry } from '../../types/vocabulary';
 
 interface Props {
-	entry: AdjectiveAdverbVocabularyEntry;
+	entry: AdjectiveVocabularyEntry;
 }
 
 const { entry } = Astro.props;
-const formLabels: Record<AdjectiveAdverbFormType, string> = {
-	[AdjectiveAdverbFormType.COMMON]: 'Common',
-	[AdjectiveAdverbFormType.NEUTER]: 'Neuter',
-	[AdjectiveAdverbFormType.PLURAL]: 'Plural',
-	[AdjectiveAdverbFormType.ADVERB]: 'Adverb',
-	[AdjectiveAdverbFormType.COMPARATIVE]: 'Comparative',
-	[AdjectiveAdverbFormType.SUPERLATIVE]: 'Superlative',
+const formLabels: Record<AdjectiveFormType, string> = {
+	[AdjectiveFormType.COMMON]: 'Common',
+	[AdjectiveFormType.NEUTER]: 'Neuter',
+	[AdjectiveFormType.PLURAL]: 'Plural',
+	[AdjectiveFormType.ADVERB]: 'Adverb',
+	[AdjectiveFormType.COMPARATIVE]: 'Comparative',
+	[AdjectiveFormType.SUPERLATIVE]: 'Superlative',
 };
-const partOfSpeechLabel = entry.partOfSpeech === 'adverb' ? 'Adverb' : 'Adjective';
 ---
 
-<article class="vocabulary-card vocabulary-card--adjective-adverb">
+<article class="vocabulary-card vocabulary-card--adjective">
 	<header class="vocabulary-card__header">
-		<span class="vocabulary-card__kind">{partOfSpeechLabel}</span>
+		<span class="vocabulary-card__kind">Adjective</span>
 		<h3 lang="sv">{entry.lemma}</h3>
 		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
 			{entry.phonetic}
