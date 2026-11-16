@@ -7,27 +7,30 @@ estimated_minutes: 4
 tags: [numbers, order, dates]
 ---
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **första** | first | Hon kom på **första** plats. | She came in first place. |
-| **andra** | second | Vi bor på **andra** våningen. | We live on the second floor. |
-| **tredje** | third | Ta den **tredje** gatan till vänster. | Take the third street on the left. |
-| **fjärde** | fourth | Det här är mitt **fjärde** försök. | This is my fourth attempt. |
-| **femte** | fifth | Mötet är den **femte** mars. | The meeting is on March fifth. |
-| **sjätte** | sixth | Det här är min **sjätte** lektion i dag. | This is my sixth lesson today. |
-| **sjunde** | seventh | Han vann sin **sjunde** match. | He won his seventh match. |
-| **åttonde** | eighth | De flyttade in den **åttonde** juni. | They moved in on June eighth. |
-| **nionde** | ninth | Det här är hans **nionde** bok. | This is his ninth book. |
-| **tionde** | tenth | Vi firar vårt **tionde** år i Sverige. | We are celebrating our tenth year in Sweden. |
-| **elfte** | eleventh | Laget kom på **elfte** plats. | The team came in eleventh place. |
-| **tolfte** | twelfth | Vi flyger den **tolfte** april. | We are flying on April twelfth. |
-| **trettonde** | thirteenth | Hon läste den **trettonde** boken. | She read the thirteenth book. |
-| **fjortonde** | fourteenth | Bussen går den **fjortonde** juni. | The bus leaves on June fourteenth. |
-| **femtonde** | fifteenth | Det är min **femtonde** arbetsdag här. | It is my fifteenth day of work here. |
-| **sextonde** | sixteenth | De bor på den **sextonde** våningen. | They live on the sixteenth floor. |
-| **sjuttonde** | seventeenth | Läs på den **sjuttonde** sidan. | Read on the seventeenth page. |
-| **artonde** | eighteenth | Han sprang sitt **artonde** lopp. | He ran his eighteenth race. |
-| **nittonde** | nineteenth | Vi träffades för **nittonde** gången. | We met for the nineteenth time. |
-| **tjugonde** | twentieth | Det här är vår **tjugonde** lektion. | This is our twentieth lesson. |
-| **tjugoförsta** | twenty-first | Hon kom på **tjugoförsta** plats. | She came in twenty-first place. |
-| **trettionde** | thirtieth | Läs på den **trettionde** sidan. | Read on the thirtieth page. |
+import NumberCard from '../../../components/vocabulary/NumberCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
+<VocabularyGrid>
+	<NumberCard entry={{"kind": "number", "swedish": "första", "phonetic": "[ˈføʂtɑ]", "english": "first", "example": {"swedish": "Hon kom på första plats.", "english": "She came in first place."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "andra", "phonetic": "[ˈɑndrɑ]", "english": "second", "example": {"swedish": "Vi bor på andra våningen.", "english": "We live on the second floor."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tredje", "phonetic": "[ˈtrɛjɛ]", "english": "third", "example": {"swedish": "Ta den tredje gatan till vänster.", "english": "Take the third street on the left."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "fjärde", "phonetic": "[ˈfjɛrdɛ]", "english": "fourth", "example": {"swedish": "Det här är mitt fjärde försök.", "english": "This is my fourth attempt."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "femte", "phonetic": "[ˈfɛmtɛ]", "english": "fifth", "example": {"swedish": "Mötet är den femte mars.", "english": "The meeting is on March fifth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sjätte", "phonetic": "[ˈɧɛttɛ]", "english": "sixth", "example": {"swedish": "Det här är min sjätte lektion i dag.", "english": "This is my sixth lesson today."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sjunde", "phonetic": "[ˈɧʉndɛ]", "english": "seventh", "example": {"swedish": "Han vann sin sjunde match.", "english": "He won his seventh match."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "åttonde", "phonetic": "[ˈottundɛ]", "english": "eighth", "example": {"swedish": "De flyttade in den åttonde juni.", "english": "They moved in on June eighth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "nionde", "phonetic": "[ˈnɪundɛ]", "english": "ninth", "example": {"swedish": "Det här är hans nionde bok.", "english": "This is his ninth book."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tionde", "phonetic": "[ˈtɪundɛ]", "english": "tenth", "example": {"swedish": "Vi firar vårt tionde år i Sverige.", "english": "We are celebrating our tenth year in Sweden."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "elfte", "phonetic": "[ˈɛlftɛ]", "english": "eleventh", "example": {"swedish": "Laget kom på elfte plats.", "english": "The team came in eleventh place."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tolfte", "phonetic": "[ˈtulftɛ]", "english": "twelfth", "example": {"swedish": "Vi flyger den tolfte april.", "english": "We are flying on April twelfth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "trettonde", "phonetic": "[ˈtrɛttundɛ]", "english": "thirteenth", "example": {"swedish": "Hon läste den trettonde boken.", "english": "She read the thirteenth book."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "fjortonde", "phonetic": "[ˈfjurtundɛ]", "english": "fourteenth", "example": {"swedish": "Bussen går den fjortonde juni.", "english": "The bus leaves on June fourteenth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "femtonde", "phonetic": "[ˈfɛmtundɛ]", "english": "fifteenth", "example": {"swedish": "Det är min femtonde arbetsdag här.", "english": "It is my fifteenth day of work here."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sextonde", "phonetic": "[ˈsɛkstundɛ]", "english": "sixteenth", "example": {"swedish": "De bor på den sextonde våningen.", "english": "They live on the sixteenth floor."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "sjuttonde", "phonetic": "[ˈɧʉttundɛ]", "english": "seventeenth", "example": {"swedish": "Läs på den sjuttonde sidan.", "english": "Read on the seventeenth page."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "artonde", "phonetic": "[ˈɑrtundɛ]", "english": "eighteenth", "example": {"swedish": "Han sprang sitt artonde lopp.", "english": "He ran his eighteenth race."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "nittonde", "phonetic": "[ˈnɪttundɛ]", "english": "nineteenth", "example": {"swedish": "Vi träffades för nittonde gången.", "english": "We met for the nineteenth time."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tjugonde", "phonetic": "[ˈɕʉɡundɛ]", "english": "twentieth", "example": {"swedish": "Det här är vår tjugonde lektion.", "english": "This is our twentieth lesson."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "tjugoförsta", "phonetic": "[ˈɕʉɡuføʂtɑ]", "english": "twenty-first", "example": {"swedish": "Hon kom på tjugoförsta plats.", "english": "She came in twenty-first place."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "trettionde", "phonetic": "[ˈtrɛttɪundɛ]", "english": "thirtieth", "example": {"swedish": "Läs på den trettionde sidan.", "english": "Read on the thirtieth page."}}} />
+</VocabularyGrid>

@@ -7,18 +7,22 @@ estimated_minutes: 3
 tags: [time, past, expressions]
 ---
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **igår** | yesterday | **Igår** åt vi middag hemma. | Yesterday we had dinner at home. |
-| **i förrgår** | the day before yesterday | Jag var på jobbet **i förrgår**. | I was at work the day before yesterday. |
-| **i morse** | this morning | Hon ringde mig **i morse**. | She called me this morning. |
-| **i går kväll** | yesterday evening | Vi såg en film **i går kväll**. | We watched a film yesterday evening. |
-| **i natt** | last night | Det regnade **i natt**. | It rained last night. |
-| **i måndags** | on Monday | Jag träffade Sara **i måndags**. | I met Sara on Monday. |
-| **förra veckan** | last week | De reste bort **förra veckan**. | They went away last week. |
-| **förra månaden** | last month | Jag började ett nytt jobb **förra månaden**. | I started a new job last month. |
-| **förra året** | last year | Vi flyttade hit **förra året**. | We moved here last year. |
-| **för två dagar sedan** | two days ago | Jag kom hem **för två dagar sedan**. | I came home two days ago. |
-| **för en vecka sedan** | a week ago | De flyttade hit **för en vecka sedan**. | They moved here a week ago. |
-| **nyss** | just now | Han gick hem **nyss**. | He went home just now. |
-| **tidigare** | earlier; before | Vi har träffats **tidigare**. | We have met before. |
+import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
+import AdverbCard from '../../../components/vocabulary/AdverbCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
+<VocabularyGrid>
+	<AdverbCard entry={{"kind": "adverb", "swedish": "igår", "phonetic": "[ˈɪɡor]", "english": "yesterday", "example": {"swedish": "Igår åt vi middag hemma.", "english": "Yesterday we had dinner at home."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i förrgår", "phonetic": "[ˈɪ førrɡor]", "english": "the day before yesterday", "example": {"swedish": "Jag var på jobbet i förrgår.", "english": "I was at work the day before yesterday."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i morse", "phonetic": "[ˈɪ muʂɛ]", "english": "this morning", "example": {"swedish": "Hon ringde mig i morse.", "english": "She called me this morning."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "i går kväll", "phonetic": "[ˈɪ ɡor kvɛll]", "english": "yesterday evening", "example": {"swedish": "Vi såg en film i går kväll.", "english": "We watched a film yesterday evening."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i natt", "phonetic": "[ˈɪ nɑtt]", "english": "last night", "example": {"swedish": "Det regnade i natt.", "english": "It rained last night."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i måndags", "phonetic": "[ˈɪ mondɑɡs]", "english": "on Monday", "example": {"swedish": "Jag träffade Sara i måndags.", "english": "I met Sara on Monday."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "förra veckan", "phonetic": "[ˈførrɑ vɛskɑn]", "english": "last week", "example": {"swedish": "De reste bort förra veckan.", "english": "They went away last week."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "förra månaden", "phonetic": "[ˈførrɑ monɑdɛn]", "english": "last month", "example": {"swedish": "Jag började ett nytt jobb förra månaden.", "english": "I started a new job last month."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "förra året", "phonetic": "[ˈførrɑ orɛt]", "english": "last year", "example": {"swedish": "Vi flyttade hit förra året.", "english": "We moved here last year."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "för två dagar sedan", "phonetic": "[ˈfør tvo dɑɡɑr sɛdɑn]", "english": "two days ago", "example": {"swedish": "Jag kom hem för två dagar sedan.", "english": "I came home two days ago."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "för en vecka sedan", "phonetic": "[ˈfør ɛn vɛskɑ sɛdɑn]", "english": "a week ago", "example": {"swedish": "De flyttade hit för en vecka sedan.", "english": "They moved here a week ago."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "nyss", "phonetic": "[ˈnyss]", "english": "just now", "example": {"swedish": "Han gick hem nyss.", "english": "He went home just now."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "tidigare", "phonetic": "[ˈtɪdɪɡɑrɛ]", "english": "earlier; before", "example": {"swedish": "Vi har träffats tidigare.", "english": "We have met before."}}} />
+</VocabularyGrid>

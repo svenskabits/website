@@ -7,43 +7,48 @@ estimated_minutes: 4
 tags: [time, calendar, dates]
 ---
 
+import NounCard from '../../../components/vocabulary/NounCard.astro';
+import AdverbCard from '../../../components/vocabulary/AdverbCard.astro';
+import NumberCard from '../../../components/vocabulary/NumberCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
 ## Calendar dates
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **den första** | the first | Vi flyttar **den första** juni. | We are moving on June first. |
-| **den andra** | the second | Mötet är **den andra** april. | The meeting is on April second. |
-| **den tredje** | the third | Hon fyller år **den tredje** mars. | Her birthday is on March third. |
-| **den fjärde** | the fourth | Kursen börjar **den fjärde** september. | The course starts on September fourth. |
-| **den femte** | the fifth | Jag åker hem **den femte** juli. | I am going home on July fifth. |
-| **den sjätte** | the sixth | Vi ses **den sjätte** oktober. | We will meet on October sixth. |
-| **den sjunde** | the seventh | Hans tågbiljett gäller **den sjunde** maj. | His train ticket is valid on May seventh. |
-| **den åttonde** | the eighth | Skolan öppnar **den åttonde** januari. | The school opens on January eighth. |
-| **den nionde** | the ninth | Min tid hos läkaren är **den nionde** november. | My appointment with the doctor is on November ninth. |
-| **den tionde** | the tenth | Vi flyger **den tionde** augusti. | We are flying on August tenth. |
-| **den tolfte** | the twelfth | Sista ansökningsdagen är **den tolfte** februari. | The final application day is February twelfth. |
-| **den femtonde** | the fifteenth | Räkningen ska betalas **den femtonde**. | The bill must be paid on the fifteenth. |
-| **den tjugonde** | the twentieth | Biblioteket stänger **den tjugonde** december. | The library closes on December twentieth. |
-| **den tjugoförsta** | the twenty-first | De kommer **den tjugoförsta** juni. | They are coming on June twenty-first. |
-| **den trettionde** | the thirtieth | Butiken öppnar igen **den trettionde**. | The shop opens again on the thirtieth. |
-| **den trettioförsta** | the thirty-first | Vi firar nyår **den trettioförsta** december. | We celebrate New Year's Eve on December thirty-first. |
+<VocabularyGrid>
+	<NumberCard entry={{"kind": "number", "swedish": "den första", "phonetic": "[ˈdɛn føʂtɑ]", "english": "the first", "example": {"swedish": "Vi flyttar den första juni.", "english": "We are moving on June first."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den andra", "phonetic": "[ˈdɛn ɑndrɑ]", "english": "the second", "example": {"swedish": "Mötet är den andra april.", "english": "The meeting is on April second."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den tredje", "phonetic": "[ˈdɛn trɛjɛ]", "english": "the third", "example": {"swedish": "Hon fyller år den tredje mars.", "english": "Her birthday is on March third."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den fjärde", "phonetic": "[ˈdɛn fjɛrdɛ]", "english": "the fourth", "example": {"swedish": "Kursen börjar den fjärde september.", "english": "The course starts on September fourth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den femte", "phonetic": "[ˈdɛn fɛmtɛ]", "english": "the fifth", "example": {"swedish": "Jag åker hem den femte juli.", "english": "I am going home on July fifth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den sjätte", "phonetic": "[ˈdɛn ɧɛttɛ]", "english": "the sixth", "example": {"swedish": "Vi ses den sjätte oktober.", "english": "We will meet on October sixth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den sjunde", "phonetic": "[ˈdɛn ɧʉndɛ]", "english": "the seventh", "example": {"swedish": "Hans tågbiljett gäller den sjunde maj.", "english": "His train ticket is valid on May seventh."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den åttonde", "phonetic": "[ˈdɛn ottundɛ]", "english": "the eighth", "example": {"swedish": "Skolan öppnar den åttonde januari.", "english": "The school opens on January eighth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den nionde", "phonetic": "[ˈdɛn nɪundɛ]", "english": "the ninth", "example": {"swedish": "Min tid hos läkaren är den nionde november.", "english": "My appointment with the doctor is on November ninth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den tionde", "phonetic": "[ˈdɛn tɪundɛ]", "english": "the tenth", "example": {"swedish": "Vi flyger den tionde augusti.", "english": "We are flying on August tenth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den tolfte", "phonetic": "[ˈdɛn tulftɛ]", "english": "the twelfth", "example": {"swedish": "Sista ansökningsdagen är den tolfte februari.", "english": "The final application day is February twelfth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den femtonde", "phonetic": "[ˈdɛn fɛmtundɛ]", "english": "the fifteenth", "example": {"swedish": "Räkningen ska betalas den femtonde.", "english": "The bill must be paid on the fifteenth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den tjugonde", "phonetic": "[ˈdɛn ɕʉɡundɛ]", "english": "the twentieth", "example": {"swedish": "Biblioteket stänger den tjugonde december.", "english": "The library closes on December twentieth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den tjugoförsta", "phonetic": "[ˈdɛn ɕʉɡuføʂtɑ]", "english": "the twenty-first", "example": {"swedish": "De kommer den tjugoförsta juni.", "english": "They are coming on June twenty-first."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den trettionde", "phonetic": "[ˈdɛn trɛttɪundɛ]", "english": "the thirtieth", "example": {"swedish": "Butiken öppnar igen den trettionde.", "english": "The shop opens again on the thirtieth."}}} />
+	<NumberCard entry={{"kind": "number", "swedish": "den trettioförsta", "phonetic": "[ˈdɛn trɛttɪuføʂtɑ]", "english": "the thirty-first", "example": {"swedish": "Vi firar nyår den trettioförsta december.", "english": "We celebrate New Year's Eve on December thirty-first."}}} />
+</VocabularyGrid>
 
 ## Calendar and date words
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **ett datum** | a date | Vilket **datum** är det i dag? | What is the date today? |
-| **en kalender** | a calendar | Jag skriver in mötet i min **kalender**. | I am putting the meeting in my calendar. |
-| **ett år** | a year | Hon flyttade hit för ett **år** sedan. | She moved here a year ago. |
-| **en födelsedag** | a birthday | Min **födelsedag** är i maj. | My birthday is in May. |
-| **ett födelsedatum** | a date of birth | Skriv ditt **födelsedatum** här. | Write your date of birth here. |
-| **en årsdag** | an anniversary | De firar sin **årsdag** i juni. | They celebrate their anniversary in June. |
-| **en helgdag** | a public holiday | Vi är lediga på en **helgdag**. | We have the day off on a public holiday. |
-| **ett skottår** | a leap year | Ett **skottår** har 366 dagar. | A leap year has 366 days. |
-| **ett startdatum** | a start date | Kursens **startdatum** är den 3 september. | The course start date is September 3. |
-| **ett slutdatum** | an end date | Projektets **slutdatum** är den 30 november. | The project's end date is November 30. |
-| **i förrgår** | the day before yesterday | Jag kom hem **i förrgår**. | I came home the day before yesterday. |
-| **i går** | yesterday | Vi skrev provet **i går**. | We took the test yesterday. |
-| **i dag** | today | Jag har en ledig dag **i dag**. | I have a day off today. |
-| **i morgon** | tomorrow | Hennes födelsedag är **i morgon**. | Her birthday is tomorrow. |
-| **i övermorgon** | the day after tomorrow | De åker **i övermorgon**. | They are leaving the day after tomorrow. |
+<VocabularyGrid>
+	<NounCard entry={{"kind": "noun", "lemma": "ett datum", "phonetic": "[ˈɛtt dɑtʉm]", "translation": "a date", "forms": {"indefiniteSingular": {"form": "ett datum", "phonetic": "[ˈɛtt dɑtʉm]", "example": {"swedish": "Vilket datum är det i dag?", "english": "What is the date today?"}}, "definiteSingular": {"form": "datumet", "phonetic": "[ˈdɑtʉmɛt]", "example": {"swedish": "Jag ser datumet.", "english": "I see the date."}}, "indefinitePlural": {"form": "datum", "phonetic": "[ˈdɑtʉm]", "example": {"swedish": "Jag ser datum.", "english": "I see dates."}}, "definitePlural": {"form": "datumen", "phonetic": "[ˈdɑtʉmɛn]", "example": {"swedish": "Jag ser datumen.", "english": "I see the dates."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en kalender", "phonetic": "[ˈɛn kɑlɛndɛr]", "translation": "a calendar", "forms": {"indefiniteSingular": {"form": "en kalender", "phonetic": "[ˈɛn kɑlɛndɛr]", "example": {"swedish": "Jag skriver in mötet i min kalender.", "english": "I am putting the meeting in my calendar."}}, "definiteSingular": {"form": "kalendern", "phonetic": "[ˈkɑlɛndɛrn]", "example": {"swedish": "Jag ser kalendern.", "english": "I see the calendar."}}, "indefinitePlural": {"form": "kalendrar", "phonetic": "[ˈkɑlɛndrɑr]", "example": {"swedish": "Jag ser kalendrar.", "english": "I see calendars."}}, "definitePlural": {"form": "kalendrarna", "phonetic": "[ˈkɑlɛndrɑrnɑ]", "example": {"swedish": "Jag ser kalendrarna.", "english": "I see the calendars."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "ett år", "phonetic": "[ˈɛtt or]", "translation": "a year", "forms": {"indefiniteSingular": {"form": "ett år", "phonetic": "[ˈɛtt or]", "example": {"swedish": "Hon flyttade hit för ett år sedan.", "english": "She moved here a year ago."}}, "definiteSingular": {"form": "året", "phonetic": "[ˈorɛt]", "example": {"swedish": "Jag ser året.", "english": "I see the year."}}, "indefinitePlural": {"form": "år", "phonetic": "[ˈor]", "example": {"swedish": "Jag ser år.", "english": "I see years."}}, "definitePlural": {"form": "åren", "phonetic": "[ˈorɛn]", "example": {"swedish": "Jag ser åren.", "english": "I see the years."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en födelsedag", "phonetic": "[ˈɛn fødɛlsɛdɑɡ]", "translation": "a birthday", "forms": {"indefiniteSingular": {"form": "en födelsedag", "phonetic": "[ˈɛn fødɛlsɛdɑɡ]", "example": {"swedish": "Min födelsedag är i maj.", "english": "My birthday is in May."}}, "definiteSingular": {"form": "födelsedagen", "phonetic": "[ˈfødɛlsɛdɑjɛn]", "example": {"swedish": "Jag ser födelsedagen.", "english": "I see the birthday."}}, "indefinitePlural": {"form": "födelsedagar", "phonetic": "[ˈfødɛlsɛdɑɡɑr]", "example": {"swedish": "Jag ser födelsedagar.", "english": "I see birthdays."}}, "definitePlural": {"form": "födelsedagarna", "phonetic": "[ˈfødɛlsɛdɑɡɑrnɑ]", "example": {"swedish": "Jag ser födelsedagarna.", "english": "I see the birthdays."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "ett födelsedatum", "phonetic": "[ˈɛtt fødɛlsɛdɑtʉm]", "translation": "a date of birth", "forms": {"indefiniteSingular": {"form": "ett födelsedatum", "phonetic": "[ˈɛtt fødɛlsɛdɑtʉm]", "example": {"swedish": "Skriv ditt födelsedatum här.", "english": "Write your date of birth here."}}, "definiteSingular": {"form": "födelsedatumet", "phonetic": "[ˈfødɛlsɛdɑtʉmɛt]", "example": {"swedish": "Jag ser födelsedatumet.", "english": "I see the date of birth."}}, "indefinitePlural": {"form": "födelsedatum", "phonetic": "[ˈfødɛlsɛdɑtʉm]", "example": {"swedish": "Jag ser födelsedatum.", "english": "I see date of births."}}, "definitePlural": {"form": "födelsedatumen", "phonetic": "[ˈfødɛlsɛdɑtʉmɛn]", "example": {"swedish": "Jag ser födelsedatumen.", "english": "I see the date of births."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en årsdag", "phonetic": "[ˈɛn oʂdɑɡ]", "translation": "an anniversary", "forms": {"indefiniteSingular": {"form": "en årsdag", "phonetic": "[ˈɛn oʂdɑɡ]", "example": {"swedish": "De firar sin årsdag i juni.", "english": "They celebrate their anniversary in June."}}, "definiteSingular": {"form": "årsdagen", "phonetic": "[ˈoʂdɑjɛn]", "example": {"swedish": "Jag ser årsdagen.", "english": "I see the anniversary."}}, "indefinitePlural": {"form": "årsdagar", "phonetic": "[ˈoʂdɑɡɑr]", "example": {"swedish": "Jag ser årsdagar.", "english": "I see anniversaries."}}, "definitePlural": {"form": "årsdagarna", "phonetic": "[ˈoʂdɑɡɑrnɑ]", "example": {"swedish": "Jag ser årsdagarna.", "english": "I see the anniversaries."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en helgdag", "phonetic": "[ˈɛn hɛlɡdɑɡ]", "translation": "a public holiday", "forms": {"indefiniteSingular": {"form": "en helgdag", "phonetic": "[ˈɛn hɛlɡdɑɡ]", "example": {"swedish": "Vi är lediga på en helgdag.", "english": "We have the day off on a public holiday."}}, "definiteSingular": {"form": "helgdagen", "phonetic": "[ˈhɛlɡdɑjɛn]", "example": {"swedish": "Jag ser helgdagen.", "english": "I see the public holiday."}}, "indefinitePlural": {"form": "helgdagar", "phonetic": "[ˈhɛlɡdɑɡɑr]", "example": {"swedish": "Jag ser helgdagar.", "english": "I see public holidays."}}, "definitePlural": {"form": "helgdagarna", "phonetic": "[ˈhɛlɡdɑɡɑrnɑ]", "example": {"swedish": "Jag ser helgdagarna.", "english": "I see the public holidays."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "ett skottår", "phonetic": "[ˈɛtt skuttor]", "translation": "a leap year", "forms": {"indefiniteSingular": {"form": "ett skottår", "phonetic": "[ˈɛtt skuttor]", "example": {"swedish": "Ett skottår har 366 dagar.", "english": "A leap year has 366 days."}}, "definiteSingular": {"form": "skottåret", "phonetic": "[ˈskuttorɛt]", "example": {"swedish": "Jag ser skottåret.", "english": "I see the leap year."}}, "indefinitePlural": {"form": "skottår", "phonetic": "[ˈskuttor]", "example": {"swedish": "Jag ser skottår.", "english": "I see leap years."}}, "definitePlural": {"form": "skottåren", "phonetic": "[ˈskuttorɛn]", "example": {"swedish": "Jag ser skottåren.", "english": "I see the leap years."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "ett startdatum", "phonetic": "[ˈɛtt stɑrtdɑtʉm]", "translation": "a start date", "forms": {"indefiniteSingular": {"form": "ett startdatum", "phonetic": "[ˈɛtt stɑrtdɑtʉm]", "example": {"swedish": "Kursens startdatum är den 3 september.", "english": "The course start date is September 3."}}, "definiteSingular": {"form": "startdatumet", "phonetic": "[ˈstɑrtdɑtʉmɛt]", "example": {"swedish": "Jag ser startdatumet.", "english": "I see the start date."}}, "indefinitePlural": {"form": "startdatum", "phonetic": "[ˈstɑrtdɑtʉm]", "example": {"swedish": "Jag ser startdatum.", "english": "I see start dates."}}, "definitePlural": {"form": "startdatumen", "phonetic": "[ˈstɑrtdɑtʉmɛn]", "example": {"swedish": "Jag ser startdatumen.", "english": "I see the start dates."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "ett slutdatum", "phonetic": "[ˈɛtt slʉtdɑtʉm]", "translation": "an end date", "forms": {"indefiniteSingular": {"form": "ett slutdatum", "phonetic": "[ˈɛtt slʉtdɑtʉm]", "example": {"swedish": "Projektets slutdatum är den 30 november.", "english": "The project's end date is November 30."}}, "definiteSingular": {"form": "slutdatumet", "phonetic": "[ˈslʉtdɑtʉmɛt]", "example": {"swedish": "Jag ser slutdatumet.", "english": "I see the end date."}}, "indefinitePlural": {"form": "slutdatum", "phonetic": "[ˈslʉtdɑtʉm]", "example": {"swedish": "Jag ser slutdatum.", "english": "I see end dates."}}, "definitePlural": {"form": "slutdatumen", "phonetic": "[ˈslʉtdɑtʉmɛn]", "example": {"swedish": "Jag ser slutdatumen.", "english": "I see the end dates."}}}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i förrgår", "phonetic": "[ˈɪ førrɡor]", "english": "the day before yesterday", "example": {"swedish": "Jag kom hem i förrgår.", "english": "I came home the day before yesterday."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i går", "phonetic": "[ˈɪ ɡor]", "english": "yesterday", "example": {"swedish": "Vi skrev provet i går.", "english": "We took the test yesterday."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i dag", "phonetic": "[ˈɪ dɑɡ]", "english": "today", "example": {"swedish": "Jag har en ledig dag i dag.", "english": "I have a day off today."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i morgon", "phonetic": "[ˈɪ murɡun]", "english": "tomorrow", "example": {"swedish": "Hennes födelsedag är i morgon.", "english": "Her birthday is tomorrow."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i övermorgon", "phonetic": "[ˈɪ øvɛrmurɡun]", "english": "the day after tomorrow", "example": {"swedish": "De åker i övermorgon.", "english": "They are leaving the day after tomorrow."}}} />
+</VocabularyGrid>

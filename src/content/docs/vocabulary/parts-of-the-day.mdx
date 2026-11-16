@@ -7,26 +7,31 @@ estimated_minutes: 3
 tags: [time, daily-routine, day]
 ---
 
+import NounCard from '../../../components/vocabulary/NounCard.astro';
+import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
+import AdverbCard from '../../../components/vocabulary/AdverbCard.astro';
+import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
+
 ## Daytime and night
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **en morgon** | a morning | Jag brukar promenera på **morgonen**. | I usually go for a walk in the morning. |
-| **en förmiddag** | a late morning | Vi hade ett möte på **förmiddagen**. | We had a meeting in the late morning. |
-| **mitt på dagen** | midday | Vi åt lunch **mitt på dagen**. | We ate lunch in the middle of the day. |
-| **en eftermiddag** | an afternoon | Jag arbetade hemma i går **eftermiddag**. | I worked from home yesterday afternoon. |
-| **en kväll** | an evening | Hon läser ofta på **kvällen**. | She often reads in the evening. |
-| **en natt** | a night | Barnet vaknade mitt i **natten**. | The child woke up in the middle of the night. |
+<VocabularyGrid>
+	<NounCard entry={{"kind": "noun", "lemma": "en morgon", "phonetic": "[ˈɛn murɡun]", "translation": "a morning", "forms": {"indefiniteSingular": {"form": "en morgon", "phonetic": "[ˈɛn murɡun]", "example": {"swedish": "Jag brukar promenera på morgonen.", "english": "I usually go for a walk in the morning."}}, "definiteSingular": {"form": "morgonen", "phonetic": "[ˈmurɡunɛn]", "example": {"swedish": "Jag ser morgonen.", "english": "I see the morning."}}, "indefinitePlural": {"form": "morgnar", "phonetic": "[ˈmurɡnɑr]", "example": {"swedish": "Jag ser morgnar.", "english": "I see mornings."}}, "definitePlural": {"form": "morgnarna", "phonetic": "[ˈmurɡnɑrnɑ]", "example": {"swedish": "Jag ser morgnarna.", "english": "I see the mornings."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en förmiddag", "phonetic": "[ˈɛn førmɪddɑɡ]", "translation": "a late morning", "forms": {"indefiniteSingular": {"form": "en förmiddag", "phonetic": "[ˈɛn førmɪddɑɡ]", "example": {"swedish": "Vi hade ett möte på förmiddagen.", "english": "We had a meeting in the late morning."}}, "definiteSingular": {"form": "förmiddagen", "phonetic": "[ˈførmɪddɑjɛn]", "example": {"swedish": "Jag ser förmiddagen.", "english": "I see the late morning."}}, "indefinitePlural": {"form": "förmiddagar", "phonetic": "[ˈførmɪddɑɡɑr]", "example": {"swedish": "Jag ser förmiddagar.", "english": "I see late mornings."}}, "definitePlural": {"form": "förmiddagarna", "phonetic": "[ˈførmɪddɑɡɑrnɑ]", "example": {"swedish": "Jag ser förmiddagarna.", "english": "I see the late mornings."}}}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "mitt på dagen", "phonetic": "[ˈmɪtt po dɑjɛn]", "english": "midday", "example": {"swedish": "Vi åt lunch mitt på dagen.", "english": "We ate lunch in the middle of the day."}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en eftermiddag", "phonetic": "[ˈɛn ɛftɛrmɪddɑɡ]", "translation": "an afternoon", "forms": {"indefiniteSingular": {"form": "en eftermiddag", "phonetic": "[ˈɛn ɛftɛrmɪddɑɡ]", "example": {"swedish": "Jag arbetade hemma i går eftermiddag.", "english": "I worked from home yesterday afternoon."}}, "definiteSingular": {"form": "eftermiddagen", "phonetic": "[ˈɛftɛrmɪddɑjɛn]", "example": {"swedish": "Jag ser eftermiddagen.", "english": "I see the afternoon."}}, "indefinitePlural": {"form": "eftermiddagar", "phonetic": "[ˈɛftɛrmɪddɑɡɑr]", "example": {"swedish": "Jag ser eftermiddagar.", "english": "I see afternoons."}}, "definitePlural": {"form": "eftermiddagarna", "phonetic": "[ˈɛftɛrmɪddɑɡɑrnɑ]", "example": {"swedish": "Jag ser eftermiddagarna.", "english": "I see the afternoons."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en kväll", "phonetic": "[ˈɛn kvɛll]", "translation": "an evening", "forms": {"indefiniteSingular": {"form": "en kväll", "phonetic": "[ˈɛn kvɛll]", "example": {"swedish": "Hon läser ofta på kvällen.", "english": "She often reads in the evening."}}, "definiteSingular": {"form": "kvällen", "phonetic": "[ˈkvɛllɛn]", "example": {"swedish": "Jag ser kvällen.", "english": "I see the evening."}}, "indefinitePlural": {"form": "kvällar", "phonetic": "[ˈkvɛllɑr]", "example": {"swedish": "Jag ser kvällar.", "english": "I see evenings."}}, "definitePlural": {"form": "kvällarna", "phonetic": "[ˈkvɛllɑrnɑ]", "example": {"swedish": "Jag ser kvällarna.", "english": "I see the evenings."}}}}} />
+	<NounCard entry={{"kind": "noun", "lemma": "en natt", "phonetic": "[ˈɛn nɑtt]", "translation": "a night", "forms": {"indefiniteSingular": {"form": "en natt", "phonetic": "[ˈɛn nɑtt]", "example": {"swedish": "Barnet vaknade mitt i natten.", "english": "The child woke up in the middle of the night."}}, "definiteSingular": {"form": "natten", "phonetic": "[ˈnɑttɛn]", "example": {"swedish": "Jag ser natten.", "english": "I see the night."}}, "indefinitePlural": {"form": "nätter", "phonetic": "[ˈnɛttɛr]", "example": {"swedish": "Jag ser nätter.", "english": "I see nights."}}, "definitePlural": {"form": "nätterna", "phonetic": "[ˈnɛttɛrnɑ]", "example": {"swedish": "Jag ser nätterna.", "english": "I see the nights."}}}}} />
+</VocabularyGrid>
 
 ## Time expressions
 
-| Swedish | English | Example (Swedish) | Example (English) |
-|---|---|---|---|
-| **i morse** | this morning | Jag missade bussen **i morse**. | I missed the bus this morning. |
-| **i förmiddags** | this morning | Jag handlade mat **i förmiddags**. | I did the grocery shopping this morning. |
-| **i eftermiddag** | this afternoon | Vi ska träffa våra vänner **i eftermiddag**. | We are meeting our friends this afternoon. |
-| **i kväll** | this evening; tonight | Vi lagar middag **i kväll**. | We are making dinner this evening. |
-| **i natt** | last night | Jag sov dåligt **i natt**. | I slept badly last night. |
-| **i går kväll** | yesterday evening | Vi såg en film **i går kväll**. | We watched a film yesterday evening. |
-| **tidigt på morgonen** | early in the morning | Bussen går **tidigt på morgonen**. | The bus leaves early in the morning. |
-| **sent på kvällen** | late in the evening | De kom hem **sent på kvällen**. | They came home late in the evening. |
+<VocabularyGrid>
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i morse", "phonetic": "[ˈɪ muʂɛ]", "english": "this morning", "example": {"swedish": "Jag missade bussen i morse.", "english": "I missed the bus this morning."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i förmiddags", "phonetic": "[ˈɪ førmɪddɑɡs]", "english": "this morning", "example": {"swedish": "Jag handlade mat i förmiddags.", "english": "I did the grocery shopping this morning."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i eftermiddag", "phonetic": "[ˈɪ ɛftɛrmɪddɑɡ]", "english": "this afternoon", "example": {"swedish": "Vi ska träffa våra vänner i eftermiddag.", "english": "We are meeting our friends this afternoon."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i kväll", "phonetic": "[ˈɪ kvɛll]", "english": "this evening; tonight", "example": {"swedish": "Vi lagar middag i kväll.", "english": "We are making dinner this evening."}}} />
+	<AdverbCard entry={{"kind": "adverb", "swedish": "i natt", "phonetic": "[ˈɪ nɑtt]", "english": "last night", "example": {"swedish": "Jag sov dåligt i natt.", "english": "I slept badly last night."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "i går kväll", "phonetic": "[ˈɪ ɡor kvɛll]", "english": "yesterday evening", "example": {"swedish": "Vi såg en film i går kväll.", "english": "We watched a film yesterday evening."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "tidigt på morgonen", "phonetic": "[ˈtɪdɪɡt po murɡunɛn]", "english": "early in the morning", "example": {"swedish": "Bussen går tidigt på morgonen.", "english": "The bus leaves early in the morning."}}} />
+	<PhraseCard entry={{"kind": "phrase", "swedish": "sent på kvällen", "phonetic": "[ˈsɛnt po kvɛllɛn]", "english": "late in the evening", "example": {"swedish": "De kom hem sent på kvällen.", "english": "They came home late in the evening."}}} />
+</VocabularyGrid>
