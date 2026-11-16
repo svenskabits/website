@@ -14,15 +14,16 @@ const forms = [
 ];
 ---
 
-<article class="vocabulary-card vocabulary-card--noun">
-	<header class="vocabulary-card__header">
+<details class="vocabulary-card vocabulary-card--noun">
+	<summary class="vocabulary-card__summary">
 		<span class="vocabulary-card__kind">Noun</span>
 		<h3 lang="sv">{entry.lemma}</h3>
 		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
 			{entry.phonetic}
 		</p>
 		<p class="vocabulary-card__translation">{entry.translation}</p>
-	</header>
+	</summary>
+	<div class="vocabulary-card__details">
 	<dl class="vocabulary-card__forms">
 		{forms.map(({ label, form, phonetic, example }) => (
 			<div class="vocabulary-card__noun-form">
@@ -40,4 +41,5 @@ const forms = [
 			</div>
 		))}
 	</dl>
-</article>
+	</div>
+</details>

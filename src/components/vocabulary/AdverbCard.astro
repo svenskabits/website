@@ -8,17 +8,19 @@ interface Props {
 const { entry } = Astro.props;
 ---
 
-<article class="vocabulary-card vocabulary-card--adverb">
-	<header class="vocabulary-card__header">
+<details class="vocabulary-card vocabulary-card--adverb">
+	<summary class="vocabulary-card__summary">
 		<span class="vocabulary-card__kind">Adverb</span>
 		<h3 lang="sv">{entry.swedish}</h3>
 		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
 			{entry.phonetic}
 		</p>
 		<p class="vocabulary-card__translation">{entry.english}</p>
-	</header>
+	</summary>
+	<div class="vocabulary-card__details">
 	<div class="vocabulary-card__example">
 		<p lang="sv">{entry.example.swedish}</p>
 		<p>{entry.example.english}</p>
 	</div>
-</article>
+	</div>
+</details>
