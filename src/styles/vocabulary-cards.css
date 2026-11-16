@@ -82,6 +82,18 @@
 	justify-items: end;
 }
 
+.vocabulary-card__adjective-form + .vocabulary-card__adjective-form {
+	margin-top: 0.75rem;
+	padding-top: 0.75rem;
+	border-top: 1px solid var(--sl-color-gray-5);
+}
+
+.vocabulary-card__adjective-form-value {
+	display: grid;
+	gap: 0.15rem;
+	justify-items: end;
+}
+
 .vocabulary-card__form-example {
 	margin-top: 0.35rem;
 }

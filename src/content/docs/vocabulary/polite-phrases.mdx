@@ -10,6 +10,7 @@ tags: [politeness, requests, thanks]
 import NounCard from '../../../components/vocabulary/NounCard.astro';
 import PhraseCard from '../../../components/vocabulary/PhraseCard.astro';
 import VerbCard from '../../../components/vocabulary/VerbCard.astro';
+import AdjectiveAdverbCard from '../../../components/vocabulary/AdjectiveAdverbCard.astro';
 import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro';
 
 ## Polite phrases
@@ -19,7 +20,18 @@ import VocabularyGrid from '../../../components/vocabulary/VocabularyGrid.astro'
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'ursäkta', phonetic: '[ɵˈʂɛkta]', english: 'excuse me', example: { swedish: 'Ursäkta, var är toaletten?', english: 'Excuse me, where is the bathroom?' } }} />
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'förlåt', phonetic: '[fœˈɭoːt]', english: 'sorry', example: { swedish: 'Förlåt, jag är sen.', english: 'Sorry, I am late.' } }} />
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'varsågod', phonetic: '[vɑːʂoːˈɡuːd]', english: 'here you are', example: { swedish: 'Varsågod, här är din bok.', english: "Here you are, here's your book." } }} />
-	<PhraseCard entry={{ kind: 'phrase', swedish: 'gärna', phonetic: '[ˈjæːɳa]', english: 'gladly; with pleasure', example: { swedish: 'Jag hjälper dig gärna.', english: 'I am happy to help you.' } }} />
+	<AdjectiveAdverbCard entry={{
+		kind: 'adjective-adverb',
+		partOfSpeech: 'adverb',
+		lemma: 'gärna',
+		phonetic: '[ˈjæːɳa]',
+		translation: 'gladly; with pleasure',
+		forms: [
+			{ type: 'ADVERB', form: 'gärna', phonetic: '[ˈjæːɳa]', example: { swedish: 'Jag hjälper dig gärna.', english: 'I am happy to help you.' } },
+			{ type: 'COMPARATIVE', form: 'hellre', phonetic: '[ˈhɛlːrɛ]', example: { swedish: 'Jag stannar hellre hemma.', english: "I'd rather stay home." } },
+			{ type: 'SUPERLATIVE', form: 'helst', phonetic: '[hɛlst]', example: { swedish: 'Jag vill helst gå hem.', english: 'I would rather go home.' } },
+		]
+	}} />
 	<PhraseCard entry={{ kind: 'phrase', swedish: 'snälla', phonetic: '[ˈsnɛlːa]', english: 'please', example: { swedish: 'Snälla, vänta lite.', english: 'Please, wait a moment.' } }} />
 	<VerbCard entry={{ kind: 'verb', lemma: 'hjälpa', phonetic: '[ˈjɛlːpa]', translation: 'to help', tenses: [
 		{ type: 'INFINITIVE', form: 'hjälpa', phonetic: '[ˈjɛlːpa]', example: { swedish: 'Kan du hjälpa mig?', english: 'Can you help me?' } },

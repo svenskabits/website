@@ -1,0 +1,46 @@
+---
+import { AdjectiveAdverbFormType, type AdjectiveAdverbVocabularyEntry } from '../../types/vocabulary';
+
+interface Props {
+	entry: AdjectiveAdverbVocabularyEntry;
+}
+
+const { entry } = Astro.props;
+const formLabels: Record<AdjectiveAdverbFormType, string> = {
+	[AdjectiveAdverbFormType.COMMON]: 'Common',
+	[AdjectiveAdverbFormType.NEUTER]: 'Neuter',
+	[AdjectiveAdverbFormType.PLURAL]: 'Plural',
+	[AdjectiveAdverbFormType.ADVERB]: 'Adverb',
+	[AdjectiveAdverbFormType.COMPARATIVE]: 'Comparative',
+	[AdjectiveAdverbFormType.SUPERLATIVE]: 'Superlative',
+};
+const partOfSpeechLabel = entry.partOfSpeech === 'adverb' ? 'Adverb' : 'Adjective';
+---
+
+<article class="vocabulary-card vocabulary-card--adjective-adverb">
+	<header class="vocabulary-card__header">
+		<span class="vocabulary-card__kind">{partOfSpeechLabel}</span>
+		<h3 lang="sv">{entry.lemma}</h3>
+		<p class="vocabulary-card__phonetic" lang="sv-fonipa" aria-label={`IPA pronunciation: ${entry.phonetic}`}>
+			{entry.phonetic}
+		</p>
+		<p class="vocabulary-card__translation">{entry.translation}</p>
+	</header>
+	<dl class="vocabulary-card__forms">
+		{entry.forms.map(({ type, form, phonetic, example }) => (
+			<div class="vocabulary-card__adjective-form">
+				<div class="vocabulary-card__form">
+					<dt>{formLabels[type]}</dt>
+					<dd class="vocabulary-card__adjective-form-value">
+						<span lang="sv">{form}</span>
+						<span class="vocabulary-card__phonetic" lang="sv-fonipa">{phonetic}</span>
+					</dd>
+				</div>
+				<div class="vocabulary-card__form-example">
+					<p lang="sv">{example.swedish}</p>
+					<p>{example.english}</p>
+				</div>
+			</div>
+		))}
+	</dl>
+</article>

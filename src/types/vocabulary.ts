@@ -48,19 +48,27 @@ export interface VerbVocabularyEntry {
 	}>;
 }
 
-export interface AdjectiveVocabularyEntry {
-	kind: 'adjective';
+export enum AdjectiveAdverbFormType {
+	COMMON = 'COMMON',
+	NEUTER = 'NEUTER',
+	PLURAL = 'PLURAL',
+	ADVERB = 'ADVERB',
+	COMPARATIVE = 'COMPARATIVE',
+	SUPERLATIVE = 'SUPERLATIVE',
+}
+
+export interface AdjectiveAdverbVocabularyEntry {
+	kind: 'adjective-adverb';
+	partOfSpeech: 'adjective' | 'adverb';
 	lemma: string;
+	phonetic: string;
 	translation: string;
-	forms: {
-		common: string;
-		neuter: string;
-		plural: string;
-		comparative: string;
-		superlative: string;
-		adverb?: string;
-	};
-	examples: Array<VocabularyExample & { form?: string }>;
+	forms: Array<{
+		type: AdjectiveAdverbFormType;
+		form: string;
+		phonetic: string;
+		example: VocabularyExample;
+	}>;
 }
 
 export interface PhraseVocabularyEntry {
