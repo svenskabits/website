@@ -245,26 +245,4 @@
 		padding-top: 0.75rem;
 		border-top: 1px solid var(--sl-color-gray-5);
 	}
-
-	.vocabulary-card__example {
-		display: flex;
-		align-items: baseline;
-		gap: 1rem;
-	}
-
-	.vocabulary-card__form-example,
-	.vocabulary-card__tense-example {
-		display: flex;
-		align-items: baseline;
-		gap: 1rem;
-	}
-
-	.vocabulary-card__example p + p,
-	.vocabulary-card__form-example p + p,
-	.vocabulary-card__tense-example p + p {
-		flex: 0 1 auto;
-		margin-inline-start: auto;
-		margin-top: 0;
-		text-align: end;
-	}
 }
