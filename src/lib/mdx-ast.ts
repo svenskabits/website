@@ -160,3 +160,52 @@ export function serializeMdxToAst(source: string): Record<string, unknown> {
 	const tree = parser.parse(source) as unknown as AstNode;
 	return serializeNode(tree) ?? { type: 'root', children: [] };
 }
+
+function collectStrings(value: unknown, strings: string[]): void {
+	if (typeof value === 'string') {
+		strings.push(value);
+		return;
+	}
+	if (Array.isArray(value)) {
+		for (const item of value) collectStrings(item, strings);
+		return;
+	}
+	if (value && typeof value === 'object') {
+		for (const item of Object.values(value)) collectStrings(item, strings);
+	}
+}
+
+function collectSearchableText(node: Record<string, unknown>, strings: string[]): void {
+	if (node.type === 'component') {
+		collectStrings(node.props, strings);
+	} else if (node.type === 'mdx-expression') {
+		collectStrings(node.value, strings);
+	} else if (typeof node.value === 'string') {
+		strings.push(node.value);
+	}
+
+	if (Array.isArray(node.children)) {
+		for (const child of node.children) {
+			if (child && typeof child === 'object') {
+				collectSearchableText(child as Record<string, unknown>, strings);
+			}
+		}
+	}
+}
+
+/** Split searchable text into normalized word-level terms. */
+export function tokenizeSearchText(text: string): string[] {
+	const keywords = new Set<string>();
+	for (const match of text.matchAll(/[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)?/gu)) {
+		keywords.add(match[0].toLocaleLowerCase());
+	}
+	return [...keywords];
+}
+
+/** Extract unique word-level search terms without returning the page body. */
+export function extractMdxSearchKeywords(source: string): string[] {
+	const ast = serializeMdxToAst(source);
+	const strings: string[] = [];
+	collectSearchableText(ast, strings);
+	return [...new Set(strings.flatMap(tokenizeSearchText))];
+}
